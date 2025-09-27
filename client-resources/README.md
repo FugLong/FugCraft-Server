@@ -33,6 +33,13 @@ Players can download these files to:
 3. **Extract `shaderpacks.zip`** to their shaderpacks folder (optional, but great for visuals)
 4. **Check `mod-list.json`** for mod list reference if you prefer to download them yourself
 
+## ⚙️ **Resource Pack Setup**
+
+1. Extract `resourcepacks.zip` to your resourcepacks folder
+2. Enable the packs in-game (highest priority first)
+3. **Disable default clouds** in Video Settings → Details → Clouds (OFF)
+4. Press **F3 + T** to reload if needed
+
 ## ⌨️ **Essential Keybinds**
 
 These keybinds are essential for getting the most out of your FugCraft experience:
@@ -112,12 +119,3 @@ The client modpack includes these mods (Fabric 1.21.8):
 - **Perception** - Enhanced perception
 - **SmoothGui** - Improved GUI
 - **ChatAnimation** - Animated chat
-
-## ⚙️ **Resource Pack Setup**
-
-1. Extract `resourcepacks.zip` to your resourcepacks folder
-2. Enable the packs in-game (highest priority first)
-3. **Disable default clouds** in Video Settings → Details → Clouds (OFF)
-4. Press **F3 + T** to reload if needed
-
-> **💡 Note:** All downloads contain the latest compatible versions. Update zips when server mods change.
