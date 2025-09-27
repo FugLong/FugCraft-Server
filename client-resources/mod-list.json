@@ -1,0 +1,131 @@
+[
+    {
+        "name": "Architectury"
+    },
+    {
+        "name": "ChatAnimation"
+    },
+    {
+        "name": "Cloth Config v19"
+    },
+    {
+        "name": "CraftedCore"
+    },
+    {
+        "name": "Distant Horizons"
+    },
+    {
+        "name": "Entity Model Features"
+    },
+    {
+        "name": "Entity Texture Features"
+    },
+    {
+        "name": "EntityCulling"
+    },
+    {
+        "name": "Explosive Enhancement"
+    },
+    {
+        "name": "Fabric API"
+    },
+    {
+        "name": "Fabric Language Kotlin"
+    },
+    {
+        "name": "Forge Config API Port"
+    },
+    {
+        "name": "Fzzy Config"
+    },
+    {
+        "name": "Inventory Sorter"
+    },
+    {
+        "name": "Iris"
+    },
+    {
+        "name": "Jade"
+    },
+    {
+        "name": "LambDynamicLights"
+    },
+    {
+        "name": "Lithium"
+    },
+    {
+        "name": "MidnightControls"
+    },
+    {
+        "name": "Mod Menu"
+    },
+    {
+        "name": "Noisium"
+    },
+    {
+        "name": "NotEnoughAnimations"
+    },
+    {
+        "name": "OctoLib"
+    },
+    {
+        "name": "Open Parties and Claims"
+    },
+    {
+        "name": "Optiboxes"
+    },
+    {
+        "name": "Particle Rain"
+    },
+    {
+        "name": "Perception"
+    },
+    {
+        "name": "Placeholder API"
+    },
+    {
+        "name": "Player Animator"
+    },
+    {
+        "name": "ReMorphed"
+    },
+    {
+        "name": "Reese's Sodium Options"
+    },
+    {
+        "name": "ScalableLux"
+    },
+    {
+        "name": "SkinShifter"
+    },
+    {
+        "name": "SmoothGui"
+    },
+    {
+        "name": "Sodium"
+    },
+    {
+        "name": "Sodium Extra"
+    },
+    {
+        "name": "Subtle Effects"
+    },
+    {
+        "name": "Visuality"
+    },
+    {
+        "name": "Wakes"
+    },
+    {
+        "name": "Walkers"
+    },
+    {
+        "name": "Xaero's Minimap"
+    },
+    {
+        "name": "Xaero's World Map"
+    },
+    {
+        "name": "YetAnotherConfigLib"
+    }
+]

@@ -1,0 +1,106 @@
+# Minecraft Server .gitignore
+# Simple approach: ignore only what we don't want
+
+# =============================================================================
+# SENSITIVE DATA - NEVER COMMIT THESE
+# =============================================================================
+
+# Player-specific data (contains player inventories, locations, etc.)
+**/playerdata/
+**/player-mod-data/
+**/modplayerdata/
+**/ec_player_profiles/
+
+# Server logs (may contain IPs, player names, chat logs)
+logs/
+*.log
+fabricloader.log
+
+# Cache directories (temporary files)
+cache/
+**/cache/
+.fabric/
+
+# Server runtime files
+session.lock
+**/session.lock
+
+# Server properties (may contain sensitive settings)
+server.properties
+
+# Player management files (contain player UUIDs and names)
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+
+# LuckPerms database and sensitive files
+*.db
+*.mv.db
+*.trace.db
+config/luckperms/editor-keystore.json
+mods/luckperms/yaml-storage/users/
+
+# Floodgate encryption keys
+config/floodgate/key.pem
+
+# Geyser/Floodgate sensitive config
+config/Geyser-Fabric/config.yml
+config/floodgate/config.yml
+
+# World data (backup elsewhere)
+DigginInMyButt/
+world/
+
+# Player-specific data (exclude from world backup)
+**/data/openpartiesandclaims/parties/
+**/data/openpartiesandclaims/player-claims/
+**/data/openpartiesandclaims/player-configs/
+
+# Crash reports
+crash-reports/
+
+# Default configs (generated on first run)
+defaultconfigs/
+
+# Libraries (downloaded dependencies)
+libraries/
+
+# Versions directory (auto-downloaded by Fabric)
+versions/
+
+# Backup directories
+backups/
+**/backups/
+
+# EULA (exclude - contains personal agreement)
+eula.txt
+
+# Exclude full export files (contain user data)
+mods/luckperms/luckperms-*.json.gz
+
+# =============================================================================
+# TEMPORARY AND GENERATED FILES
+# =============================================================================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old

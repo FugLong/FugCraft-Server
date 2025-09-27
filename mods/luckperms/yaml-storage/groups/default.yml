@@ -1,0 +1,37 @@
+name: default
+permissions:
+- minecraft.selector.*
+- worldedit.*:
+    value: false
+- '*':
+    value: false
+- displayname.guest
+- essentialcommands.afk
+- essentialcommands.home.delete
+- essentialcommands.home.limit.1
+- essentialcommands.home.set
+- essentialcommands.home.tp
+- essentialcommands.randomteleport
+- essentialcommands.rules
+- essentialcommands.spawn.tp
+- essentialcommands.suicide
+- essentialcommands.tpa
+- essentialcommands.tpaccept
+- essentialcommands.tpdeny
+- essentialcommands.wastebin
+- inventorysorter.command.doubleclicksort
+- inventorysorter.command.nosort
+- inventorysorter.command.screenid
+- inventorysorter.command.sort
+- inventorysorter.command.sorthighlightedinventory
+- inventorysorter.command.sortme
+- inventorysorter.command.sortplayerinventory
+- inventorysorter.command.sorttype
+- luckperms:
+    value: false
+- styledplayerlist.main
+- styledplayerlist.switch
+- weight.900
+prefixes:
+- '&7[&7Guest&7]&f':
+    priority: 1

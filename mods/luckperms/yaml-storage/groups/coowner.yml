@@ -1,0 +1,13 @@
+name: coowner
+permissions:
+- essentialcommands
+- essentialcommands.fly
+- essentialcommands.fly.others
+- essentialcommands.home
+- weight.100
+- xaero.pac_server_claims
+parents:
+- admin
+prefixes:
+- '&7[&dCo&cO&6w&en&ae&br&7]&f':
+    priority: 1

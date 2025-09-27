@@ -1,0 +1,11 @@
+name: owner
+permissions:
+- worldedit.*
+- '*'
+- invview.protected
+- weight.1
+parents:
+- coowner
+prefixes:
+- '&7[&cO&6w&en&ae&br&7]&f':
+    priority: 1

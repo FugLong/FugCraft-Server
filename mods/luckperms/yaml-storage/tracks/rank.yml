@@ -1,0 +1,7 @@
+name: rank
+groups:
+- default
+- member
+- citizen
+- moderator
+- veteran

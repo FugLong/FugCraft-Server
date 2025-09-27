@@ -1,0 +1,33 @@
+name: admin
+permissions:
+- remorphed.type.*
+- essentialcommands.feed.others
+- essentialcommands.fly.self
+- essentialcommands.heal.others
+- essentialcommands.heal.self
+- essentialcommands.home.limit.25
+- essentialcommands.invuln.self
+- essentialcommands.repair
+- essentialcommands.spawn.set
+- essentialcommands.warp.delete
+- essentialcommands.warp.set
+- inventorysorter.command.admin
+- invview.can_modify
+- minecraft.command.ban
+- minecraft.command.ban-ip
+- minecraft.command.banlist
+- minecraft.command.difficulty
+- minecraft.command.execute
+- minecraft.command.kill
+- minecraft.command.pardon
+- minecraft.command.pardon-ip
+- minecraft.command.reload
+- universal_graves.list_others
+- universal_graves.list_others.modify
+- weight.200
+- xaero.pac_admin_mode
+parents:
+- veteran
+prefixes:
+- '&7[&c&lAdmin&7]&f':
+    priority: 1

@@ -1,0 +1,35 @@
+{
+  // <<< General >>>
+  // Enable permission system. When true, permissions override server config. When false, uses original server config behavior.
+  "usePermissions": true,
+  "creativeUnlockAll": true,
+  "killToUnlock": 1,
+  "killToUnlockPlayers": 2,
+  // After unlocking a shape, the player can loose it for morphing into it will remove one kill per (by default) 5 times morphing. Set to 0 to disable.
+  "killValue": 5,
+  "playerKillValue": 2,
+  "autoTransform": false,
+  "lockTransform": false,
+  // Whether friendly mobs should be unlocked by the woodwalkers mechanism instead
+  "unlockFriendlyNormal": false,
+  "killToUnlockByType": {
+    "minecraft:wither": 1,
+    "minecraft:ender_dragon": 1
+  },
+  "killValueByType": {
+    "minecraft:wither": 10,
+    "minecraft:ender_dragon": 10
+  },
+  // 
+  // <<< Menu Customization >>>
+  "show_traits_by_default": true,
+  // scale the shapes in the menu
+  "entity_size": 20,
+  "shapes_per_row": 6,
+  // Whether the selected mob shall be displayed as the first mob
+  "sort_selected": false,
+  // Whether the menu should automatically focus on the selected shape
+  "focus_selected": true,
+  // The width of the rows in the menu
+  "row_width": 330
+}

@@ -1,0 +1,16 @@
+name: veteran
+permissions:
+- essentialcommands.anvil
+- essentialcommands.bed
+- essentialcommands.enderchest
+- essentialcommands.feed.self
+- essentialcommands.grindstone
+- essentialcommands.home.limit.20
+- essentialcommands.sleep
+- weight.400
+- xaero.pac_max_claims
+parents:
+- moderator
+prefixes:
+- '&7[&dVeteran&7]&f':
+    priority: 1

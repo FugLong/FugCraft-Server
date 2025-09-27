@@ -1,0 +1,35 @@
+name: moderator
+permissions:
+- essentialcommands.extinguish
+- essentialcommands.extinguish.others
+- essentialcommands.extinguish.self
+- essentialcommands.home.limit.10
+- essentialcommands.motd
+- essentialcommands.nickname
+- essentialcommands.nickname.others
+- essentialcommands.nickname.reveal
+- invview.can_modify:
+    value: false
+- invview.command.root
+- minecraft.command.kick
+- minecraft.command.kick.targets
+- minecraft.command.kick.targets.reason
+- minecraft.command.msg
+- minecraft.command.playsound
+- minecraft.command.teleport
+- minecraft.command.tp
+- minecraft.command.weather
+- remorphed.type.minecraft:ender_dragon
+- remorphed.type.minecraft:ghast
+- remorphed.type.minecraft:happy_ghast
+- remorphed.type.minecraft:painting
+- remorphed.type.minecraft:warden
+- remorphed.type.minecraft:wither
+- universal_graves.list_others
+- universal_graves.reload
+- weight.500
+parents:
+- citizen
+prefixes:
+- '&7[&bMod&7]&f':
+    priority: 1

@@ -1,0 +1,18 @@
+name: citizen
+permissions:
+- essentialcommands.home.limit.5
+- essentialcommands.near
+- essentialcommands.near.self
+- essentialcommands.nickname.self
+- remorphed.type.minecraft:bat
+- remorphed.type.minecraft:bee
+- remorphed.type.minecraft:blaze
+- remorphed.type.minecraft:iron_golem
+- remorphed.type.minecraft:magma_cube
+- remorphed.type.minecraft:strider
+- weight.600
+parents:
+- member
+prefixes:
+- '&7[&6Citizen&7]&f':
+    priority: 1

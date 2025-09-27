@@ -1,0 +1,25 @@
+{
+	/* Name of script file to start the server.
+	   If left blank, defaults to start.bat on windows, or start.sh otherwise.
+	*/
+	"startScriptPath": "start-server.bat",
+	// Message displayed to kicked players on server restart.
+	"kickMessage": "The server is restarting",
+	// Which type of automatic restart scheduling to use. Leave blank to disable automatic scheduled restarts.
+	"restartScheduleType": "daily",
+	/* Restarts the server at these times each day.
+	   Only works if restartScheduleType is set to "daily".
+	*/
+	"dailyRestartTimes": [
+		"00:00"
+	],
+	/* Restarts the server after it as been online for this many seconds.
+	   Only works if restartScheduleType is set to "interval".
+	*/
+	"restartInterval": 86400,
+	// How many seconds in advance all players should be warned before a scheduled server restart.
+	"restartWarningTimes": [
+		300,
+		30
+	]
+}
