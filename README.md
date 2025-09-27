@@ -99,7 +99,6 @@ The startup scripts use these default values:
 - ✅ **Configs** - Pre-configured mod settings
 - ✅ **Startup Scripts** - Cross-platform launchers
 - ✅ **LuckPerms** - Permission system (groups/tracks only)
-- ✅ **World Data** - Excluded (backup separately)
 
 ### 📋 **Server Mod List**
 
@@ -158,16 +157,6 @@ The server includes these mods (Fabric 1.21.8):
 - CTov - Structure generation
 - Walkers - Mob transformation library (dependency)
 - SkinShifter - Skin changing library (dependency)
-
-### ⌨️ **Essential Keybinds**
-
-These keybinds are essential for getting the most out of your FugCraft experience:
-
-- **`B`** - Open ReMorphed menu (transform into mobs)
-- **`M`** - Open minimap/world map
-- **`'`** (apostrophe) - Open claims settings (land claiming)
-
-> **💡 Pro Tip:** Right-click an anvil while holding iron ingots to repair it automatically!
 
 ### 👥 **LuckPerms Permission Setup**
 
