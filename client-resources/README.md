@@ -44,7 +44,7 @@ Once you're connected to a FugCraft server, you can quickly access all these res
 
 1. Extract `FugCraft-resourcepacks-v1.0.zip` to your resourcepacks folder
 2. Enable the packs in-game (highest priority first)
-3. **Disable default clouds** in Video Settings → Details → Clouds (OFF)
+3. **Disable default clouds** (if using dynamic skies) in Video Settings → Details → Clouds (OFF)
 
 ## ⌨️ **Essential Keybinds**
 
