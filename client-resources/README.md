@@ -69,6 +69,8 @@ Here are the essential commands you'll use most often:
 | `/warp tp <name>` | Teleport to a server warp |
 | `/spawn` | Teleport to server spawn |
 | `/rtp` | Teleport to a random location far from spawn |
+| `/openpac-claims` | Everything claim-related |
+| `/openpac-parties` | Everything party-related |
 
 > **📚 Full Command List:** See all available commands at the [Essential Commands Wiki](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 
