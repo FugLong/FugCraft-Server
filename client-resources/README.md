@@ -33,12 +33,18 @@ Players can download these files and:
 3. **Extract `FugCraft-shaderpacks-v1.0.zip`** to their shaderpacks folder (optional, but great for visuals)
 4. **Check `FugCraft-mod-list-v1.0.json`** for mod list reference if you prefer to download them yourself
 
+## 🔗 **Server Links (Quick Access)**
+
+Once you're connected to a FugCraft server, you can quickly access all these resources anytime:
+
+1. **Press ESC** to open the pause menu
+2. **Click "Server Links"** button
+
 ## ⚙️ **Resource Pack Setup**
 
 1. Extract `FugCraft-resourcepacks-v1.0.zip` to your resourcepacks folder
 2. Enable the packs in-game (highest priority first)
 3. **Disable default clouds** in Video Settings → Details → Clouds (OFF)
-4. Press **F3 + T** to reload if needed
 
 ## ⌨️ **Essential Keybinds**
 
