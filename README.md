@@ -119,6 +119,7 @@ The server includes these mods (Fabric 1.21.8):
 - Essential Commands - Essential server commands
 - Auto Restart - Automatic server restarts
 - Advanced Backups - Server backup system
+- ServerLinksSender - Custom server links in pause menu
 
 **Gameplay Features:**
 - Open Parties and Claims - Land claiming system

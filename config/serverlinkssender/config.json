@@ -1,0 +1,11 @@
+{
+  "refresh_interval": -1,
+  "global_server_links": {
+    "<gold><bold>FugCraft Repo</bold></gold>": "https://github.com/FugLong/FugCraft-Server",
+    "<aqua><bold>Client Guide</bold></aqua>": "https://github.com/FugLong/FugCraft-Server/blob/main/client-resources/README.md",
+    "<green><bold>Download Mods</bold></green>": "https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods-v1.0.zip",
+    "<red><bold>Resource Packs</bold></red>": "https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-resourcepacks-v1.0.zip",
+    "<yellow><bold>Shader Packs</bold></yellow>": "https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks-v1.0.zip"
+  },
+  "additional_links": []
+}

@@ -47,7 +47,6 @@ These keybinds are essential for getting the most out of your FugCraft experienc
 - **`B`** - Open ReMorphed menu (transform into mobs)
 - **`M`** - Open minimap/world map
 - **`'`** (apostrophe) - Open claims settings (land claiming)
-- **`J`** - Show block/entity info (Jade)
 
 > **💡 Pro Tip:** Right-click an anvil while holding iron ingots to repair it automatically!
 
