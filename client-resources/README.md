@@ -5,18 +5,18 @@
 ## 📥 Downloads
 
 ### Mods (Highly Recommended)
-- **`mods-V1.0.zip`** - All required client mods for the best server experience
-  - [📥 Download mods-V1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/mods-V1.0.zip)
-- **`mod-list-V1.0.json`** - JSON list of client mod names for reference if you prefer to download them yourself
-  - [📥 Download mod-list-V1.0.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/mod-list-V1.0.json)
+- **`FugCraft-mods-v1.0.zip`** - All required client mods for the best server experience
+  - [📥 Download FugCraft-mods-v1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods-v1.0.zip)
+- **`FugCraft-mod-list-v1.0.json`** - JSON list of client mod names for reference if you prefer to download them yourself
+  - [📥 Download FugCraft-mod-list-v1.0.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mod-list-v1.0.json)
 
 ### Resource Packs (Highly Recommended)
-- **`resourcepacks-V1.0.zip`** - Server resource packs that enhance the gameplay experience
-  - [📥 Download resourcepacks-V1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/resourcepacks-V1.0.zip)
+- **`FugCraft-resourcepacks-v1.0.zip`** - Server resource packs that enhance the gameplay experience
+  - [📥 Download FugCraft-resourcepacks-v1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-resourcepacks-v1.0.zip)
 
 ### Shader Packs (Optional)
-- **`shaderpacks-V1.0.zip`** - A curated collection of optimized shaders
-  - [📥 Download shaderpacks-V1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/shaderpacks-V1.0.zip)
+- **`FugCraft-shaderpacks-v1.0.zip`** - A curated collection of optimized shaders
+  - [📥 Download FugCraft-shaderpacks-v1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks-v1.0.zip)
   - **Super Duper Vanilla** - My personal favorite! Clean, optimized vanilla+ shader
   - **Complementary Re-imagined** - Another excellent choice with great performance
   - These are just some great, very optimized shaders I personally enjoy
@@ -28,14 +28,14 @@
 - **Manual Fabric installation** - Download MC 1.21.8 from official launcher, then use [Fabric installer](https://fabricmc.net/use/installer/)
 
 Players can download these files and:
-1. **Extract `mods-V1.0.zip`** to their mods folder (required for server compatibility)
-2. **Extract `resourcepacks-V1.0.zip`** to their resourcepacks folder (highly recommended)
-3. **Extract `shaderpacks-V1.0.zip`** to their shaderpacks folder (optional, but great for visuals)
-4. **Check `mod-list-V1.0.json`** for mod list reference if you prefer to download them yourself
+1. **Extract `FugCraft-mods-v1.0.zip`** to their mods folder (required for server compatibility)
+2. **Extract `FugCraft-resourcepacks-v1.0.zip`** to their resourcepacks folder (highly recommended)
+3. **Extract `FugCraft-shaderpacks-v1.0.zip`** to their shaderpacks folder (optional, but great for visuals)
+4. **Check `FugCraft-mod-list-v1.0.json`** for mod list reference if you prefer to download them yourself
 
 ## ⚙️ **Resource Pack Setup**
 
-1. Extract `resourcepacks-V1.0.zip` to your resourcepacks folder
+1. Extract `FugCraft-resourcepacks-v1.0.zip` to your resourcepacks folder
 2. Enable the packs in-game (highest priority first)
 3. **Disable default clouds** in Video Settings → Details → Clouds (OFF)
 4. Press **F3 + T** to reload if needed
