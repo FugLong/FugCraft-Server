@@ -1,0 +1,10 @@
+{
+	"type": "text",
+	"lines": [
+		"<gold>Hello</gold>, <#00E1FF>%player:name%",
+		"<rainbow>Welcome <purple>to <green>FugCraft!"
+	],
+	"textOpacity": 100,
+	"shadow": false,
+	"seeThrough": false
+}

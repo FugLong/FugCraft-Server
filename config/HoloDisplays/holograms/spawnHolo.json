@@ -1,0 +1,31 @@
+{
+	"displays": [
+		{
+			"name": "spawnHolo_text",
+			"offset": [
+				0.0,
+				1.0,
+				0.0
+			]
+		}
+	],
+	"position": {
+		"world": "minecraft:overworld",
+		"x": -5369.51,
+		"y": 138.463,
+		"z": 3917.5
+	},
+	"rotation": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"scale": [
+		1.25,
+		1.25,
+		1.25
+	],
+	"billboardMode": "CENTER",
+	"updateRate": 20,
+	"viewRange": 16.0
+}

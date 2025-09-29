@@ -132,17 +132,18 @@ The server includes these mods (Fabric 1.21.8):
 - Anvil Restoration - Anvil repair mechanics (right-click anvil with iron to repair)
 - ReMorphed - Transform into mobs/players after killing them
 
-**Visual & Client Features:**
-- Distant Horizons - Extended render distance
-- Jade - Block/entity information display
-- Styled Chat - Enhanced chat system
-- Styled Player List - Enhanced player list
-
 **Cross-Platform:**
 - Geyser - Bedrock edition support
 - Floodgate - Bedrock authentication
 - Fabric Permissions API - Permission system API
 - Vanilla Permissions - Vanilla permission support
+
+**Visual & Client Features:**
+- Distant Horizons - Extended render distance
+- Jade - Block/entity information display
+- Styled Chat - Enhanced chat system
+- Styled Player List - Enhanced player list
+- HoloDisplays - Hologram display system
 
 **Utilities:**
 - Mod Menu - In-game mod configuration
@@ -158,6 +159,7 @@ The server includes these mods (Fabric 1.21.8):
 - CTov - Structure generation
 - Walkers - Mob transformation library (dependency)
 - SkinShifter - Skin changing library (dependency)
+- Fabric Language Kotlin - Kotlin language support library
 
 ### 👥 **LuckPerms Permission Setup**
 
