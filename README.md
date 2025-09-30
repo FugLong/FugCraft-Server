@@ -44,6 +44,7 @@ Want to run your own FugCraft server? This repository contains everything you ne
 3. **Configure your server:**
    - Edit `server.properties` for basic settings
    - Modify config files in `config/` as needed
+   - **Highly recommended to delete HoloDisplays config**
    - Set up LuckPerms permissions (see guide below)
 
 ### ⚙️ **RAM Configuration**
