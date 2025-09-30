@@ -6,3 +6,5 @@
 {"timestamp":1758999572,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"USER","uniqueId":"d014c6c7-1c15-46b7-94e1-a5dd28f9425e","name":"lugfong"},"description":"webeditor remove group.default true"}
 {"timestamp":1759038047,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"GROUP","name":"default"},"description":"webeditor add minecraft.command.function.name true"}
 {"timestamp":1759038062,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"GROUP","name":"default"},"description":"webeditor remove minecraft.command.function.name true"}
+{"timestamp":1759190104,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"GROUP","name":"admin"},"description":"webeditor add vanish.command.vanish true"}
+{"timestamp":1759190104,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"GROUP","name":"coowner"},"description":"webeditor add vanish.* true"}

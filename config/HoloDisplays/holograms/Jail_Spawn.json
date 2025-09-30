@@ -1,0 +1,31 @@
+{
+	"displays": [
+		{
+			"name": "Jail_Spawn_text",
+			"offset": [
+				0.0,
+				-0.5,
+				0.0
+			]
+		}
+	],
+	"position": {
+		"world": "minecraft:overworld",
+		"x": -5371.003,
+		"y": 113.399,
+		"z": 3914.257
+	},
+	"rotation": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"scale": [
+		1.2,
+		1.2,
+		1.2
+	],
+	"billboardMode": "CENTER",
+	"updateRate": 20,
+	"viewRange": 3.0
+}

@@ -1,0 +1,31 @@
+{
+	"displays": [
+		{
+			"name": "jail_1_entity",
+			"offset": [
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	],
+	"position": {
+		"world": "minecraft:overworld",
+		"x": -5378.022,
+		"y": 112.0,
+		"z": 3918.974
+	},
+	"rotation": [
+		0.0,
+		-90.0,
+		0.0
+	],
+	"scale": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"billboardMode": "CENTER",
+	"updateRate": 20,
+	"viewRange": 16.0
+}

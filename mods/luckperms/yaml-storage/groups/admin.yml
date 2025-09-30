@@ -24,6 +24,7 @@ permissions:
 - minecraft.command.reload
 - universal_graves.list_others
 - universal_graves.list_others.modify
+- vanish.command.vanish
 - weight.200
 - xaero.pac_admin_mode
 parents:

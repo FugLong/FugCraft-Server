@@ -120,6 +120,9 @@ The server includes these mods (Fabric 1.21.8):
 - Auto Restart - Automatic server restarts
 - Advanced Backups - Server backup system
 - ServerLinksSender - Custom server links in pause menu
+- AntiXray - Prevents players from using xray mods or resource packs effectively
+- StarterKit - Controls what items new players receive on first join
+- Vanish - Allows admins to hide their presence on the server
 
 **Gameplay Features:**
 - Open Parties and Claims - Land claiming system

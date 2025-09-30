@@ -1,5 +1,6 @@
 name: coowner
 permissions:
+- vanish.*
 - essentialcommands
 - essentialcommands.fly
 - essentialcommands.fly.others
