@@ -110,6 +110,7 @@ The server includes these mods (Fabric 1.21.8):
 **Core & Performance:**
 - Fabric API - Core Fabric functionality
 - Lithium - Server-side performance optimizations
+- VMP - Optimizations for handling many players at once
 - C2ME - Chunk loading optimizations
 - Noisium - Performance improvements
 - Alternate Current - Redstone optimizations
@@ -158,7 +159,6 @@ The server includes these mods (Fabric 1.21.8):
 - Balm - Library mod
 - Lithostitched - Lithium compatibility
 - InvView - Inventory viewing
-- VMP - Voice mod support
 - WorldEdit - World editing tools
 - CTov - Improved Villages
 - Walkers - Mob transformation library (dependency)
