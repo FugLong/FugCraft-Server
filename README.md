@@ -187,7 +187,7 @@ The server comes with pre-configured permission groups and tracks. Here's how to
 #### **Available Groups:**
 These groups build on one another - each level includes all permissions from lower groups plus additional ones.
 
-- **`default`** - New players (basic permissions)
+- **`default (guest)`** - New players (basic permissions)
   - Can set 1 home, basic commands only
 
 - **`member`** - Regular players  
@@ -203,10 +203,10 @@ These groups build on one another - each level includes all permissions from low
   - Like moderators but can set 20 homes, access to cheaty commands like `/anvil`, `/enderchest`, `/feed`
 
 - **`admin`** - Administrators
-  - Can set 25 homes, `/ban`, `/ban-ip`, `/fly`, `/heal`, `/repair`, `/invuln`, can set/delete warps and spawn
+  - Can set 25 homes, `/ban`, `/ban-ip`, `/fly`, `/heal`, `/repair`, `/invuln`, `/vanish', can set/delete warps and spawn
 
 - **`coowner`** - Co-owners
-  - Admins with infinite homes
+  - Admins with infinite homes, can see vanished players
 
 - **`owner`** - Server owner
   - Access to all commands
