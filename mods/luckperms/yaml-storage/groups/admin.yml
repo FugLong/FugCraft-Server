@@ -30,5 +30,5 @@ permissions:
 parents:
 - veteran
 prefixes:
-- '&7[&c&lAdmin&7]&f':
+- '&7[&cAdmin&7]&f':
     priority: 1

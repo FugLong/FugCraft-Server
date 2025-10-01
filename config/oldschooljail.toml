@@ -1,0 +1,41 @@
+# Time-related settings for jail sentences
+[time]
+	# The time unit used in /jail commands (SECONDS, MINUTES, or HOURS)
+	# Example: If set to MINUTES, '/jail player 30 reason' = 30 minutes
+	input_unit = "MINUTES"
+	# Maximum jail sentence length in seconds (regardless of input_unit)
+	# Default: 86400 (24 hours) | Set to -1 for unlimited
+	max_sentence_seconds = 86400
+
+# Permission-related settings
+[permissions]
+	# Allow jailed players to use '/jail time' to check their sentence
+	# Recommended: true (so players know when they'll be released)
+	allow_jail_time_command = true
+
+# What actions are blocked while a player is jailed
+# Note: Chat is always allowed
+[restrictions]
+	# Block all commands except '/jail time' (if enabled above)
+	# Recommended: true (prevents /home, /spawn, /tpa to escape)
+	block_commands = true
+	# Teleport player back to jail if they move more than 50 blocks away
+	# Recommended: true (prevents escape via plugins/mods)
+	block_teleportation = true
+	# Prevent breaking blocks while jailed
+	# Recommended: true
+	block_block_breaking = true
+	# Prevent placing blocks while jailed
+	# Recommended: true
+	block_block_placing = true
+	# Prevent interacting with blocks (buttons, levers, doors, etc.) while jailed
+	# Recommended: true
+	block_interaction = true
+
+# Customizable messages sent to players
+# Color codes: §a=green, §c=red, §e=yellow, §7=gray, etc.
+[messages]
+	# Message sent when a player is manually released via '/jail release'
+	release = "§aYou have been released from jail!"
+	# Message sent when a player's jail time expires automatically
+	jail_expired = "§aYour jail sentence has expired. You are now free!"

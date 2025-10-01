@@ -5,6 +5,7 @@ permissions:
 - essentialcommands.fly
 - essentialcommands.fly.others
 - essentialcommands.home
+- oldschooljail.immune
 - weight.100
 - xaero.pac_server_claims
 parents:

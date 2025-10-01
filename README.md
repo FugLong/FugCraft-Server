@@ -115,6 +115,7 @@ The server includes these mods (Fabric 1.21.8):
 - AntiXray - Prevents players from using xray mods or resource packs effectively
 - StarterKit - Controls what items new players receive on first join
 - Vanish - Allows admins to hide their presence on the server
+- Old School Jail - Allows admins and mods to jail players
 
 **Gameplay Features:**
 - Open Parties and Claims - Land claiming system

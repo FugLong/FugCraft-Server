@@ -19,6 +19,8 @@ permissions:
 - minecraft.command.teleport
 - minecraft.command.tp
 - minecraft.command.weather
+- oldschooljail.jail
+- oldschooljail.release
 - remorphed.type.minecraft:ender_dragon
 - remorphed.type.minecraft:ghast
 - remorphed.type.minecraft:happy_ghast
