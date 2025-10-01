@@ -76,17 +76,7 @@ The startup scripts use these default values:
 | 32 GB      | 6G         | 16G        | High performance |
 | 64 GB+     | 8G         | 24G        | Maximum performance |
 
-#### 💡 **Examples:**
-
-**For a 16GB system:**
-```bash
--Xms4G -Xmx8G
-```
-
-**For a 32GB system:**
-```bash
--Xms6G -Xmx16G
-```
+#### 💡 **Example:**
 
 **For a 8GB system:**
 ```bash
