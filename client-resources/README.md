@@ -1,8 +1,8 @@
 # FugCraft Client Resources
 
-**Target Client Version:** Fabric 1.21.8
+**Target Client Version:** Fabric 1.21.8 (Currently updating to 1.21.9)
 
-## 📥 Downloads
+## 📥 Downloads (Mod Pack coming soon)
 
 ### Mods (Highly Recommended)
 - **`FugCraft-mods-v1.0.zip`** - All required client mods for the best server experience
