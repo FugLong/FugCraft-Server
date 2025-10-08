@@ -5,7 +5,7 @@
 ## 📥 Downloads (Mod Pack coming soon)
 
 ### Mods (Highly Recommended)
-- **`FugCraft-mods-v1.0.zip`** - All required client mods for the best server experience
+- **`FugCraft-mods.zip`** - All required client mods for the best server experience
   - [📥 Download FugCraft-mods.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods.zip)
 - **`FugCraft-mod-list.json`** - JSON list of client mod names for reference if you prefer to download them yourself
   - [📥 Download FugCraft-mod-list.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mod-list.json)
