@@ -19,6 +19,7 @@
   - [📥 Download FugCraft-shaderpacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks.zip)
   - **Make-Up Ultra Fast** - My personal favorite! Clean, optimized shader
   - **Complementary Re-imagined** - Another excellent choice with great performance
+  - **+ More!** - A couple more very scalable vanilla+ shaders
   - These are just some great, very optimized shaders I personally enjoy
 
 ## 🚀 Quick Setup
