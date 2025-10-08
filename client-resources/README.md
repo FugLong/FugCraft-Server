@@ -6,17 +6,17 @@
 
 ### Mods (Highly Recommended)
 - **`FugCraft-mods-v1.0.zip`** - All required client mods for the best server experience
-  - [📥 Download FugCraft-mods-v1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods-v1.0.zip)
-- **`FugCraft-mod-list-v1.0.json`** - JSON list of client mod names for reference if you prefer to download them yourself
-  - [📥 Download FugCraft-mod-list-v1.0.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mod-list-v1.0.json)
+  - [📥 Download FugCraft-mods.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods.zip)
+- **`FugCraft-mod-list.json`** - JSON list of client mod names for reference if you prefer to download them yourself
+  - [📥 Download FugCraft-mod-list.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mod-list.json)
 
 ### Resource Packs (Highly Recommended)
-- **`FugCraft-resourcepacks-v1.0.zip`** - Server resource packs that enhance the gameplay experience
-  - [📥 Download FugCraft-resourcepacks-v1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-resourcepacks-v1.0.zip)
+- **`FugCraft-resourcepacks.zip`** - Server resource packs that enhance the gameplay experience
+  - [📥 Download FugCraft-resourcepacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-resourcepacks.zip)
 
 ### Shader Packs (Optional)
-- **`FugCraft-shaderpacks-v1.0.zip`** - A curated collection of optimized shaders
-  - [📥 Download FugCraft-shaderpacks-v1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks-v1.0.zip)
+- **`FugCraft-shaderpacks.zip`** - A curated collection of optimized shaders
+  - [📥 Download FugCraft-shaderpacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks.zip)
   - **Make-Up Ultra Fast** - My personal favorite! Clean, optimized shader
   - **Complementary Re-imagined** - Another excellent choice with great performance
   - These are just some great, very optimized shaders I personally enjoy
@@ -28,10 +28,10 @@
 - **Manual Fabric installation** - Download MC 1.21.8 from official launcher, then use [Fabric installer](https://fabricmc.net/use/installer/)
 
 Players can download these files and:
-1. **Extract `FugCraft-mods-v1.0.zip`** to their mods folder (required for server compatibility)
-2. **Extract `FugCraft-resourcepacks-v1.0.zip`** to their resourcepacks folder (highly recommended)
-3. **Extract `FugCraft-shaderpacks-v1.0.zip`** to their shaderpacks folder (optional, but great for visuals)
-4. **Check `FugCraft-mod-list-v1.0.json`** for mod list reference if you prefer to download them yourself
+1. **Extract `FugCraft-mods.zip`** to their mods folder (required for server compatibility)
+2. **Extract `FugCraft-resourcepacks.zip`** to their resourcepacks folder (highly recommended)
+3. **Extract `FugCraft-shaderpacks.zip`** to their shaderpacks folder (optional, but great for visuals)
+4. **Check `FugCraft-mod-list.json`** for mod list reference if you prefer to download them yourself
 
 ## 🔗 **Server Links (Quick Access)**
 
@@ -42,7 +42,7 @@ Once you're connected to a FugCraft server, you can quickly access all these res
 
 ## ⚙️ **Resource Pack Setup**
 
-1. Extract `FugCraft-resourcepacks-v1.0.zip` to your resourcepacks folder
+1. Extract `FugCraft-resourcepacks.zip` to your resourcepacks folder
 2. Enable the packs in-game (highest priority first)
 3. **Disable default clouds** (if using dynamic skies) in Video Settings → Details → Clouds (OFF)
 
@@ -98,6 +98,7 @@ The client modpack includes these mods (Fabric 1.21.8):
 - **Visuality** - Visual improvements
 - **Wakes** - Water wake effects
 - **Subtle Effects** - Subtle visual enhancements
+- **Sound Physics Remastered** - Realistic sound propagation and reverb
 
 ### 🗺️ **Navigation & Information**
 - **Xaero's Minimap** - Enhanced minimap
@@ -110,6 +111,11 @@ The client modpack includes these mods (Fabric 1.21.8):
 - **SkinShifter** - Skin changing capabilities
 - **MidnightControls** - Controller support for Java Minecraft
 - **ReMorphed** - Transform into mobs/players after killing them
+- **Open Parties and Claims** - Land claiming and party system
+
+### 🎤 **Voice Chat**
+- **Simple Voice Chat** - Proximity-based voice chat system
+- **Voice Chat Interaction** - Voice chat interaction features
 
 ### 🛠️ **Utilities & Configuration**
 - **Mod Menu** - In-game mod configuration
