@@ -84,7 +84,8 @@ The client modpack includes these mods (Fabric 1.21.8):
 - **Sodium** - Client-side rendering optimizations
 - **Sodium Extra** - Additional Sodium features
 - **EntityCulling** - Optimizes entity rendering
-- **Noisium** - Performance improvements
+- **Lithium** - Server-side optimization ported to client
+- **Noisium** - Chunk generation performance improvements
 - **Reese's Sodium Options** - Sodium configuration
 - **ScalableLux** - Lighting optimization
 
@@ -97,9 +98,10 @@ The client modpack includes these mods (Fabric 1.21.8):
 - **Entity Texture Features** - Required for upgraded animations in resource packs
 - **Particle Rain** - Weather particle effects
 - **Visuality** - Visual improvements
+- **Perception** - More enhanced visual effects
 - **Wakes** - Water wake effects
 - **Subtle Effects** - Subtle visual enhancements
-- **Sound Physics Remastered** - Realistic sound propagation and reverb
+- **Explosive Enhancement** - Enhanced explosion visuals
 
 ### 🗺️ **Navigation & Information**
 - **Xaero's Minimap** - Enhanced minimap
@@ -109,10 +111,14 @@ The client modpack includes these mods (Fabric 1.21.8):
 ### 🎮 **Gameplay Features**
 - **Inventory Sorter** - Automatic inventory sorting
 - **LambDynamicLights** - Dynamic lighting
-- **SkinShifter** - Skin changing capabilities
 - **MidnightControls** - Controller support for Java Minecraft
 - **ReMorphed** - Transform into mobs/players after killing them
 - **Open Parties and Claims** - Land claiming and party system
+- **Universal Graves** - Graves system to protect items on death
+- **Anvil Restoration** - Restore/repair anvils with iron ingots
+- **Pet Protect** - Protect your pets from damage
+- **Essential Commands** - Core server commands for teleportation and utilities (if you run singleplayer or LAN)
+- **Sound Physics Remastered** - Realistic sound propagation and reverb
 
 ### 🎤 **Voice Chat**
 - **Simple Voice Chat** - Proximity-based voice chat system
@@ -121,15 +127,18 @@ The client modpack includes these mods (Fabric 1.21.8):
 ### 🛠️ **Utilities & Configuration**
 - **Mod Menu** - In-game mod configuration
 - **Cloth Config v19** - Configuration framework
+- **Collective** - Shared library for multiple mods
 - **Fzzy Config** - Configuration system
 - **YetAnotherConfigLib** - Configuration library
 - **Forge Config API Port** - Configuration compatibility
 - **Placeholder API** - Plugin placeholder support
+- **Polymer** - Server-side content framework for custom items and entities
 - **CraftedCore** - Core functionality
 - **Architectury** - Cross-platform compatibility
+- **Walkers** - Dep for ReMorphed
+- **SkinShifter** - Another dep for ReMorphed
 - **Fabric Language Kotlin** - Kotlin support
 - **OctoLib** - Library mod
 - **Optiboxes** - Custom skybox support
-- **Perception** - Enhanced perception
 - **SmoothGui** - Improved GUI
 - **ChatAnimation** - Animated chat

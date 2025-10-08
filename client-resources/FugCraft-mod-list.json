@@ -1,5 +1,8 @@
 [
     {
+        "name": "Anvil Restoration"
+    },
+    {
         "name": "Architectury"
     },
     {
@@ -7,6 +10,9 @@
     },
     {
         "name": "Cloth Config v19"
+    },
+    {
+        "name": "Collective"
     },
     {
         "name": "CraftedCore"
@@ -24,6 +30,9 @@
         "name": "EntityCulling"
     },
     {
+        "name": "Essential Commands"
+    },
+    {
         "name": "Explosive Enhancement"
     },
     {
@@ -37,9 +46,6 @@
     },
     {
         "name": "Fzzy Config"
-    },
-    {
-        "name": "Inventory Sorter"
     },
     {
         "name": "Inventory Sorter"
@@ -90,6 +96,9 @@
         "name": "Player Animator"
     },
     {
+        "name": "Polymer"
+    },
+    {
         "name": "ReMorphed"
     },
     {
@@ -120,6 +129,9 @@
         "name": "Subtle Effects"
     },
     {
+        "name": "Universal Graves"
+    },
+    {
         "name": "Visuality"
     },
     {
@@ -139,5 +151,8 @@
     },
     {
         "name": "YetAnotherConfigLib"
+    },
+    {
+        "name": "petprotect"
     }
 ]
