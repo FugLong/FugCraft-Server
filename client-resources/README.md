@@ -17,7 +17,7 @@
 ### Shader Packs (Optional)
 - **`FugCraft-shaderpacks-v1.0.zip`** - A curated collection of optimized shaders
   - [📥 Download FugCraft-shaderpacks-v1.0.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks-v1.0.zip)
-  - **Super Duper Vanilla** - My personal favorite! Clean, optimized vanilla+ shader
+  - **Make-Up Ultra Fast** - My personal favorite! Clean, optimized shader
   - **Complementary Re-imagined** - Another excellent choice with great performance
   - These are just some great, very optimized shaders I personally enjoy
 

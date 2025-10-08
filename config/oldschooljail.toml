@@ -32,6 +32,13 @@
 	# Recommended: true
 	block_interaction = true
 
+# Settings for when players are released from jail
+[release]
+	# Teleport players back to their original location when released
+	# If false, players must walk out of jail manually
+	# Recommended: true (prevents confusion about where they are)
+	teleport_back_on_release = true
+
 # Customizable messages sent to players
 # Color codes: §a=green, §c=red, §e=yellow, §7=gray, etc.
 [messages]

@@ -15,6 +15,11 @@
 logs/
 *.log
 fabricloader.log
+.trash/
+
+# Sensitive config
+config/spark/
+config/puppet-player-config.*
 
 # Cache directories (temporary files)
 cache/
