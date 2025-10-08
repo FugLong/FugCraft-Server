@@ -116,6 +116,7 @@ The server includes these mods (Fabric 1.21.8):
 - StarterKit - Controls what items new players receive on first join
 - Vanish - Allows admins to hide their presence on the server
 - Old School Jail - Allows admins and mods to jail players
+- Spark - Server performance profiling and monitoring
 
 **Gameplay Features:**
 - Open Parties and Claims - Land claiming system
@@ -127,6 +128,7 @@ The server includes these mods (Fabric 1.21.8):
 - Pet Teleport Fix - Pet teleportation fixes
 - Anvil Restoration - Anvil repair mechanics (right-click anvil with iron to repair)
 - ReMorphed - Transform into mobs/players after killing them
+- PuppetPlayers - Fake players for testing
 
 **Cross-Platform:**
 - Geyser - Bedrock edition support
@@ -140,6 +142,7 @@ The server includes these mods (Fabric 1.21.8):
 - Styled Chat - Enhanced chat system
 - Styled Player List - Enhanced player list
 - HoloDisplays - Hologram display system
+- Sound Physics Remastered - Realistic sound propagation and reverb
 
 **Utilities:**
 - Mod Menu - In-game mod configuration
@@ -155,6 +158,10 @@ The server includes these mods (Fabric 1.21.8):
 - Walkers - Mob transformation library (dependency)
 - SkinShifter - Skin changing library (dependency)
 - Fabric Language Kotlin - Kotlin language support library
+
+**Voice Chat:**
+- Voice Chat - Proximity-based voice chat system
+- VCInteraction - Voice chat interaction features
 
 ### 👥 **LuckPerms Permission Setup**
 

@@ -47,7 +47,7 @@ $JAVA_CMD \
   -XX:MaxTenuringThreshold=1 \
   -Dusing.aikars.flags=https://mcflags.emc.gs \
   -Daikars.new.flags=true \
-  -jar fabric-server-mc.1.21.8-loader.0.17.2-launcher.1.1.0.jar nogui
+  -jar fabric.jar nogui
 
 echo
 echo "Server stopped."
