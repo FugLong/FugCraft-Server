@@ -76,12 +76,11 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **Enhanced animations** - Smoother mob and player movements from additional resource packs
 - **Improved particles** - Custom weather effects, better fire/smoke, splash particles from particle packs
 - **Atmospheric ambience** - Immersive environmental sounds and audio enhancements
-- **Custom skybox** support for dynamic skies
 - All pre-configured and optimized for performance
 
 ### Shader Packs (Included!)
+- **Complementary Re-imagined** (Default) - Beautiful lighting and atmosphere
 - **Make-Up Ultra Fast** - Clean and optimized (**HIGHLY** recommended to disable bloom)
-- **Complementary Re-imagined** - Beautiful lighting (**MUST** disable dynamic skies resource pack if using complementary shaders)
 - Additional performance-friendly shaders
 - All shaders are optional and can be disabled
 
@@ -100,8 +99,6 @@ The modpack comes **pre-optimized** for balanced performance and visuals on most
    - Options → Video Settings → Shader Packs (top right)
    - Select higher quality presets for better lighting
    - (Disable bloom if the sky is insanely bright)
-
-> **⚠️ Important:** If you're using **Complementary Shaders**, you **MUST** disable the "Dramatic Skies" resource pack in your resource pack settings to avoid conflicts!
 
 ### ⚡ Need Better Performance?
 1. **Disable shaders** if you need more FPS

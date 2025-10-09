@@ -72,8 +72,6 @@ The modpack comes with **optimized default settings** that balance performance a
   - Options → Video Settings → **Shader Packs** button (top right of screen)
   - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
 
-> **⚠️ Important:** If you're using **Complementary Shaders**, you **MUST** disable the "Dramatic Skies" resource pack in your resource pack settings to avoid conflicts!
-
 ### ⚡ **For Better Performance:**
 - **Disable shaders entirely** if you need more FPS
   - Options → Video Settings → **Shader Packs** button (top right) → Select "OFF"
@@ -182,7 +180,6 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **SkinShifter** - Another dep for ReMorphed
 - **Fabric Language Kotlin** - Kotlin support
 - **OctoLib** - Library mod
-- **Optiboxes** - Custom skybox support
 - **SmoothGui** - Improved GUI
 - **ChatAnimation** - Animated chat
 
