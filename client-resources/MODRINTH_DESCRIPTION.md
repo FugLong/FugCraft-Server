@@ -62,7 +62,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ## 📦 What's Included?
 
 ### Mods
-**52 carefully selected mods** including:
+**51 carefully selected mods** including:
 - Core performance mods (Sodium, Lithium, Iris)
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
 - Gameplay features (ReMorphed, Claims, Voice Chat)
