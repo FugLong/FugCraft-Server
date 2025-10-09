@@ -1,6 +1,6 @@
 # FugCraft Client Resources
 
-**Target Client Version:** Fabric 1.21.8 (Currently updating to 1.21.9)
+**Target Client Version:** Fabric 1.21.8 (Currently updating to 1.21.10)
 
 ## 📥 Get FugCraft Modpack
 
@@ -71,6 +71,8 @@ The modpack comes with **optimized default settings** that balance performance a
 - **Increase shader quality preset** for improved lighting and shadows
   - Options → Video Settings → **Shader Packs** button (top right of screen)
   - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
+
+> **⚠️ Important:** If you're using **Complementary Shaders**, you **MUST** disable the "Dramatic Skies" resource pack in your resource pack settings to avoid conflicts!
 
 ### ⚡ **For Better Performance:**
 - **Disable shaders entirely** if you need more FPS

@@ -1,7 +1,7 @@
 # FugCraft - Vanilla+ Multiplayer Experience
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/FugLong/FugCraft-Server/main/FugCraft_Build.png" alt="FugCraft Build" width="600">
+  <img src="https://raw.githubusercontent.com/FugLong/FugCraft-Server/main/demo_Images/MakeUpUltraFastShaders_NightMansion.png" alt="FugCraft Night Mansion" width="600">
 </div>
 
 ---
@@ -10,7 +10,7 @@
 
 **FugCraft** is a carefully curated **Vanilla+** modpack designed for multiplayer. This modpack enhances your Minecraft experience with performance optimizations, visual improvements, quality-of-life features, and unique gameplay mechanics — all while staying true to the vanilla feel.
 
-Whether you're building massive structures with **Distant Horizons**, chatting with friends via **proximity voice chat**, or transforming into mobs with **ReMorphed**, FugCraft offers an enhanced Minecraft experience without straying too far from vanilla gameplay.
+Whether you're building massive structures with **Distant Horizons**, chatting with friends via **proximity voice chat**, or transforming into mobs you've unlocked with **ReMorphed**, FugCraft offers an enhanced Minecraft experience without straying too far from vanilla gameplay.
 
 > **🖥️ Want to host your own server?** The complete open-source server setup is available on [GitHub](https://github.com/FugLong/FugCraft-Server) - pre-configured and ready to deploy locally or remotely!
 
@@ -80,8 +80,8 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - All pre-configured and optimized for performance
 
 ### Shader Packs (Included!)
-- **Make-Up Ultra Fast** - Clean and optimized
-- **Complementary Re-imagined** - Beautiful lighting
+- **Make-Up Ultra Fast** - Clean and optimized (**HIGHLY** recommended to disable bloom)
+- **Complementary Re-imagined** - Beautiful lighting (**MUST** disable dynamic skies resource pack if using complementary shaders)
 - Additional performance-friendly shaders
 - All shaders are optional and can be disabled
 
@@ -99,6 +99,9 @@ The modpack comes **pre-optimized** for balanced performance and visuals on most
 2. **Increase shader quality preset**
    - Options → Video Settings → Shader Packs (top right)
    - Select higher quality presets for better lighting
+   - (Disable bloom if the sky is insanely bright)
+
+> **⚠️ Important:** If you're using **Complementary Shaders**, you **MUST** disable the "Dramatic Skies" resource pack in your resource pack settings to avoid conflicts!
 
 ### ⚡ Need Better Performance?
 1. **Disable shaders** if you need more FPS
@@ -162,7 +165,7 @@ Essential commands for the FugCraft server:
 
 ## 🎯 Target Version
 
-**Fabric 1.21.8** (Currently updating to 1.21.9)
+**Fabric 1.21.8** (Currently updating to 1.21.10)
 
 ---
 
