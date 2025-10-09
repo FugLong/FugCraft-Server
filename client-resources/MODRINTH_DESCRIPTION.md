@@ -65,10 +65,11 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 **52 carefully selected mods** including:
 - Core performance mods (Sodium, Lithium, Iris)
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
-- Entity Model/Texture Features (enables enhanced animations in resource packs)
 - Gameplay features (ReMorphed, Claims, Voice Chat)
 - Quality of life improvements (Inventory Sorter, Dynamic Lights)
 - Full mod list available in the [client resources README](https://github.com/FugLong/FugCraft-Server/blob/main/client-resources/README.md)
+
+> **💡 Customization Tip:** You can disable any mod you don't want by removing it from your mods folder or renaming it with a `.disabled` extension!
 
 ### Resource Packs (Pre-configured!)
 - **Ashen 16x** - Clean, vanilla+ texture pack that enhances the look while maintaining the original feel
