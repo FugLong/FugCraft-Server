@@ -2,58 +2,94 @@
 
 **Target Client Version:** Fabric 1.21.8 (Currently updating to 1.21.9)
 
-## 📥 Downloads (Mod Pack coming soon)
+## 📥 Get FugCraft Modpack
 
-### Mods (Highly Recommended)
-- **`FugCraft-mods.zip`** - All required client mods for the best server experience
-  - [📥 Download FugCraft-mods.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods.zip)
-- **`FugCraft-mod-list.json`** - JSON list of client mod names for reference if you prefer to download them yourself
-  - [📥 Download FugCraft-mod-list.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mod-list.json)
+### ⭐ **Recommended: Install via Modrinth** (Easiest!)
 
-### Resource Packs (Highly Recommended)
-- **`FugCraft-resourcepacks.zip`** - Server resource packs that enhance the gameplay experience
-  - [📥 Download FugCraft-resourcepacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-resourcepacks.zip)
+The **easiest way** to get all FugCraft mods, resource packs, and shaders is through our official Modrinth modpack:
 
-### Shader Packs (Optional)
-- **`FugCraft-shaderpacks.zip`** - A curated collection of optimized shaders
-  - [📥 Download FugCraft-shaderpacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks.zip)
-  - **Make-Up Ultra Fast** - My personal favorite! Clean, optimized shader
-  - **Complementary Re-imagined** - Another excellent choice with great performance
-  - **+ More!** - A couple more very scalable vanilla+ shaders
-  - These are just some great, very optimized shaders I personally enjoy
+🔗 **[Download FugCraft Modpack on Modrinth](https://modrinth.com/modpack/fugcraft)**
 
-## 🚀 Quick Setup
+#### Installation Options:
+
+**Option 1: In-Launcher Search** (Easiest)
+- Open your Modrinth-compatible launcher ([Prism Launcher](https://prismlauncher.org/), [ATLauncher](https://atlauncher.com/), [Modrinth App](https://modrinth.com/app), etc.)
+- Search for **"FugCraft"** in the modpack browser
+- Click install and launch!
+
+**Option 2: Direct Download**
+- Download the modpack from the Modrinth link above
+- Import the `.mrpack` file into your launcher
+- Launch and play!
+
+> **✨ Why Modrinth?** Automatic updates, all mods & resource packs pre-configured, shader packs included, and one-click installation!
+
+---
+
+<details>
+<summary><strong>📦 Manual Downloads (Alternative Method)</strong></summary>
+
+### Manual Installation
+
+If you prefer to manually install or your launcher doesn't support Modrinth modpacks, you can download individual components:
 
 **Prerequisites:** You need **Fabric 1.21.8** installed. You can get this by:
 - **[Prism Launcher](https://prismlauncher.org/)** (recommended) - Add instance → Choose Fabric 1.21.8
 - **Manual Fabric installation** - Download MC 1.21.8 from official launcher, then use [Fabric installer](https://fabricmc.net/use/installer/)
 
-Players can download these files and:
-1. **Extract `FugCraft-mods.zip`** to their mods folder (required for server compatibility)
-2. **Extract `FugCraft-resourcepacks.zip`** to their resourcepacks folder (highly recommended)
-3. **Extract `FugCraft-shaderpacks.zip`** to their shaderpacks folder (optional, but great for visuals)
-4. **Check `FugCraft-mod-list.json`** for mod list reference if you prefer to download them yourself
+#### Mods (Required)
+- **`FugCraft-mods.zip`** - All required client mods for server compatibility
+  - [📥 Download FugCraft-mods.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods.zip)
+  - Extract to your `.minecraft/mods` folder
 
-## 🔗 **Server Links (Quick Access)**
+#### Resource Packs (Highly Recommended)
+- **`FugCraft-resourcepacks.zip`** - Server resource packs that enhance gameplay
+  - [📥 Download FugCraft-resourcepacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-resourcepacks.zip)
+  - Extract to your `.minecraft/resourcepacks` folder
+  - Enable in-game with highest priority first
 
-Once you're connected to a FugCraft server, you can quickly access all these resources anytime:
+#### Shader Packs (Optional)
+- **`FugCraft-shaderpacks.zip`** - Curated collection of optimized shaders
+  - [📥 Download FugCraft-shaderpacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks.zip)
+  - Extract to your `.minecraft/shaderpacks` folder
+  - Includes: **Make-Up Ultra Fast**, **Complementary Re-imagined**, and more!
 
-1. **Press ESC** to open the pause menu
-2. **Click "Server Links"** button
+#### Mod List Reference
+- **`FugCraft-mod-list.json`** - JSON list of all client mods if you prefer to download individually
+  - [📥 Download FugCraft-mod-list.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mod-list.json)
 
-## ⚙️ **Resource Pack Setup**
+</details>
 
-1. Extract `FugCraft-resourcepacks.zip` to your resourcepacks folder
-2. Enable the packs in-game (highest priority first)
-3. **Disable default clouds** (if using dynamic skies) in Video Settings → Details → Clouds (OFF)
+## ⚙️ **Graphics Settings & Optimization**
+
+The modpack comes with **optimized default settings** that balance performance and visuals for most systems. However, you can adjust these based on your needs:
+
+### 🎨 **For Better Visuals:**
+- **Increase Distant Horizons render distance** (default is 64 chunks)
+  - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
+  - Increase LOD Render Distance to **256 chunks** for great results, or **512+ chunks** if your system can handle it
+- **Increase shader quality preset** for improved lighting and shadows
+  - Options → Video Settings → **Shader Packs** button (top right of screen)
+  - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
+
+### ⚡ **For Better Performance:**
+- **Disable shaders entirely** if you need more FPS
+  - Options → Video Settings → **Shader Packs** button (top right) → Select "OFF"
+  - The modpack is still beautiful without shaders thanks to the included resource packs!
+
+> **💡 Tip:** Experiment with these settings to find your perfect balance between visuals and performance!
 
 ## ⌨️ **Essential Keybinds**
+
+> **Note:** These are default keybinds and can be rebound in the game's controls settings.
 
 These keybinds are essential for getting the most out of your FugCraft experience:
 
 - **`B`** - Open ReMorphed menu (transform into mobs)
 - **`M`** - Open minimap/world map
 - **`'`** (apostrophe) - Open claims settings (land claiming)
+- **`V`** - Voice chat settings
+- **`R`** - Push to talk (voice chat)
 
 > **💡 Pro Tip:** Right-click an anvil while holding iron ingots to repair it automatically!
 
@@ -75,9 +111,14 @@ Here are the essential commands you'll use most often:
 
 > **📚 Full Command List:** See all available commands at the [Essential Commands Wiki](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 
-## 📋 Client Mod List
+---
 
-The client modpack includes these mods (Fabric 1.21.8):
+## 📋 Full Mod List
+
+<details>
+<summary><strong>Click to expand complete mod list</strong></summary>
+
+The FugCraft modpack includes these mods (Fabric 1.21.8):
 
 ### 🔧 **Core & Performance**
 - **Fabric API** - Core Fabric functionality
@@ -142,3 +183,5 @@ The client modpack includes these mods (Fabric 1.21.8):
 - **Optiboxes** - Custom skybox support
 - **SmoothGui** - Improved GUI
 - **ChatAnimation** - Animated chat
+
+</details>
