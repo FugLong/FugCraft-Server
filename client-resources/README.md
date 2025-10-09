@@ -6,7 +6,7 @@
 
 ### ⭐ **Recommended: Install via Modrinth** (Easiest!)
 
-The **easiest way** to get all FugCraft mods, resource packs, and shaders is through our official Modrinth modpack:
+The **easiest way** to get all FugCraft mods, resource packs, and shaders is through the official Modrinth modpack:
 
 🔗 **[Download FugCraft Modpack on Modrinth](https://modrinth.com/modpack/fugcraft)**
 
