@@ -1,22 +1,22 @@
-FugCraft Server Rules:
+§6§lFugCraft Server Rules:
 
-1. Don't Be a Dick
-        Nazis and bigots will get their shit rocked
-        Keep it chill with the harassment
-2. Don't Grief or Steal
-        Respect people's builds and claims
-        PvP is fair game tho
-3. No Cheating
-        X-ray, hacks, and dupes = instant ban
-        Find a bug? Report it, don't abuse it
-4. Don't Spam Like an Idiot
-        Nobody wants to see your Twitch channel
-5. Don't Lag the Server
-        Your 50-chunk iron farm can wait
-6. Staff Word is Law
-        Argue and find out
-7. Don't Abuse Mod Features
-        ReMorphed is for fun, not being annoying
+§c1. Don't Be a Dick
+        §7Nazis and bigots will get their shit rocked
+        §7Keep it chill with the harassment
+§c2. Don't Grief or Steal
+        §7Respect people's builds and claims
+        §7PvP is fair game tho
+§c3. No Cheating
+        §7X-ray, hacks, and dupes = §4instant ban
+        §7Find a bug? Report it, don't abuse it
+§c4. Don't Spam Like an Idiot
+        §7Nobody wants to see your Twitch channel
+§c5. Don't Lag the Server
+        §7Your 50-chunk iron farm can wait
+§c6. Staff Word is Law
+        §7Argue and find out
+§c7. Don't Abuse Mod Features
+        §7ReMorphed is for fun, not being annoying
 
-Break these and you'll catch a ban.
-Now go have fun, nerd.
+§e§lBreak these and you'll catch a ban.
+§aNow go have fun, nerd.
