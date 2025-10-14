@@ -189,28 +189,28 @@ The server comes with pre-configured permission groups and tracks. Here's how to
 These groups build on one another - each level includes all permissions from lower groups plus additional ones.
 
 - **`default (guest)`** - New players (basic permissions)
-  - Can set 1 home, basic commands only
+  - Can set 1 home, basic commands only, claim 32 chunks max
 
 - **`member`** - Regular players  
-  - Can set 3 homes, access to warps + more commands, can use ReMorphed mod (no flying mobs)
+  - Can set 3 homes, access to warps + more commands, can use ReMorphed mod (no flying mobs), claim 64 chunks max
 
 - **`citizen`** - Trusted players
-  - Can set 5 homes, can nickname themselves, basic flying and lava walking mobs in ReMorphed
+  - Can set 5 homes, can nickname themselves, basic flying and lava walking mobs in ReMorphed, claim 128 chunks max
 
 - **`moderator`** - Staff members
-  - Can set 10 homes, can kick players, can TP without requesting, more mod commands, special ReMorphed forms like ender dragon
+  - Can set 10 homes, can kick players, can TP without requesting, more mod commands, special ReMorphed forms like ender dragon, claim 256 chunks max
 
 - **`veteran`** - Long-time players
   - Like moderators but can set 20 homes, access to cheaty commands like `/anvil`, `/enderchest`, `/feed`
 
 - **`admin`** - Administrators
-  - Can set 25 homes, `/ban`, `/ban-ip`, `/fly`, `/heal`, `/repair`, `/invuln`, `/vanish', can set/delete warps and spawn
+  - Can set 25 homes, `/ban`, `/ban-ip`, `/fly`, `/heal`, `/repair`, `/invuln`, `/vanish', can set/delete warps and spawn, claim 512 chunks max
 
 - **`coowner`** - Co-owners
   - Admins with infinite homes, can see vanished players
 
 - **`owner`** - Server owner
-  - Access to all commands
+  - Access to all commands, can claim 1024 chunks max
 
 > **Note:** This is a general overview. Check the LuckPerms editor to see and edit all specific permissions for each group.
 
