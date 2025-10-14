@@ -108,6 +108,7 @@ The server includes these mods (Fabric 1.21.8):
 
 **Server Management:**
 - LuckPerms - Permission system
+- LuckPerms Placeholder API Hook - PlaceholderAPI integration for LuckPerms
 - Essential Commands - Essential server commands
 - Auto Restart - Automatic server restarts
 - Advanced Backups - Server backup system
@@ -129,6 +130,7 @@ The server includes these mods (Fabric 1.21.8):
 - Anvil Restoration - Anvil repair mechanics (right-click anvil with iron to repair)
 - ReMorphed - Transform into mobs/players after killing them
 - PuppetPlayers - Fake players for testing
+- Sit! - Sitting mechanics
 
 **Cross-Platform:**
 - Geyser - Bedrock edition support
@@ -151,6 +153,7 @@ The server includes these mods (Fabric 1.21.8):
 - Collective - Library mod
 - CraftedCore - Core functionality
 - Balm - Library mod
+- OtterLib - Library mod (dependency)
 - Lithostitched - Lithium compatibility
 - InvView - Inventory viewing
 - WorldEdit - World editing tools
