@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"lines": [
+		"<gr #ffffff #008000>Hello, %player:name%</gr>"
+	]
+}

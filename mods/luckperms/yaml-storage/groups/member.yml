@@ -66,3 +66,6 @@ parents:
 prefixes:
 - '&7[&fMember&7]&f':
     priority: 1
+meta:
+- xaero.pac_max_claims:
+    value: '64'

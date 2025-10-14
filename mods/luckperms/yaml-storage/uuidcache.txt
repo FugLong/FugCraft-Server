@@ -1,11 +1,13 @@
 # LuckPerms UUID lookup cache
 36261b4d-9f4b-46fe-88d8-d1e78abc2c9d:Gargoyle
+9dc54c9b-606c-4a41-af90-f84e180959a7:Jamie
 b255dd3f-bd61-422d-9bcf-cbc1c745b369:bungo
-fabac5f5-c173-4d51-a8b8-6efcb093a44f:Droopy
 2870f7bd-fd00-4094-9cf5-31ff382a149c:Gandolf
-c577640b-ca61-4274-a8f6-e0c8adbb3a3a:Poopy
 ec4082af-807b-4c7e-b26b-186a21cf9eac:Snartemis
+117298db-5c7a-4e69-a417-4a530b0dc71a:Gremlin
 d014c6c7-1c15-46b7-94e1-a5dd28f9425e:LugFong
-20508be7-7695-46dc-9e5c-edd3be495163:Langdon
 30a5ed47-3736-4da6-80d3-33b10bab0e76:gay
 b7fc30ef-c908-47fb-8ae4-1700aa66d40d:Carlos
+fabac5f5-c173-4d51-a8b8-6efcb093a44f:Droopy
+c577640b-ca61-4274-a8f6-e0c8adbb3a3a:Poopy
+20508be7-7695-46dc-9e5c-edd3be495163:Langdon

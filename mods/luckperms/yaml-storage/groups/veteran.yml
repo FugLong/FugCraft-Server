@@ -8,7 +8,6 @@ permissions:
 - essentialcommands.home.limit.20
 - essentialcommands.sleep
 - weight.400
-- xaero.pac_max_claims
 parents:
 - moderator
 prefixes:

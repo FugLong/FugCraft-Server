@@ -9,3 +9,6 @@ parents:
 prefixes:
 - '&7[&cO&6w&en&ae&br&7]&f':
     priority: 1
+meta:
+- xaero.pac_max_claims:
+    value: '1024'

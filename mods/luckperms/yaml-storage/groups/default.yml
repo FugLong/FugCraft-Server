@@ -31,6 +31,9 @@ permissions:
     value: false
 - styledplayerlist.main
 - styledplayerlist.switch
+- voicechat.groups
+- voicechat.listen
+- voicechat.speak
 - weight.900
 prefixes:
 - '&7[&7Guest&7]&f':

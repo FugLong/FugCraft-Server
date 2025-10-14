@@ -35,3 +35,6 @@ parents:
 prefixes:
 - '&7[&bMod&7]&f':
     priority: 1
+meta:
+- xaero.pac_max_claims:
+    value: '256'

@@ -7,6 +7,7 @@ permissions:
 - essentialcommands.home
 - oldschooljail.immune
 - weight.100
+- xaero.pac_max_claims
 - xaero.pac_server_claims
 parents:
 - admin

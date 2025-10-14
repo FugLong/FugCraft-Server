@@ -1,0 +1,31 @@
+{
+	"displays": [
+		{
+			"name": "spawn_exit1_text",
+			"offset": [
+				0.0,
+				1.5,
+				0.0
+			]
+		}
+	],
+	"position": {
+		"world": "minecraft:overworld",
+		"x": -5365.927,
+		"y": 124.0,
+		"z": 3929.813
+	},
+	"rotation": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"scale": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"billboardMode": "CENTER",
+	"updateRate": 20,
+	"viewRange": 16.0
+}
