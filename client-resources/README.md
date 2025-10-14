@@ -4,8 +4,6 @@
 
 ## 📥 Get FugCraft Modpack
 
-### ⭐ **Recommended: Install via Modrinth** (Easiest!)
-
 The **easiest way** to get all FugCraft mods, resource packs, and shaders is through the official Modrinth modpack:
 
 🔗 **[Download FugCraft Modpack on Modrinth](https://modrinth.com/modpack/fugcraft)**
@@ -23,42 +21,6 @@ The **easiest way** to get all FugCraft mods, resource packs, and shaders is thr
 - Launch and play!
 
 > **✨ Why Modrinth?** Automatic updates, all mods & resource packs pre-configured, shader packs included, and one-click installation!
-
----
-
-<details>
-<summary><strong>📦 Manual Downloads (Alternative Method)</strong></summary>
-
-### Manual Installation
-
-If you prefer to manually install or your launcher doesn't support Modrinth modpacks, you can download individual components:
-
-**Prerequisites:** You need **Fabric 1.21.8** installed. You can get this by:
-- **[Prism Launcher](https://prismlauncher.org/)** (recommended) - Add instance → Choose Fabric 1.21.8
-- **Manual Fabric installation** - Download MC 1.21.8 from official launcher, then use [Fabric installer](https://fabricmc.net/use/installer/)
-
-#### Mods (Required)
-- **`FugCraft-mods.zip`** - All required client mods for server compatibility
-  - [📥 Download FugCraft-mods.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mods.zip)
-  - Extract to your `.minecraft/mods` folder
-
-#### Resource Packs (Highly Recommended)
-- **`FugCraft-resourcepacks.zip`** - Server resource packs that enhance gameplay
-  - [📥 Download FugCraft-resourcepacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-resourcepacks.zip)
-  - Extract to your `.minecraft/resourcepacks` folder
-  - Enable in-game with highest priority first
-
-#### Shader Packs (Optional)
-- **`FugCraft-shaderpacks.zip`** - Curated collection of optimized shaders
-  - [📥 Download FugCraft-shaderpacks.zip](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-shaderpacks.zip)
-  - Extract to your `.minecraft/shaderpacks` folder
-  - Includes: **Make-Up Ultra Fast**, **Complementary Re-imagined**, and more!
-
-#### Mod List Reference
-- **`FugCraft-mod-list.json`** - JSON list of all client mods if you prefer to download individually
-  - [📥 Download FugCraft-mod-list.json](https://github.com/FugLong/FugCraft-Server/raw/main/client-resources/FugCraft-mod-list.json)
-
-</details>
 
 ## ⚙️ **Graphics Settings & Optimization**
 
