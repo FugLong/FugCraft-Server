@@ -62,20 +62,32 @@ If you prefer to manually install or your launcher doesn't support Modrinth modp
 
 ## ⚙️ **Graphics Settings & Optimization**
 
-The modpack comes with **optimized default settings** that balance performance and visuals for most systems. However, you can adjust these based on your needs:
+The modpack comes with **VERY optimized default settings** that prioritize performance on weaker systems like a MacBook Air. Many, if not most, users with gaming PCs will want to increase the graphics settings. You can adjust these based on your needs:
 
-### 🎨 **For Better Visuals:**
+### 🎨 **For Better Visuals (most people on gaming PCs should do this):**
+- **Increase shader quality preset** (default is "Potato")
+  - Options → Video Settings → **Shader Packs** button (top right of screen)
+  - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
 - **Increase Distant Horizons render distance** (default is 64 chunks)
   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
   - Increase LOD Render Distance to **256 chunks** for great results, or **512+ chunks** if your system can handle it
-- **Increase shader quality preset** for improved lighting and shadows
-  - Options → Video Settings → **Shader Packs** button (top right of screen)
-  - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
+- **Increase normal Minecraft render distance and simulation distance** (default is 6 render, 5 simulation)
+  - Options → Video Settings → **Render Distance**: Increase to **8-12 chunks** (absolute max 12 recommended)
+  - Options → Video Settings → **Simulation Distance**: Increase to **6-8 chunks** (absolute max 8 recommended)
+  - This works best with Distant Horizons for extended world viewing
+- **Optimize Particle Rain settings** for stronger gaming PCs
+  - Pause Menu → **Mods** → Search for **Particle Rain**
+  - Reset particle values and options to default settings
+  - This mod has been heavily detuned for weak systems, so resetting to defaults will give you much better rain effects
 
 ### ⚡ **For Better Performance:**
 - **Disable shaders entirely** if you need more FPS
   - Options → Video Settings → **Shader Packs** button (top right) → Select "OFF"
   - The modpack is still beautiful without shaders thanks to the included resource packs!
+- **Disable Particle Rain mod** if experiencing poor performance during rainstorms
+  - **Option 1:** In your launcher, disable the Particle Rain mod before launching
+  - **Option 2:** Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
+  - This mod can be quite demanding during heavy rain, especially on weaker systems
 
 > **💡 Tip:** Experiment with these settings to find your perfect balance between visuals and performance!
 
