@@ -157,7 +157,8 @@ The server includes these mods (Fabric 1.21.8):
 - Lithostitched - Lithium compatibility
 - InvView - Inventory viewing
 - WorldEdit - World editing tools
-- CTov - Improved Villages
+- ChoiceTheorem's Overhauled Village - Enhanced village generation and structures
+- Explorify - Adds new vanilla-friendly structures to world generation
 - Walkers - Mob transformation library (dependency)
 - SkinShifter - Skin changing library (dependency)
 - Fabric Language Kotlin - Kotlin language support library
