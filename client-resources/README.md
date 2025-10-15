@@ -34,9 +34,9 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
   - Increase LOD Render Distance to **256 chunks** for great results, or **512+ chunks** if your system can handle it
 - **Increase normal Minecraft render distance and simulation distance** (default is 6 render, 5 simulation)
-  - Options → Video Settings → **Render Distance**: Increase to **8-12 chunks** (absolute max 12 recommended)
-  - Options → Video Settings → **Simulation Distance**: Increase to **6-8 chunks** (absolute max 8 recommended)
-  - This works best with Distant Horizons for extended world viewing
+  - Options → Video Settings → **Render Distance**: Increase to **8-32 chunks** 
+  - Options → Video Settings → **Simulation Distance**: Increase to **6-10 chunks**
+  - Don't make your normal render distance crazy high; this works best with Distant Horizons.
 - **Optimize Particle Rain settings** for stronger gaming PCs
   - Pause Menu → **Mods** → Search for **Particle Rain**
   - Reset particle values and options to default settings
