@@ -1,5 +1,8 @@
 [
     {
+        "name": "Alternate Current"
+    },
+    {
         "name": "Anvil Restoration"
     },
     {
@@ -9,10 +12,16 @@
         "name": "ChatAnimation"
     },
     {
+        "name": "ChoiceTheorem's Overhauled Village"
+    },
+    {
         "name": "Cloth Config v19"
     },
     {
         "name": "Collective"
+    },
+    {
+        "name": "Controlify"
     },
     {
         "name": "CraftedCore"
@@ -31,6 +40,9 @@
     },
     {
         "name": "Essential Commands"
+    },
+    {
+        "name": "Explorify"
     },
     {
         "name": "Explosive Enhancement"
@@ -63,7 +75,7 @@
         "name": "Lithium"
     },
     {
-        "name": "MidnightControls"
+        "name": "Lithostitched"
     },
     {
         "name": "Mod Menu"

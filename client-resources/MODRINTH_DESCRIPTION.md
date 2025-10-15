@@ -38,6 +38,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - Integrated waypoint system
 
 ### 🎮 **Gameplay Enhancements**
+- **Enhanced World Generation** - Overhauled villages and new vanilla-friendly structures throughout the world
 - **ReMorphed** - Transform into mobs after killing them!
 - **Open Parties and Claims** - Protect your builds and team up
 - **Universal Graves** - Never lose your items on death
@@ -52,8 +53,8 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 
 ### 🎯 **Quality of Life**
 - **Essential Commands** - Teleportation, homes, warps, and essential server utilities
-- **LambDynamicLights** - Hold torches to light your way
-- **Controller Support** via MidnightControls
+- **LambDynamicLights** - Hold torches to light your way, even without shaders enabled!
+- **Controller Support** via Controlify
 - **Mod Menu** for easy configuration
 - All keybinds customizable
 
@@ -62,7 +63,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ## 📦 What's Included?
 
 ### Mods
-**51 carefully selected mods** including:
+**55 carefully selected mods** including:
 - Core performance mods (Sodium, Lithium, Iris)
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
 - Gameplay features (ReMorphed, Claims, Voice Chat)
@@ -91,6 +92,10 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ### Default Settings
 The modpack comes with **VERY optimized default settings** that prioritize performance on weaker systems like a MacBook Air. Many, if not most, users with gaming PCs will want to increase the graphics settings.
 
+**macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
+- MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
+- Download from: [MetalRender on Modrinth](https://modrinth.com/mod/metalrender)
+
 ### 🎨 Want Better Visuals?
 1. **Increase shader quality preset** (default is "Potato")
    - Options → Video Settings → Shader Packs (top right)
@@ -102,18 +107,16 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
    - Options → Video Settings → **Render Distance**: Increase to **8-32 chunks**
    - Options → Video Settings → **Simulation Distance**: Increase to **6-10 chunks**
    - Don't make your normal render distance crazy high; Distant Horizons works best with smaller render distances on most PCs
-4. **Optimize Particle Rain settings** for stronger gaming PCs
-   - Pause Menu → **Mods** → Search for **Particle Rain**
-   - Reset particle values and options to default settings
-   - This mod has been heavily detuned for weak systems, so resetting to defaults will give you much better rain effects
 
 ### ⚡ Need Better Performance?
 1. **Disable shaders** if you need more FPS
    - Options → Video Settings → Shader Packs → OFF
    - The modpack still looks great with just the resource packs!
-2. **Disable Particle Rain mod** if experiencing poor performance during rainstorms
-   - **Option 1:** In your launcher, disable the Particle Rain mod before launching
-   - **Option 2:** Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
+2. **Optimize Particle Rain mod** if experiencing poor performance during rainstorms
+   - **Option 1:** Go to **Mod Menu** → **Particle Rain** → Turn down the **particle limit** for better performance
+   - **Option 2:** If you need even more performance, disable the mod entirely:
+     - In your launcher, disable the Particle Rain mod before launching, OR
+     - Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
    - This mod can be quite demanding during heavy rain, especially on weaker systems
 3. **Lower Distant Horizons settings** if needed
 

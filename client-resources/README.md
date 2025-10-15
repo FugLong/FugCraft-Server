@@ -26,6 +26,10 @@ The **easiest way** to get all FugCraft mods, resource packs, and shaders is thr
 
 The modpack comes with **VERY optimized default settings** that prioritize performance on weaker systems like a MacBook Air. Many, if not most, users with gaming PCs will want to increase the graphics settings. You can adjust these based on your needs:
 
+- **macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
+  - MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
+  - Download from: [MetalRender on Modrinth](https://modrinth.com/mod/metalrender)
+
 ### 🎨 **For Better Visuals (most people on gaming PCs should do this):**
 - **Increase shader quality preset** (default is "Potato")
   - Options → Video Settings → **Shader Packs** button (top right of screen)
@@ -34,21 +38,19 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
   - Increase LOD Render Distance to **256 chunks** for great results, or **512+ chunks** if your system can handle it
 - **Increase normal Minecraft render distance and simulation distance** (default is 6 render, 5 simulation)
-  - Options → Video Settings → **Render Distance**: Increase to **8-32 chunks** 
+  - Options → Video Settings → **Render Distance**: Increase to **8-24 chunks** 
   - Options → Video Settings → **Simulation Distance**: Increase to **6-10 chunks**
   - Don't make your normal render distance crazy high; Distant Horizons works best with smaller render distances on most PCs
-- **Optimize Particle Rain settings** for stronger gaming PCs
-  - Pause Menu → **Mods** → Search for **Particle Rain**
-  - Reset particle values and options to default settings
-  - This mod has been heavily detuned for weak systems, so resetting to defaults will give you much better rain effects
 
 ### ⚡ **For Better Performance:**
 - **Disable shaders entirely** if you need more FPS
   - Options → Video Settings → **Shader Packs** button (top right) → Select "OFF"
   - The modpack is still beautiful without shaders thanks to the included resource packs!
-- **Disable Particle Rain mod** if experiencing poor performance during rainstorms
-  - **Option 1:** In your launcher, disable the Particle Rain mod before launching
-  - **Option 2:** Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
+- **Optimize Particle Rain mod** if experiencing poor performance during rainstorms
+  - **Option 1:** Go to **Mod Menu** → **Particle Rain** → Turn down the **particle limit** for better performance
+  - **Option 2:** If you need even more performance, disable the mod entirely:
+    - In your launcher, disable the Particle Rain mod before launching, OR
+    - Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
   - This mod can be quite demanding during heavy rain, especially on weaker systems
 
 > **💡 Tip:** Experiment with these settings to find your perfect balance between visuals and performance!
@@ -103,6 +105,8 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **Noisium** - Chunk generation performance improvements
 - **Reese's Sodium Options** - Sodium configuration
 - **ScalableLux** - Lighting optimization
+- **Alternate Current** - Redstone optimization
+- **Lithostitched** - Performance improvements
 
 ### 🎨 **Visual Enhancements**
 - **Distant Horizons** - Extended render distance
@@ -126,7 +130,7 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 ### 🎮 **Gameplay Features**
 - **Inventory Sorter** - Automatic inventory sorting
 - **LambDynamicLights** - Dynamic lighting
-- **MidnightControls** - Controller support for Java Minecraft
+- **Controlify** - Enhanced controller support for Java Minecraft
 - **ReMorphed** - Transform into mobs/players after killing them
 - **Open Parties and Claims** - Land claiming and party system
 - **Universal Graves** - Graves system to protect items on death
@@ -134,6 +138,8 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **Pet Protect** - Protect your pets from damage
 - **Essential Commands** - Core server commands for teleportation and utilities (if you run singleplayer or LAN)
 - **Sound Physics Remastered** - Realistic sound propagation and reverb
+- **ChoiceTheorem's Overhauled Village** - Enhanced village generation and structures
+- **Explorify** - Adds new vanilla-friendly structures to world generation
 
 ### 🎤 **Voice Chat**
 - **Simple Voice Chat** - Proximity-based voice chat system
