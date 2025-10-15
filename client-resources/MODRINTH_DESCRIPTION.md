@@ -101,7 +101,7 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
 3. **Increase normal Minecraft render distance and simulation distance** (default is 6 render, 5 simulation)
    - Options → Video Settings → **Render Distance**: Increase to **8-32 chunks**
    - Options → Video Settings → **Simulation Distance**: Increase to **6-10 chunks**
-   - Don't make your normal render distance crazy high; this works best with Distant Horizons.
+   - Don't make your normal render distance crazy high; Distant Horizons works best with smaller render distances on most PCs
 4. **Optimize Particle Rain settings** for stronger gaming PCs
    - Pause Menu → **Mods** → Search for **Particle Rain**
    - Reset particle values and options to default settings
