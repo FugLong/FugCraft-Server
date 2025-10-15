@@ -92,10 +92,6 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ### Default Settings
 The modpack comes with **VERY optimized default settings** that prioritize performance on weaker systems like a MacBook Air. Many, if not most, users with gaming PCs will want to increase the graphics settings.
 
-**macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
-- MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
-- Download from: [MetalRender on Modrinth](https://modrinth.com/mod/metalrender)
-
 ### 🎨 Want Better Visuals?
 1. **Increase shader quality preset** (default is "Potato")
    - Options → Video Settings → Shader Packs (top right)
@@ -119,6 +115,10 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
      - Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
    - This mod can be quite demanding during heavy rain, especially on weaker systems
 3. **Lower Distant Horizons settings** if needed
+
+**macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
+- MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
+- Download from: [MetalRender on Modrinth](https://modrinth.com/mod/metalrender)
 
 ---
 
