@@ -129,6 +129,7 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 
 ### 🎮 **Gameplay Features**
 - **Inventory Sorter** - Automatic inventory sorting
+- **Traveler's Backpack** - Portable storage solution with customizable backpacks
 - **LambDynamicLights** - Dynamic lighting
 - **Controlify** - Enhanced controller support for Java Minecraft
 - **ReMorphed** - Transform into mobs/players after killing them

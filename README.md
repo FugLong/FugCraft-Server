@@ -122,6 +122,7 @@ The server includes these mods (Fabric 1.21.8):
 **Gameplay Features:**
 - Open Parties and Claims - Land claiming system
 - Inventory Sorter - Automatic inventory sorting
+- Traveler's Backpack - Portable storage solution with customizable backpacks
 - Falling Tree - Tree chopping mechanics
 - KleeSlabs - Slab breaking mechanics
 - Graves - Death chest system
