@@ -15,6 +15,8 @@ b7fc30ef-c908-47fb-8ae4-1700aa66d40d:Carlos
 fabac5f5-c173-4d51-a8b8-6efcb093a44f:Droopy
 c577640b-ca61-4274-a8f6-e0c8adbb3a3a:Poopy
 87850ed1-01ef-4777-9d62-17357733ca1f:FastLittleBean
+e7bae2a2-4c65-4983-a2bb-b66e72ecc610:gucci420gang
+69908f02-3dac-40dd-a522-4a1c3f57cdf3:Babats
 20508be7-7695-46dc-9e5c-edd3be495163:Langdon
 03963df3-5d0d-4e10-9553-b380929e652e:TheNickaris
 9ecccd30-537f-4afd-94d0-45b0a98e614d:MythicFlower

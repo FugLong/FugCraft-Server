@@ -2,6 +2,7 @@ name: veteran
 permissions:
 - essentialcommands.anvil
 - essentialcommands.bed
+- essentialcommands.bypass.teleport_delay
 - essentialcommands.enderchest
 - essentialcommands.feed.self
 - essentialcommands.grindstone
