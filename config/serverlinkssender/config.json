@@ -3,7 +3,8 @@
   "global_server_links": {
     "<gold><bold>FugCraft Repo</bold></gold>": "https://github.com/FugLong/FugCraft-Server",
     "<aqua><bold>Client Guide</bold></aqua>": "https://github.com/FugLong/FugCraft-Server/blob/main/client-resources/README.md",
-    "<green><bold>FugCraft Modpack</bold></green>": "https://modrinth.com/modpack/fugcraft"
+    "<green><bold>FugCraft Modpack</bold></green>": "https://modrinth.com/modpack/fugcraft",
+    "<dark_purple><bold>Traveler's Backpack Wiki</bold></dark_purple>": "https://github.com/Tiviacz1337/Travelers-Backpack/wiki"
   },
   "additional_links": []
 }

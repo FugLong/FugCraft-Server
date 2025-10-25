@@ -127,6 +127,7 @@ The server includes these mods (Fabric 1.21.8):
 - Inventory Sorter - Automatic inventory sorting
 - Traveler's Backpack - Portable storage solution with customizable backpacks ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
 - Falling Tree - Tree chopping mechanics
+- Veinminer + Veinminer Enchant - Mine entire ore veins at once (requires enchanting pickaxe with Veinminer enchantment)
 - KleeSlabs - Slab breaking mechanics
 - Graves - Death chest system
 - Pet Protect - Pet protection
@@ -164,6 +165,7 @@ The server includes these mods (Fabric 1.21.8):
 - SkinShifter - Skin changing library (dependency)
 - Fabric Language Kotlin - Kotlin language support library
 - Cardinal Components API - Core modding API for Fabric
+- Silk - Dependency library for various mods
 
 **Voice Chat:**
 - Voice Chat - Proximity-based voice chat system
