@@ -118,11 +118,14 @@ The server includes these mods (Fabric 1.21.8):
 - Vanish - Allows admins to hide their presence on the server
 - Old School Jail - Allows admins and mods to jail players
 - Spark - Server performance profiling and monitoring
+- Fabric Carpet - Testing and debugging framework for Minecraft servers
+- Fake AFK - Automatically marks players as AFK
+- Command Aliases - Create custom command aliases for common commands
 
 **Gameplay Features:**
 - Open Parties and Claims - Land claiming system
 - Inventory Sorter - Automatic inventory sorting
-- Traveler's Backpack - Portable storage solution with customizable backpacks
+- Traveler's Backpack - Portable storage solution with customizable backpacks ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
 - Falling Tree - Tree chopping mechanics
 - KleeSlabs - Slab breaking mechanics
 - Graves - Death chest system
@@ -130,12 +133,9 @@ The server includes these mods (Fabric 1.21.8):
 - Pet Teleport Fix - Pet teleportation fixes
 - Anvil Restoration - Anvil repair mechanics (right-click anvil with iron to repair)
 - ReMorphed - Transform into mobs/players after killing them
-- PuppetPlayers - Fake players for testing
 - Sit! - Sitting mechanics
 
-**Cross-Platform:**
-- Geyser - Bedrock edition support
-- Floodgate - Bedrock authentication
+**Permissions & Access:**
 - Fabric Permissions API - Permission system API
 - Vanilla Permissions - Vanilla permission support
 
@@ -158,11 +158,12 @@ The server includes these mods (Fabric 1.21.8):
 - Lithostitched - Lithium compatibility
 - InvView - Inventory viewing
 - WorldEdit - World editing tools
-- ChoiceTheorem's Overhauled Village - Enhanced village generation and structures
+- ChoiceTheorem's Overhauled Village (CTOV) - Enhanced village generation and structures
 - Explorify - Adds new vanilla-friendly structures to world generation
 - Walkers - Mob transformation library (dependency)
 - SkinShifter - Skin changing library (dependency)
 - Fabric Language Kotlin - Kotlin language support library
+- Cardinal Components API - Core modding API for Fabric
 
 **Voice Chat:**
 - Voice Chat - Proximity-based voice chat system

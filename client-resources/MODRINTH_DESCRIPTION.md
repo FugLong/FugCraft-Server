@@ -42,7 +42,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **ReMorphed** - Transform into mobs after killing them!
 - **Open Parties and Claims** - Protect your builds and team up
 - **Universal Graves** - Never lose your items on death
-- **Traveler's Backpack** - Portable storage solution with customizable backpacks for extended adventures
+- **Traveler's Backpack** - Portable storage solution with customizable backpacks for extended adventures ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
 - **Anvil Restoration** - Repair anvils with iron ingots
 - **Inventory Sorter** - Keep your chests organized
 - **Pet Protection** - Your pets are safe from harm
@@ -172,6 +172,7 @@ Essential commands for the FugCraft server:
 - Notice the enhanced particles and ambience - look for improved rain, fire, and environmental effects!
 - Shaders can be toggled on/off easily in video settings
 - Distant Horizons generates LOD chunks gradually - be patient for best results!
+- Check out the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki) to learn how to use all the backpack features!
 
 ---
 

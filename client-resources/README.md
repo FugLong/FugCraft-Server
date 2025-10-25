@@ -86,6 +86,7 @@ Here are the essential commands you'll use most often:
 | `/openpac-parties` | Everything party-related |
 
 > **📚 Full Command List:** See all available commands at the [Essential Commands Wiki](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
+> **🎒 Traveler's Backpack:** Learn how to use all backpack features at the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki)
 
 ---
 
@@ -129,7 +130,7 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 
 ### 🎮 **Gameplay Features**
 - **Inventory Sorter** - Automatic inventory sorting
-- **Traveler's Backpack** - Portable storage solution with customizable backpacks
+- **Traveler's Backpack** - Portable storage solution with customizable backpacks ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
 - **LambDynamicLights** - Dynamic lighting
 - **Controlify** - Enhanced controller support for Java Minecraft
 - **ReMorphed** - Transform into mobs/players after killing them
