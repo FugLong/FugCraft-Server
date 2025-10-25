@@ -1,5 +1,6 @@
 name: member
 permissions:
+- commandaliases.craft
 - essentialcommands.back
 - essentialcommands.home.limit.3
 - essentialcommands.tpahere

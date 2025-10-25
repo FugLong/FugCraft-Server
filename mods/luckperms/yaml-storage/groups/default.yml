@@ -5,6 +5,9 @@ permissions:
     value: false
 - '*':
     value: false
+- commandaliases.delhome
+- commandaliases.listhomes
+- commandaliases.sethome
 - displayname.guest
 - essentialcommands.afk
 - essentialcommands.home.delete

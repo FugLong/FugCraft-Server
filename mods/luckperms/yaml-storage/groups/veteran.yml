@@ -1,5 +1,6 @@
 name: veteran
 permissions:
+- commandaliases.ec
 - essentialcommands.anvil
 - essentialcommands.bed
 - essentialcommands.bypass.teleport_delay
