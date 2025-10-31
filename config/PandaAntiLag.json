@@ -1,0 +1,14 @@
+{
+  "regionSize": 6,
+  "regionSizeBits": 2,
+  "regionBuffer": 1,
+  "minimumRegionMobs": 75,
+  "minimumRegionVehicle": 75,
+  "projectileMax": 150,
+  "mobStaggerLenience": 200,
+  "vehicleStaggerLenience": 200,
+  "tickTimeLenience": 10,
+  "updateInterval": 10000,
+  "enderPearlUpdateInterval": 10000,
+  "maxEnderPearlsPerPlayer": 20
+}

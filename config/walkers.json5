@@ -99,7 +99,8 @@
     "minecraft:endermite": 20,
     "minecraft:chicken": 1200,
     "minecraft:wolf": 20,
-    "minecraft:rabbit": 40
+    "minecraft:rabbit": 40,
+    "minecraft:skeleton": 600
   },
   // 0 - none, 1 - completely random, 2 - biome based
   "multiVectorVariants": 2,

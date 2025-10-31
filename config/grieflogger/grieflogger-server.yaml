@@ -1,0 +1,41 @@
+database:
+  #Whether to use MySQL or SQLite
+  #Default value: false
+  useMysql: false
+  #MySQL host
+  #Minimum length: 1, Maximum length: 255, Default value: 'localhost'
+  mysqlHost: 'localhost'
+  #MySQL port
+  #Minimum value: 1, Maximum value: 65535, Default value: 3306
+  mysqlPort: 3306
+  #MySQL database
+  #Minimum length: 1, Maximum length: 255, Default value: 'database'
+  mysqlDatabase: 'database'
+  #MySQL username
+  #Minimum length: 1, Maximum length: 255, Default value: 'username'
+  mysqlUsername: 'username'
+  #MySQL password
+  #Minimum length: 1, Maximum length: 255, Default value: 'password'
+  mysqlPassword: 'password'
+  #MySQL timeout
+  #Minimum value: 1, Maximum value: 60000, Default value: 5000
+  mysqlTimeout: 5000
+  #Whether to use indexes (improves inspect/lookup speed)
+  #Default value: true
+  useIndexes: true
+general:
+  #Maximum page size
+  #Minimum value: 1, Maximum value: 100, Default value: 10
+  maxPageSize: 10
+server:
+  #Whether to run the mod in server side only mode
+  #Default value: true
+  serverSideOnlyMode: true
+queue:
+  #The frequency at which the database queue is executed (every 'x' ticks)
+  #Minimum value: 1, Maximum value: 100, Default value: 20
+  queueFrequency: 20
+hello:
+  #The frequency at which the hello packet is sent to the server (every 'x' ticks)
+  #Minimum value: 1, Maximum value: 1000, Default value: 600
+  helloFrequency: 600

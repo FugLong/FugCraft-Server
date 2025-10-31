@@ -11,6 +11,7 @@ permissions:
 - essentialcommands.spawn.set
 - essentialcommands.warp.delete
 - essentialcommands.warp.set
+- grim.alerts
 - inventorysorter.command.admin
 - invview.can_modify
 - minecraft.command.ban
