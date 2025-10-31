@@ -9,6 +9,9 @@
         "name": "Architectury"
     },
     {
+        "name": "Atmosfera"
+    },
+    {
         "name": "Cardinal Components API"
     },
     {
@@ -84,6 +87,9 @@
         "name": "Mod Menu"
     },
     {
+        "name": "Model Gap Fix"
+    },
+    {
         "name": "Noisium"
     },
     {
@@ -109,6 +115,9 @@
     },
     {
         "name": "Polymer"
+    },
+    {
+        "name": "Presence Footsteps"
     },
     {
         "name": "ReMorphed"
@@ -145,6 +154,9 @@
     },
     {
         "name": "Universal Graves"
+    },
+    {
+        "name": "Universal Shops"
     },
     {
         "name": "Visuality"

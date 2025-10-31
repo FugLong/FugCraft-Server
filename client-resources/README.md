@@ -2,6 +2,15 @@
 
 **Target Client Version:** Fabric 1.21.8 (Currently updating to 1.21.10)
 
+## 🔗 Quick Links
+
+<div align="center">
+
+[![Traveler's Backpack Wiki](https://img.shields.io/badge/🎒%20Traveler's%20Backpack%20Wiki-Learn%20More-blue?style=for-the-badge)](https://github.com/Tiviacz1337/Travelers-Backpack/wiki) 
+[![Universal Shops Wiki](https://img.shields.io/badge/🏪%20Universal%20Shops%20Wiki-Learn%20More-green?style=for-the-badge)](https://github.com/Patbox/UniversalShops/blob/main/README.md)
+
+</div>
+
 ## 📥 Get FugCraft Modpack
 
 The **easiest way** to get all FugCraft mods, resource packs, and shaders is through the official Modrinth modpack:
@@ -36,7 +45,7 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
   - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
 - **Increase Distant Horizons render distance** (default is 64 chunks)
   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-  - Increase LOD Render Distance to **256 chunks** for great results, or **512+ chunks** if your system can handle it
+  - Increase LOD Render Distance to **128 chunks** for great results, or **512+ chunks** if your system can handle it
 - **Increase normal Minecraft render distance and simulation distance** (default is 6 render, 5 simulation)
   - Options → Video Settings → **Render Distance**: Increase to **8-24 chunks** 
   - Options → Video Settings → **Simulation Distance**: Increase to **6-10 chunks**
@@ -46,6 +55,9 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
 - **Disable shaders entirely** if you need more FPS
   - Options → Video Settings → **Shader Packs** button (top right) → Select "OFF"
   - The modpack is still beautiful without shaders thanks to the included resource packs!
+- **Decrease Distant Horizons render distance** (default is 64 chunks)
+  - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
+  - Try decreasing LOD Render Distance to **32 chunks** for better performance
 - **Optimize Particle Rain mod** if experiencing poor performance during rainstorms
   - **Option 1:** Go to **Mod Menu** → **Particle Rain** → Turn down the **particle limit** for better performance
   - **Option 2:** If you need even more performance, disable the mod entirely:
@@ -62,6 +74,7 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
 These keybinds are essential for getting the most out of your FugCraft experience:
 
 - **`B`** - Open ReMorphed menu (transform into mobs)
+- **`X`** - Use ReMorphed mob ability
 - **`M`** - Open minimap/world map
 - **`'`** (apostrophe) - Open claims settings (land claiming)
 - **`V`** - Voice chat settings
@@ -87,6 +100,7 @@ Here are the essential commands you'll use most often:
 
 > **📚 Full Command List:** See all available commands at the [Essential Commands Wiki](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 > **🎒 Traveler's Backpack:** Learn how to use all backpack features at the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki)
+> **🏪 Universal Shops:** Learn how to create and use player shops at the [Universal Shops Wiki](https://github.com/Patbox/UniversalShops/blob/main/README.md)
 
 ---
 
@@ -122,6 +136,12 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **Wakes** - Water wake effects
 - **Subtle Effects** - Subtle visual enhancements
 - **Explosive Enhancement** - Enhanced explosion visuals
+- **Model Gap Fix** - Fixes visual glitches on some models
+
+### 🔊 **Audio Enhancements**
+- **Atmosfera** - Adds dynamic ambient sounds to enhance atmosphere
+- **Presence Footsteps** - More immersive and realistic footstep sounds for all blocks
+- **Sound Physics Remastered** - Realistic sound propagation and reverb
 
 ### 🗺️ **Navigation & Information**
 - **Xaero's Minimap** - Enhanced minimap
@@ -131,6 +151,7 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 ### 🎮 **Gameplay Features**
 - **Inventory Sorter** - Automatic inventory sorting
 - **Traveler's Backpack** - Portable storage solution with customizable backpacks ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
+- **Universal Shops** - Player-to-player shop system ([Wiki](https://github.com/Patbox/UniversalShops/blob/main/README.md))
 - **LambDynamicLights** - Dynamic lighting
 - **Controlify** - Enhanced controller support for Java Minecraft
 - **ReMorphed** - Transform into mobs/players after killing them
@@ -139,7 +160,6 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **Anvil Restoration** - Restore/repair anvils with iron ingots
 - **Pet Protect** - Protect your pets from damage
 - **Essential Commands** - Core server commands for teleportation and utilities (if you run singleplayer or LAN)
-- **Sound Physics Remastered** - Realistic sound propagation and reverb
 - **ChoiceTheorem's Overhauled Village** - Enhanced village generation and structures
 - **Explorify** - Adds new vanilla-friendly structures to world generation
 
