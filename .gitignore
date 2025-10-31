@@ -20,6 +20,8 @@ fabricloader.log
 # Sensitive config
 config/spark/
 config/puppet-player-config.*
+config/HoloDisplays/
+*.sqlite
 
 # Cache directories (temporary files)
 cache/
