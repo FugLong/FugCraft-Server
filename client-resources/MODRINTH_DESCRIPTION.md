@@ -40,10 +40,13 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ### 🗺️ **Navigation & Information**
 - **Xaero's Minimap & World Map** for easy navigation
 - **Jade** for detailed block and entity information
+- **Roughly Enough Items** for quick recipe and item lookups
+- **Zoomify** for smooth zooming when planning megabuilds
 - Integrated waypoint system
 
 ### 🎮 **Gameplay Enhancements**
 - **Enhanced World Generation** - Overhauled villages and new vanilla-friendly structures throughout the world
+- **Real-World Synced Seasons** - Experience dynamic seasons powered by Serene Seasons, BetterDays, and Real Serene Seasons
 - **ReMorphed** - Transform into mobs after killing them!
 - **Open Parties and Claims** - Protect your builds and team up
 - **Universal Shops** - Create and run player-to-player shops ([Wiki](https://github.com/Patbox/UniversalShops/blob/main/README.md))
@@ -52,6 +55,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **Anvil Restoration** - Repair anvils with iron ingots
 - **Inventory Sorter** - Keep your chests organized
 - **Pet Protection** - Your pets are safe from harm
+- **Mine Spawners** - Pick up and relocate mob spawners using silk touch
 
 ### 🎤 **Voice Chat Built-In**
 - **Simple Voice Chat** - Proximity-based voice communication
@@ -63,6 +67,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **LambDynamicLights** - Hold torches to light your way, even without shaders enabled!
 - **Controller Support** via Controlify
 - **Mod Menu** for easy configuration
+- **HTM Chest Protection** - Lock down chests with Hey That's Mine! commands
 - All keybinds customizable
 
 ---
@@ -70,7 +75,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ## 📦 What's Included?
 
 ### Mods
-**61 carefully selected mods** including:
+**71 carefully selected mods** including:
 - Core performance mods (Sodium, Lithium, Iris)
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
 - Audio improvements (Ambient sounds, realistic footsteps, sound physics)
@@ -160,6 +165,7 @@ Essential commands for the FugCraft server:
 | `/rtp` | Random teleport far from spawn |
 | `/openpac-claims` | Manage your claims |
 | `/openpac-parties` | Manage parties |
+| `/htm <command>` | Access Hey That's Mine! features for chest protection |
 
 > **📚 Full command list:** [Essential Commands Wiki](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 

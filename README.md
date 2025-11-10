@@ -117,6 +117,9 @@ The server includes these mods (Fabric 1.21.8):
 - AntiXray - Prevents players from using xray mods or resource packs effectively
 - GrimAC (LightningGrim) - Anti-cheat system to detect and prevent cheating
 - GriefLogger - Logs griefing actions for administrative review
+- HTM (Hey That's Mine!) - Adds per-player chest access permissions and protections
+- No Chat Reports - Blocks Microsoft chat reporting enforcement on the server
+- Panda Anti Exploit - Safeguards the server from common exploits and lag machines
 - StarterKit - Controls what items new players receive on first join
 - Vanish - Allows admins to hide their presence on the server
 - Old School Jail - Allows admins and mods to jail players
@@ -138,6 +141,14 @@ The server includes these mods (Fabric 1.21.8):
 - Anvil Restoration - Anvil repair mechanics (right-click anvil with iron to repair)
 - ReMorphed - Transform into mobs/players after killing them
 - Sit! - Sitting mechanics
+- BetterDays - Adjusts day/night cycle length and integrates with Serene Seasons
+- BubbleColumnTweaks - Tweaks magma and soul sand bubble column travel speed
+- CopperGratesBubbleThru - Allows bubble columns to pass through copper grates
+- Serene Seasons - Adds Spring, Summer, Fall, and Winter cycles to the world
+- Serene Seasons Plus - Enhancements and optimizations for Serene Seasons
+- Real Serene Seasons - Syncs the season clock to real-world time based on the server
+- Leash Villager - Lets players leash villagers while sneaking with a lead
+- VillagerConverting - Ensures villagers turn into zombie villagers instead of dying to zombies
 - Universal Shops - Player-to-player shop system
 - CombatLog - Prevents combat logging, will die if they leave in combat
 
@@ -152,6 +163,7 @@ The server includes these mods (Fabric 1.21.8):
 - Styled Player List - Enhanced player list
 - HoloDisplays - Hologram display system
 - Sound Physics Remastered - Realistic sound propagation and reverb
+- Roughly Enough Items - Recipe and item lookup interface for players
 
 **Utilities:**
 - Mod Menu - In-game mod configuration
@@ -162,6 +174,7 @@ The server includes these mods (Fabric 1.21.8):
 - Balm - Library mod
 - OtterLib - Library mod (dependency)
 - Lithostitched - Lithium compatibility
+- GlitchCore - Core library required by Serene Seasons
 - InvView - Inventory viewing
 - WorldEdit - World editing tools
 - ChoiceTheorem's Overhauled Village (CTOV) - Enhanced village generation and structures

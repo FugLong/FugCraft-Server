@@ -12,6 +12,9 @@
         "name": "Atmosfera"
     },
     {
+        "name": "BetterDays"
+    },
+    {
         "name": "Cardinal Components API"
     },
     {
@@ -66,6 +69,12 @@
         "name": "Fzzy Config"
     },
     {
+        "name": "GlitchCore"
+    },
+    {
+        "name": "Hey That's Mine"
+    },
+    {
         "name": "Inventory Sorter"
     },
     {
@@ -84,10 +93,16 @@
         "name": "Lithostitched"
     },
     {
+        "name": "Minespawners"
+    },
+    {
         "name": "Mod Menu"
     },
     {
         "name": "Model Gap Fix"
+    },
+    {
+        "name": "No Chat Reports"
     },
     {
         "name": "Noisium"
@@ -123,10 +138,22 @@
         "name": "ReMorphed"
     },
     {
+        "name": "Real Serene Seasons"
+    },
+    {
         "name": "Reese's Sodium Options"
     },
     {
+        "name": "Roughly Enough Items"
+    },
+    {
         "name": "ScalableLux"
+    },
+    {
+        "name": "Serene Seasons Plus"
+    },
+    {
+        "name": "SereneSeasons"
     },
     {
         "name": "Simple Voice Chat"
@@ -178,6 +205,9 @@
     },
     {
         "name": "YetAnotherConfigLib"
+    },
+    {
+        "name": "Zoomify"
     },
     {
         "name": "petprotect"

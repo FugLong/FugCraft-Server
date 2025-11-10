@@ -97,6 +97,7 @@ Here are the essential commands you'll use most often:
 | `/rtp` | Teleport to a random location far from spawn |
 | `/openpac-claims` | Everything claim-related |
 | `/openpac-parties` | Everything party-related |
+| `/htm <command>` | Manage chest protections and other Hey That's Mine! features |
 
 > **📚 Full Command List:** See all available commands at the [Essential Commands Wiki](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 > **🎒 Traveler's Backpack:** Learn how to use all backpack features at the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki)
@@ -147,6 +148,8 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **Xaero's Minimap** - Enhanced minimap
 - **Xaero's World Map** - Full world map
 - **Jade** - Block/entity information display
+- **Roughly Enough Items** - In-game recipe and item lookup browser
+- **Zoomify** - Smooth adjustable zoom for scouting builds and terrain
 
 ### 🎮 **Gameplay Features**
 - **Inventory Sorter** - Automatic inventory sorting
@@ -162,6 +165,12 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **Essential Commands** - Core server commands for teleportation and utilities (if you run singleplayer or LAN)
 - **ChoiceTheorem's Overhauled Village** - Enhanced village generation and structures
 - **Explorify** - Adds new vanilla-friendly structures to world generation
+- **BetterDays** - Customize day/night cycle length with Serene Seasons support
+- **Serene Seasons** - Brings Spring, Summer, Autumn, and Winter to the overworld
+- **Serene Seasons Plus** - Enhances and optimizes the Serene Seasons experience
+- **Real Serene Seasons** - Syncs Serene Seasons with real-world time based on your timezone
+- **HTM (Hey That's Mine!)** - Protect your chests with per-player access controls
+- **Mine Spawners** - Pick up and relocate mob spawners with silk touch
 
 ### 🎤 **Voice Chat**
 - **Simple Voice Chat** - Proximity-based voice chat system
@@ -184,5 +193,7 @@ The FugCraft modpack includes these mods (Fabric 1.21.8):
 - **OctoLib** - Library mod
 - **SmoothGui** - Improved GUI
 - **ChatAnimation** - Animated chat
+- **GlitchCore** - Library required for the Serene Seasons suite
+- **No Chat Reports** - Disables Microsoft chat report enforcement on the client
 
 </details>
