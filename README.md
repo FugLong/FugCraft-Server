@@ -105,6 +105,7 @@ The server includes these mods (Fabric 1.21.8):
 - Noisium - Performance improvements
 - Alternate Current - Redstone optimizations
 - ScalableLux - Lighting optimization
+- Panda Anti Lag - Additional performance optimizations and lag reduction (anti lag machine)
 
 **Server Management:**
 - LuckPerms - Permission system
@@ -114,6 +115,8 @@ The server includes these mods (Fabric 1.21.8):
 - Advanced Backups - Server backup system
 - ServerLinksSender - Custom server links in pause menu
 - AntiXray - Prevents players from using xray mods or resource packs effectively
+- GrimAC (LightningGrim) - Anti-cheat system to detect and prevent cheating
+- GriefLogger - Logs griefing actions for administrative review
 - StarterKit - Controls what items new players receive on first join
 - Vanish - Allows admins to hide their presence on the server
 - Old School Jail - Allows admins and mods to jail players
@@ -135,6 +138,8 @@ The server includes these mods (Fabric 1.21.8):
 - Anvil Restoration - Anvil repair mechanics (right-click anvil with iron to repair)
 - ReMorphed - Transform into mobs/players after killing them
 - Sit! - Sitting mechanics
+- Universal Shops - Player-to-player shop system
+- CombatLog - Prevents combat logging, will die if they leave in combat
 
 **Permissions & Access:**
 - Fabric Permissions API - Permission system API

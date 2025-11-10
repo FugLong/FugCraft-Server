@@ -32,6 +32,11 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - Enhanced particles, weather effects, and atmospheric ambience from additional mods and resource packs
 - Dynamic lighting, visual effects, and immersive improvements
 
+### 🔊 **Immersive Audio**
+- **Atmosfera** - Dynamic ambient sounds that enhance atmosphere
+- **Presence Footsteps** - Realistic footstep sounds that vary by block
+- **Sound Physics Remastered** - Realistic sound propagation and reverb
+
 ### 🗺️ **Navigation & Information**
 - **Xaero's Minimap & World Map** for easy navigation
 - **Jade** for detailed block and entity information
@@ -41,6 +46,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **Enhanced World Generation** - Overhauled villages and new vanilla-friendly structures throughout the world
 - **ReMorphed** - Transform into mobs after killing them!
 - **Open Parties and Claims** - Protect your builds and team up
+- **Universal Shops** - Create and run player-to-player shops ([Wiki](https://github.com/Patbox/UniversalShops/blob/main/README.md))
 - **Universal Graves** - Never lose your items on death
 - **Traveler's Backpack** - Portable storage solution with customizable backpacks for extended adventures ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
 - **Anvil Restoration** - Repair anvils with iron ingots
@@ -64,10 +70,11 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ## 📦 What's Included?
 
 ### Mods
-**56 carefully selected mods** including:
+**61 carefully selected mods** including:
 - Core performance mods (Sodium, Lithium, Iris)
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
-- Gameplay features (ReMorphed, Claims, Voice Chat)
+- Audio improvements (Ambient sounds, realistic footsteps, sound physics)
+- Gameplay features (ReMorphed, Claims, Shops, Voice Chat)
 - Quality of life improvements (Inventory Sorter, Backpacks, Dynamic Lights)
 - Full mod list available in the [client resources README](https://github.com/FugLong/FugCraft-Server/blob/main/client-resources/README.md)
 
@@ -109,13 +116,15 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
 1. **Disable shaders** if you need more FPS
    - Options → Video Settings → Shader Packs → OFF
    - The modpack still looks great with just the resource packs!
-2. **Optimize Particle Rain mod** if experiencing poor performance during rainstorms
+2. **Decrease Distant Horizons render distance** (default is 64 chunks)
+   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
+   - Try decreasing LOD Render Distance to **32 chunks** for better performance
+3. **Optimize Particle Rain mod** if experiencing poor performance during rainstorms
    - **Option 1:** Go to **Mod Menu** → **Particle Rain** → Turn down the **particle limit** for better performance
    - **Option 2:** If you need even more performance, disable the mod entirely:
      - In your launcher, disable the Particle Rain mod before launching, OR
      - Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
    - This mod can be quite demanding during heavy rain, especially on weaker systems
-3. **Lower Distant Horizons settings** if needed
 
 **macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
 - MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
@@ -128,6 +137,7 @@ The modpack comes with **VERY optimized default settings** that prioritize perfo
 > **Note:** All keybinds can be rebound in settings
 
 - **`B`** - Open ReMorphed menu (transform into mobs)
+- **`X`** - Use ReMorphed mob ability
 - **`M`** - Open minimap/world map
 - **`'`** (apostrophe) - Open claims settings
 - **`V`** - Voice chat settings
