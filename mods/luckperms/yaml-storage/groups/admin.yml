@@ -12,6 +12,7 @@ permissions:
 - essentialcommands.warp.delete
 - essentialcommands.warp.set
 - grim.alerts
+- htm.admin
 - inventorysorter.command.admin
 - invview.can_modify
 - minecraft.command.ban

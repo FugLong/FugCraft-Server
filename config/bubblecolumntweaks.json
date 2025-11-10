@@ -1,0 +1,10 @@
+{
+  "magmaSpeedCap": -0.8,
+  "magmaAcceleration": -0.08,
+  "soulSandSpeedCap": 0.8,
+  "soulSandAcceleration": 0.08,
+  "magmaSurfaceSpeedCap": -1.8,
+  "magmaSurfaceAcceleration": -0.1,
+  "soulSandSurfaceSpeedCap": 1.8,
+  "soulSandSurfaceAcceleration": 0.1
+}

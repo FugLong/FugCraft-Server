@@ -1,0 +1,14 @@
+#If true, include the current time of day when mapping the calendar (smoother transitions).
+interpolate_time_of_day = true
+#Only used when cadence=WEEK. Minimum days in first week (1-7). ISO uses 4.
+week_min_days = 4
+"#" = "Real Serene Seasons - Config"
+#Only used when cadence=WEEK. First day of week: MONDAY/TUESDAY/.../SUNDAY.
+week_start_day = "MONDAY"
+#IANA ZoneId (e.g., America/New_York, Europe/Berlin, UTC). Blank = system default.
+timezone_id = ""
+"#1" = "Controls how calendar-based season syncing is interpreted."
+#If true, invert the calendar to match southern hemisphere seasons.
+use_southern_hemisphere = false
+#Per-sub-season cadence: MONTH (calendar month), WEEK (7 days), or DAY (24 hours). Full cycle = 12 sub-seasons.
+cadence = "MONTH"

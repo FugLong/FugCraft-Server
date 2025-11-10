@@ -214,3 +214,4 @@
 {"timestamp":1761938955,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"USER","uniqueId":"d014c6c7-1c15-46b7-94e1-a5dd28f9425e","name":"lugfong"},"description":"webeditor remove group.owner true"}
 {"timestamp":1761939240,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"USER","uniqueId":"d014c6c7-1c15-46b7-94e1-a5dd28f9425e","name":"lugfong"},"description":"webeditor add group.owner true"}
 {"timestamp":1761939240,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"USER","uniqueId":"d014c6c7-1c15-46b7-94e1-a5dd28f9425e","name":"lugfong"},"description":"webeditor remove group.citizen true"}
+{"timestamp":1762013952,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Server"},"target":{"type":"GROUP","name":"admin"},"description":"webeditor add htm.admin true"}
