@@ -11,6 +11,7 @@ e7bae2a2-4c65-4983-a2bb-b66e72ecc610:gucci420gang
 20508be7-7695-46dc-9e5c-edd3be495163:Langdon
 03963df3-5d0d-4e10-9553-b380929e652e:TheNickaris
 9ecccd30-537f-4afd-94d0-45b0a98e614d:MythicFlower
+539eceeb-4861-4b6c-a2b8-9f8ba9b65f5e:Sporkwalker
 0235ffa8-ad25-4537-a3fd-535afff0987c:KittyScanNya
 2870f7bd-fd00-4094-9cf5-31ff382a149c:Gandolf
 117298db-5c7a-4e69-a417-4a530b0dc71a:Gremlin
@@ -21,6 +22,8 @@ b7fc30ef-c908-47fb-8ae4-1700aa66d40d:Carlos
 80ef1820-b093-4651-aba6-3f4528fbbf24:rxneal
 fabac5f5-c173-4d51-a8b8-6efcb093a44f:Droopy
 87850ed1-01ef-4777-9d62-17357733ca1f:FastLittleBean
+439ee782-b284-4553-906c-9df240e7ffc5:Buster4081
+062756ef-bf83-4f39-9b52-c73f767c6b5b:KittyScanArchive
 69908f02-3dac-40dd-a522-4a1c3f57cdf3:Babats
 e351c9f7-0d8c-46bf-8018-8aa746d27c84:Badats
 2fc88e5c-b687-4c3d-874e-c640c6bf6ea3:robbybobby69
