@@ -58,7 +58,8 @@
       "dark_aqua": true,
       "dark_gray": true,
       "spoiler": true,
-      "strikethrough": true
+      "strikethrough": true,
+      "quote": true
     },
     "emoticons": {
       "$emojibase:builtin:joypixels": "${emoji}",

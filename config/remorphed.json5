@@ -20,6 +20,8 @@
     "minecraft:wither": 10,
     "minecraft:ender_dragon": 10
   },
+  // Whether the player can open the Variants menu or not.
+  "allow_variant_selection": true,
   // 
   // <<< Menu Customization >>>
   "show_traits_by_default": true,

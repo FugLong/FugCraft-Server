@@ -16,5 +16,7 @@
   "_c15": "Changes stonecutter a bit to fix custom recipes not working with it.",
   "force_enable_stonecutter_fix": false,
   "_c13": "Replaces PolyMc's block and item interaction handling with Polymer ones",
-  "override_polymc_mining_check": false
+  "override_polymc_mining_check": false,
+  "_c16": "Extend data synced for recipe ingredients, allowing for better usability and compatibility with recipe viewers and recipe book.",
+  "extended_recipe_ingredients": true
 }

@@ -33,12 +33,6 @@ globalExecutorParallelism = "default"
 	#  We has historically been doing this, and this config option allows you to disable this behavior.
 	# 
 	disableLoggingShutdownHook = "default"
-	# (Default: true) Whether to prevent early client ticks.
-	# 
-	# This avoids the player from falling through the world.
-	# Mitigates https://github.com/CaffeineMC/sodium/issues/3065
-	# 
-	preventEarlyClientMovementTicks = "default"
 	# (Default: true) Enforces safe world random access.  
 	# This feature detects unsafe off-thread world random access, helping to find the causes  
 	# of mysterious "Accessing LegacyRandomSource from multiple threads" crash.  
@@ -51,14 +45,9 @@ globalExecutorParallelism = "default"
 	enforceSafeWorldRandomAccess = "default"
 
 [noTickViewDistance]
-	# (Default: true) Whether to enable no-tick view distance
-	enabled = "default"
 	# (Default: 18) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
-	# (Default: true) Whether to use compatibility mode to send chunks 
-	#  This may fix some mod compatibility issues
-	compatibilityMode = "default"
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
 	# 
@@ -68,6 +57,12 @@ globalExecutorParallelism = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
+	# (Default: 200) Applies a multiplier *in percentage* to the target chunk sending rate from vanilla
+	# Setting this to 0 disables rate limiting
+	# 
+	# Defaults to 200, which is 200%
+	# 
+	chunkSendingSpeedMultiplierPercentage = "default"
 
 [ioSystem]
 	# (Default: 8192) Soft limit for io worker nbt cache
@@ -83,7 +78,7 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	# Set to false for the following reasons: 
-	# Incompatible with architectury@17.0.8 (*) (defined in c2me) 
+	# Incompatible with architectury@19.0.1 (*) (defined in c2me) 
 	gcFreeChunkSerializer = "default"
 	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
@@ -113,6 +108,18 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	optimizeStructureWeightSampler = "default"
+
+	[vanillaWorldGenOptimizations.nativeAcceleration]
+		# (Default: false) Enable the use of AVX512 for native acceleration
+		# 
+		# Currently, AVX512 implementation is generally slower than AVX2 implementations.
+		# If you ever decide to enable this, make sure you have verified that
+		# AVX512 implementations are faster on your machine.
+		# 
+		allowAVX512 = "default"
+		# (Default: true) Enable the use of bundled native libraries to accelerate world generation
+		# 
+		enabled = "default"
 
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
@@ -200,3 +207,10 @@ globalExecutorParallelism = "default"
 	# Only applies when useLegacyScheduling is disabled.
 	# 
 	lowMemoryMode = "default"
+	# (Default: false) Whether to delay full chunk events to after full chunk future have been completed
+	# This restores the buggy behavior in NeoForge that the ecosystem have been relying on
+	# 
+	# Enabling this will almost certainly break vanilla behavior, disabled by default on fabric
+	# Do not change this unless you know what you are doing
+	# 
+	delayFullChunkEvents = "default"

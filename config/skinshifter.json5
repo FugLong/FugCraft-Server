@@ -1,5 +1,9 @@
 {
-  "changeName": true,
+  // Enable permission system. When true, permissions override server config. When false, uses original server config behavior.
+  "usePermissions": false,
+  // Set 'usePermissions' to 'false' to use this option!
   "baseCommandOPLevel": 2,
-  "selfCommandOPLevel": 0
+  // Set 'usePermissions' to 'false' to use this option!
+  "selfCommandOPLevel": 0,
+  "changeName": true
 }

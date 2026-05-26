@@ -1,31 +1,35 @@
 {
-  "canTrustedPlayersBreakChests": false,
-  "defaultFlags": {
-    "hoppers": true
+  "can_trusted_players_break_chests": false,
+  "default_flags": {
+    "overrides": {},
+    "default": {
+      "hoppers": true,
+      "copper_golems": true
+    }
   },
-  "autolockingContainers": [
-    "minecraft:chest",
-    "minecraft:trapped_chest",
-    "minecraft:barrel",
-    "minecraft:furnace",
-    "minecraft:blast_furnace",
-    "minecraft:smoker",
-    "minecraft:shulker_box",
-    "minecraft:white_shulker_box",
-    "minecraft:orange_shulker_box",
-    "minecraft:magenta_shulker_box",
-    "minecraft:light_blue_shulker_box",
-    "minecraft:yellow_shulker_box",
-    "minecraft:lime_shulker_box",
-    "minecraft:pink_shulker_box",
-    "minecraft:gray_shulker_box",
-    "minecraft:light_gray_shulker_box",
-    "minecraft:cyan_shulker_box",
-    "minecraft:purple_shulker_box",
-    "minecraft:blue_shulker_box",
-    "minecraft:brown_shulker_box",
-    "minecraft:green_shulker_box",
-    "minecraft:red_shulker_box",
-    "minecraft:black_shulker_box"
-  ]
+  "auto_locking_containers": {
+    "minecraft:barrel": "private",
+    "minecraft:chest": "private",
+    "minecraft:orange_shulker_box": "private",
+    "minecraft:light_blue_shulker_box": "private",
+    "minecraft:light_gray_shulker_box": "private",
+    "minecraft:gray_shulker_box": "private",
+    "minecraft:red_shulker_box": "private",
+    "minecraft:trapped_chest": "private",
+    "minecraft:blast_furnace": "private",
+    "minecraft:furnace": "private",
+    "minecraft:shulker_box": "private",
+    "minecraft:purple_shulker_box": "private",
+    "minecraft:pink_shulker_box": "private",
+    "minecraft:cyan_shulker_box": "private",
+    "minecraft:blue_shulker_box": "private",
+    "minecraft:brown_shulker_box": "private",
+    "minecraft:smoker": "private",
+    "minecraft:yellow_shulker_box": "private",
+    "minecraft:magenta_shulker_box": "private",
+    "minecraft:green_shulker_box": "private",
+    "minecraft:black_shulker_box": "private",
+    "minecraft:lime_shulker_box": "private",
+    "minecraft:white_shulker_box": "private"
+  }
 }

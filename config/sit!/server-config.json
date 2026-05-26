@@ -1,7 +1,7 @@
 {
   "version": 2.3,
   "lang": "en_us",
-  "lang-options": "en_us, it_it, pt_br, tr_tr, zh_tw, zh_ch, de_de",
+  "lang-options": "en_us,it_it,pt_br,tr_tr,zh_tw,zh_cn,de_de",
   "keep-active": true,
   "sit-while-seated": false,
   "preset-blocks": {
