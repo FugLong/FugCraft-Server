@@ -39,5 +39,5 @@ permissions:
 - voicechat.speak
 - weight.900
 prefixes:
-- '&7[&7Guest&7]&f':
+- '§7[§7Guest§7]§f':
     priority: 1
