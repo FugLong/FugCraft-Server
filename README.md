@@ -16,7 +16,7 @@
 
 - 📦 **Custom modpack**
 - 🎨 **Curated resource packs**
-- ✨ **Optimized shader recommendations**
+- 🚀 **Performance-first client direction** (VulkanMod + Distant Horizons)
 - ⚙️ **Easy setup guide**
 
 ---
@@ -93,101 +93,95 @@ The startup scripts use these default values:
 
 ### 📋 **Server Mod List**
 
-> **💡 Tip:** You can disable any mod by renaming its `.jar` file to `.jar.disabled` in the `/mods` folder (e.g., `remorphed.jar` → `remorphed.jar.disabled`)
+> **💡 Tip:** You can disable many mods by renaming their `.jar` file to `.jar.disabled` in `/mods` (for example: `mod.jar` → `mod.jar.disabled`).
 
-The server includes these mods (Fabric 1.21.8):
+The server currently targets **Minecraft 26.1.2 (Fabric)**.
 
-**Core & Performance:**
-- Fabric API - Core Fabric functionality
-- Lithium - Server-side performance optimizations
-- VMP - Optimizations for handling many players at once
-- C2ME - Chunk loading optimizations
-- Noisium - Performance improvements
-- Alternate Current - Redstone optimizations
-- ScalableLux - Lighting optimization
-- Panda Anti Lag - Additional performance optimizations and lag reduction (anti lag machine)
+The list below is an exact snapshot of the top-level `mods` jars in this repo (including disabled jars):
 
-**Server Management:**
-- LuckPerms - Permission system
-- LuckPerms Placeholder API Hook - PlaceholderAPI integration for LuckPerms
-- Essential Commands - Essential server commands
-- Auto Restart - Automatic server restarts
-- Advanced Backups - Server backup system
-- ServerLinksSender - Custom server links in pause menu
-- AntiXray - Prevents players from using xray mods or resource packs effectively
-- GrimAC (LightningGrim) - Anti-cheat system to detect and prevent cheating
-- GriefLogger - Logs griefing actions for administrative review
-- HTM (Hey That's Mine!) - Adds per-player chest access permissions and protections
-- No Chat Reports - Blocks Microsoft chat reporting enforcement on the server
-- Panda Anti Exploit - Safeguards the server from common exploits and lag machines
-- StarterKit - Controls what items new players receive on first join
-- Vanish - Allows admins to hide their presence on the server
-- Old School Jail - Allows admins and mods to jail players
-- Spark - Server performance profiling and monitoring
-- Fabric Carpet - Testing and debugging framework for Minecraft servers
-- Fake AFK - Automatically marks players as AFK
-- Command Aliases - Create custom command aliases for common commands
+- `[fabric]ctov-26.1-3.6.4.jar`
+- `antixray-fabric-1.4.16+26.1.jar`
+- `anvilrestoration-26.1.2-2.5.jar`
+- `architectury-19.0.1-fabric.jar`
+- `balm-fabric-26.1.2-26.1.2.6.jar`
+- `betterdays-26.1.2-fabric-4.1.1.6-FABRIC.jar`
+- `bubblecolumntweaks-1.1.0.jar`
+- `c2me-fabric-mc26.1.2-0.3.7+alpha.0.69.jar`
+- `cloth-config-26.1.154.jar`
+- `collective-26.1.2-8.22.jar`
+- `commandaliases-1.0.4+mc26.1.2-unknown.jar`
+- `controlify-3.0.1+26.1-fabric.jar`
+- `CopperGratesBubbleThru-2.1+26.1.jar`
+- `craftedcore-fabric-8.0.jar`
+- `crashexploitfixer-fabric-2.0.0+26.1.2.jar`
+- `DistantHorizons-3.0.3-b-26.1.2-fabric-neoforge.jar`
+- `essential_commands-0.39.0-mc26.1.1.jar`
+- `Explorify v1.6.5.mod.jar`
+- `fabric-api-0.149.1+26.1.2.jar`
+- `fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar`
+- `FallingTree-26.1.2-25.jar`
+- `FastItemFrames-v26.1.0-mc26.1.x-Fabric.jar`
+- `ferritecore-9.0.0-fabric.jar`
+- `ForgeConfigAPIPort-v26.1.4-mc26.1.x-Fabric.jar`
+- `GlitchCore-fabric-26.1.2-26.1.2.0.2.jar`
+- `graves-3.11.1+26.1.2.jar`
+- `holodisplays-0.5.0+26.1-26.1.2.jar`
+- `htm-1.2.3.jar`
+- `immersive_optimization-fabric-26.1.2-0.1.5.jar`
+- `inventorysorter-fabric-3.0.0-beta.4+mc26.1.2.jar`
+- `InvView-1.4.20-26.1+.jar`
+- `Jade-mc26.1-Fabric-26.1.0.jar`
+- `journeymap-fabric-26.1.2-6.0.0-beta.81.jar`
+- `JourneyPAC-fabric-26.1.2-1.1.10.jar`
+- `kleeslabs-fabric-26.1-26.1.0.1.jar`
+- `krypton-0.3.0.jar`
+- `leash-villager-1.0.0+mc26.1.jar`
+- `lithium-fabric-0.24.2+mc26.1.2.jar`
+- `lithostitched-1.7.7-fabric-26.1.jar`
+- `LuckPerms-Fabric-5.5.52.jar`
+- `ly-combat-log-v1.0.3.jar`
+- `modmenu-18.0.0-beta.1.jar`
+- `NoChatReports-FABRIC-26.1-v2.19.0.jar`
+- `oldschooljail-1.1.0.jar`
+- `open-parties-and-claims-fabric-26.1.2-0.26.3.jar`
+- `otterlib-0.3.0.1+26.1-fabric.jar`
+- `packetfixer-fabric-3.3.5-26.1.2.jar`
+- `pet-teleport-fix-1.4-HOTFIX.jar`
+- `petprotect-1.1.4.jar`
+- `placeholder-api-3.0.0+26.1.jar`
+- `polymer-bundled-0.16.5+26.1.2.jar`
+- `PuppetPlayers-1.6.1+26.1.2.jar`
+- `PuzzlesLib-v26.1.8-mc26.1.x-Fabric.jar`
+- `real-serene-seasons-1.0.4.jar`
+- `remorphed-fabric-8.0.jar`
+- `RoughlyEnoughItems-fabric-26.1.9999.jar`
+- `ScalableLux-0.2.0+fabric.2b63825-all.jar`
+- `SereneSeasons-fabric-26.1.2-26.1.2.0.2.jar`
+- `ServerLinksSender-1.0.1.jar.DISABLED`
+- `silkiertouch-26.1.2-1.2.jar`
+- `sit!-1.2.6.2+26.1.jar`
+- `skinshifter-fabric-3.1.0.jar`
+- `sound-physics-remastered-fabric-1.5.1+26.1.2.jar`
+- `spark-1.10.172-fabric.jar`
+- `ssdh-1.1.0.jar`
+- `starterkit-26.1.2-8.0.jar`
+- `styled-chat-2.12.0+26.1.2.jar`
+- `styledplayerlist-3.11.1+26.1.jar`
+- `travelersbackpack-fabric-26.1.2-11.2.6.jar`
+- `universal_shops-1.14.0+26.1.jar`
+- `vanilla-permissions-0.3.6+26.1.2.jar`
+- `vanish-1.6.8+26.1.jar`
+- `vcinteraction-fabric-1.0.8+26.1.2.jar`
+- `veinminer-enchant-2.9.0.jar`
+- `veinminer-fabric-2.10.0.jar`
+- `villagerconverting-1.5.2+26.1.jar`
+- `vmp-fabric-mc26.1.2-0.2.0+beta.7.234-all.jar`
+- `voicechat-fabric-2.6.17+26.1.2.jar`
+- `walkers-fabric-8.2.jar`
+- `worldedit-mod-7.4.3.jar`
+- `yet_another_config_lib_v3-3.9.3+26.1-fabric.jar`
 
-**Gameplay Features:**
-- Open Parties and Claims - Land claiming system
-- Inventory Sorter - Automatic inventory sorting
-- Traveler's Backpack - Portable storage solution with customizable backpacks ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
-- Falling Tree - Tree chopping mechanics
-- Veinminer + Veinminer Enchant - Mine entire ore veins at once (requires enchanting pickaxe with Veinminer enchantment)
-- KleeSlabs - Slab breaking mechanics
-- Graves - Death chest system
-- Pet Protect - Pet protection
-- Pet Teleport Fix - Pet teleportation fixes
-- Anvil Restoration - Anvil repair mechanics (right-click anvil with iron to repair)
-- ReMorphed - Transform into mobs/players after killing them
-- Sit! - Sitting mechanics
-- BetterDays - Adjusts day/night cycle length and integrates with Serene Seasons
-- BubbleColumnTweaks - Tweaks magma and soul sand bubble column travel speed
-- CopperGratesBubbleThru - Allows bubble columns to pass through copper grates
-- Serene Seasons - Adds Spring, Summer, Fall, and Winter cycles to the world
-- Serene Seasons Plus - Enhancements and optimizations for Serene Seasons
-- Real Serene Seasons - Syncs the season clock to real-world time based on the server
-- Leash Villager - Lets players leash villagers while sneaking with a lead
-- VillagerConverting - Ensures villagers turn into zombie villagers instead of dying to zombies
-- Universal Shops - Player-to-player shop system
-- CombatLog - Prevents combat logging, will die if they leave in combat
-
-**Permissions & Access:**
-- Fabric Permissions API - Permission system API
-- Vanilla Permissions - Vanilla permission support
-
-**Visual & Client Features:**
-- Distant Horizons - Extended render distance
-- Jade - Block/entity information display
-- Styled Chat - Enhanced chat system
-- Styled Player List - Enhanced player list
-- HoloDisplays - Hologram display system
-- Sound Physics Remastered - Realistic sound propagation and reverb
-- Roughly Enough Items - Recipe and item lookup interface for players
-
-**Utilities:**
-- Mod Menu - In-game mod configuration
-- Cloth Config - Configuration framework
-- Forge Config API Port - Configuration compatibility
-- Collective - Library mod
-- CraftedCore - Core functionality
-- Balm - Library mod
-- OtterLib - Library mod (dependency)
-- Lithostitched - Lithium compatibility
-- GlitchCore - Core library required by Serene Seasons
-- InvView - Inventory viewing
-- WorldEdit - World editing tools
-- ChoiceTheorem's Overhauled Village (CTOV) - Enhanced village generation and structures
-- Explorify - Adds new vanilla-friendly structures to world generation
-- Walkers - Mob transformation library (dependency)
-- SkinShifter - Skin changing library (dependency)
-- Fabric Language Kotlin - Kotlin language support library
-- Cardinal Components API - Core modding API for Fabric
-- Silk - Dependency library for various mods
-
-**Voice Chat:**
-- Voice Chat - Proximity-based voice chat system
-- VCInteraction - Voice chat interaction features
+> Current total: **81 jars** (`80` enabled + `1` disabled).
 
 ### 👥 **LuckPerms Permission Setup**
 

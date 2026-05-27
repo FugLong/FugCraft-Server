@@ -3,6 +3,9 @@
         "name": "Alternate Current"
     },
     {
+        "name": "Am I Up To Date?"
+    },
+    {
         "name": "Anvil Restoration"
     },
     {
@@ -12,10 +15,19 @@
         "name": "Atmosfera"
     },
     {
+        "name": "BadOptimizations"
+    },
+    {
+        "name": "Balm"
+    },
+    {
+        "name": "Beryl"
+    },
+    {
         "name": "BetterDays"
     },
     {
-        "name": "Cardinal Components API"
+        "name": "Bubble Column Tweaks"
     },
     {
         "name": "ChatAnimation"
@@ -24,10 +36,19 @@
         "name": "ChoiceTheorem's Overhauled Village"
     },
     {
-        "name": "Cloth Config v19"
+        "name": "Cloth Config v26.1"
+    },
+    {
+        "name": "Clumps"
     },
     {
         "name": "Collective"
+    },
+    {
+        "name": "Concurrent Chunk Management Engine"
+    },
+    {
+        "name": "Continuity"
     },
     {
         "name": "Controlify"
@@ -36,7 +57,13 @@
         "name": "CraftedCore"
     },
     {
+        "name": "Cull Leaves"
+    },
+    {
         "name": "Distant Horizons"
+    },
+    {
+        "name": "Distant Horizons — VulkanMod Extension"
     },
     {
         "name": "Entity Model Features"
@@ -63,6 +90,15 @@
         "name": "Fabric Language Kotlin"
     },
     {
+        "name": "FallingTree"
+    },
+    {
+        "name": "Fast Item Frames"
+    },
+    {
+        "name": "FerriteCore"
+    },
+    {
         "name": "Forge Config API Port"
     },
     {
@@ -75,16 +111,34 @@
         "name": "Hey That's Mine"
     },
     {
-        "name": "Inventory Sorter"
+        "name": "Immersive Optimization"
     },
     {
-        "name": "Iris"
+        "name": "Inventory Sorter"
     },
     {
         "name": "Jade"
     },
     {
+        "name": "JourneyPAC"
+    },
+    {
+        "name": "Journeymap"
+    },
+    {
+        "name": "KleeSlabs"
+    },
+    {
+        "name": "Krypton"
+    },
+    {
         "name": "LambDynamicLights"
+    },
+    {
+        "name": "Leash Villager"
+    },
+    {
+        "name": "Lighty"
     },
     {
         "name": "Lithium"
@@ -93,40 +147,40 @@
         "name": "Lithostitched"
     },
     {
-        "name": "Minespawners"
-    },
-    {
         "name": "Mod Menu"
     },
     {
-        "name": "Model Gap Fix"
+        "name": "More Culling"
     },
     {
         "name": "No Chat Reports"
     },
     {
-        "name": "Noisium"
+        "name": "Not Enough Vulkan"
     },
     {
         "name": "NotEnoughAnimations"
     },
     {
-        "name": "OctoLib"
-    },
-    {
         "name": "Open Parties and Claims"
     },
     {
-        "name": "Particle Rain"
+        "name": "OtterLib"
     },
     {
-        "name": "Perception"
+        "name": "Packet Fixer"
+    },
+    {
+        "name": "Particle Core"
+    },
+    {
+        "name": "PetProtect"
     },
     {
         "name": "Placeholder API"
     },
     {
-        "name": "Player Animator"
+        "name": "Player Animation Library"
     },
     {
         "name": "Polymer"
@@ -135,13 +189,13 @@
         "name": "Presence Footsteps"
     },
     {
+        "name": "Puzzles Lib"
+    },
+    {
         "name": "ReMorphed"
     },
     {
         "name": "Real Serene Seasons"
-    },
-    {
-        "name": "Reese's Sodium Options"
     },
     {
         "name": "Roughly Enough Items"
@@ -150,31 +204,37 @@
         "name": "ScalableLux"
     },
     {
-        "name": "Serene Seasons Plus"
+        "name": "Serene Seasons X Distant Horizons"
     },
     {
         "name": "SereneSeasons"
     },
     {
+        "name": "Silkier Touch"
+    },
+    {
         "name": "Simple Voice Chat"
+    },
+    {
+        "name": "Sit!"
     },
     {
         "name": "SkinShifter"
     },
     {
+        "name": "Skyboxify"
+    },
+    {
         "name": "SmoothGui"
-    },
-    {
-        "name": "Sodium"
-    },
-    {
-        "name": "Sodium Extra"
     },
     {
         "name": "Sound Physics Remastered"
     },
     {
         "name": "Subtle Effects"
+    },
+    {
+        "name": "Too Many Entities"
     },
     {
         "name": "Traveler's Backpack"
@@ -186,30 +246,30 @@
         "name": "Universal Shops"
     },
     {
+        "name": "Veinminer"
+    },
+    {
+        "name": "Veinminer Enchantment"
+    },
+    {
+        "name": "Villager Converting"
+    },
+    {
         "name": "Visuality"
     },
     {
         "name": "Voice Chat Interaction"
     },
     {
-        "name": "Wakes"
+        "name": "VulkanMod"
     },
     {
         "name": "Walkers"
-    },
-    {
-        "name": "Xaero's Minimap"
-    },
-    {
-        "name": "Xaero's World Map"
     },
     {
         "name": "YetAnotherConfigLib"
     },
     {
         "name": "Zoomify"
-    },
-    {
-        "name": "petprotect"
     }
 ]

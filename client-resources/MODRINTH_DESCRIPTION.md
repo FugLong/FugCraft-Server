@@ -19,15 +19,15 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ## ✨ Key Features
 
 ### 🚀 **Performance Optimized**
-- **Sodium** + **Lithium** for incredible FPS improvements
-- **EntityCulling** and **Noisium** for smooth gameplay
+- **VulkanMod** + **Distant Horizons** as the core rendering direction
+- Additional client and server-side optimization mods for smooth gameplay
 - Optimized default settings for most systems
 - Compatible with low-end to high-end hardware
 - **+ More!** Additional performance tweaks and optimizations
 
 ### 🎨 **Beautiful Visuals**
 - **Distant Horizons** - Render way beyond normal distances (thousands of chunks on beefy systems!)
-- **Iris Shader Support** with curated shader packs included
+- **Beryl shader support** included as an experimental option
 - **Ashen 16x** resource pack for clean, vanilla+ textures
 - Enhanced particles, weather effects, and atmospheric ambience from additional mods and resource packs
 - Dynamic lighting, visual effects, and immersive improvements
@@ -75,8 +75,8 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 ## 📦 What's Included?
 
 ### Mods
-**71 carefully selected mods** including:
-- Core performance mods (Sodium, Lithium, Iris)
+**A carefully selected mod stack** including:
+- Core performance mods centered around VulkanMod + Distant Horizons
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
 - Audio improvements (Ambient sounds, realistic footsteps, sound physics)
 - Gameplay features (ReMorphed, Claims, Shops, Voice Chat)
@@ -92,44 +92,41 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **Atmospheric ambience** - Immersive environmental sounds and audio enhancements
 - All pre-configured and optimized for performance
 
-### Shader Packs (Included!)
-- **Complementary Re-imagined** (Default) - Beautiful lighting and atmosphere
-- **Make-Up Ultra Fast** - Clean and optimized (**HIGHLY** recommended to disable bloom)
-- Additional performance-friendly shaders
-- All shaders are optional and can be disabled
+### Shader Support (Experimental)
+- **Beryl** is included for optional shader experimentation
+- Shaders are **not** the default intended experience
+- FugCraft is tuned first for high render distance + high FPS without shaders
+- You can enable/disable shaders based on your hardware and preferences
 
 ---
 
 ## ⚙️ Optimization Guide
 
 ### Default Settings
-The modpack comes with **VERY optimized default settings** that prioritize performance on weaker systems like a MacBook Air. Many, if not most, users with gaming PCs will want to increase the graphics settings.
+The modpack now uses **performance-first defaults** tuned around VulkanMod + Distant Horizons:
+- **Distant Horizons render distance:** `256`
+- **Normal render distance:** `16`
+- **Simulation distance:** conservative by default for stability
 
 ### 🎨 Want Better Visuals?
-1. **Increase shader quality preset** (default is "Potato")
-   - Options → Video Settings → Shader Packs (top right)
-   - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
-2. **Increase Distant Horizons render distance** (default is 64 chunks)
+1. **Increase Distant Horizons render distance** (default is 256)
    - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-   - Increase LOD Render Distance to **256 chunks** for great results, or **512+ chunks** if your system can handle it
-3. **Increase normal Minecraft render distance and simulation distance** (default is 6 render, 5 simulation)
-   - Options → Video Settings → **Render Distance**: Increase to **8-32 chunks**
-   - Options → Video Settings → **Simulation Distance**: Increase to **6-10 chunks**
-   - Don't make your normal render distance crazy high; Distant Horizons works best with smaller render distances on most PCs
+   - Increase further if your system can handle it
+2. **Increase Distant Horizons quality preset**
+   - Higher quality gives cleaner distant terrain (with higher GPU cost)
+3. **Try Beryl shaders (experimental)**
+   - Enable in video settings and tune to preference
+4. **If you have a beast PC, increase simulation distance**
+   - Raise in steps and test for stability
 
 ### ⚡ Need Better Performance?
-1. **Disable shaders** if you need more FPS
-   - Options → Video Settings → Shader Packs → OFF
-   - The modpack still looks great with just the resource packs!
-2. **Decrease Distant Horizons render distance** (default is 64 chunks)
+1. **Turn down Distant Horizons quality preset first**
+2. **Decrease Distant Horizons render distance** (default is 256)
    - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-   - Try decreasing LOD Render Distance to **32 chunks** for better performance
-3. **Optimize Particle Rain mod** if experiencing poor performance during rainstorms
-   - **Option 1:** Go to **Mod Menu** → **Particle Rain** → Turn down the **particle limit** for better performance
-   - **Option 2:** If you need even more performance, disable the mod entirely:
-     - In your launcher, disable the Particle Rain mod before launching, OR
-     - Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
-   - This mod can be quite demanding during heavy rain, especially on weaker systems
+3. **Turn Distant Horizons off entirely** if needed
+4. **Lower normal render distance**
+5. **Lower simulation distance**
+6. **Disable Beryl shaders** when chasing max FPS
 
 **macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
 - MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
@@ -186,7 +183,7 @@ Essential commands for the FugCraft server:
 - Voice chat has proximity - walk closer to hear players better
 - Use the claims system to protect your builds from griefing
 - Notice the enhanced particles and ambience - look for improved rain, fire, and environmental effects!
-- Shaders can be toggled on/off easily in video settings
+- Beryl shaders are optional and experimental
 - Distant Horizons generates LOD chunks gradually - be patient for best results!
 - Check out the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki) to learn how to use all the backpack features!
 
@@ -194,7 +191,7 @@ Essential commands for the FugCraft server:
 
 ## 🎯 Target Version
 
-**Fabric 1.21.8** (Currently updating to 1.21.10)
+**Fabric 26.1.2**
 
 ---
 

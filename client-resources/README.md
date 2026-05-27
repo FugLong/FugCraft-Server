@@ -1,6 +1,6 @@
 # FugCraft Client Resources
 
-**Target Client Version:** Fabric 1.21.8 (Currently updating to 1.21.10)
+**Target Client Version:** Fabric 26.1.2
 
 ## 🔗 Quick Links
 
@@ -13,7 +13,7 @@
 
 ## 📥 Get FugCraft Modpack
 
-The **easiest way** to get all FugCraft mods, resource packs, and shaders is through the official Modrinth modpack:
+The **easiest way** to get all FugCraft mods and resource packs is through the official Modrinth modpack:
 
 🔗 **[Download FugCraft Modpack on Modrinth](https://modrinth.com/modpack/fugcraft)**
 
@@ -29,41 +29,44 @@ The **easiest way** to get all FugCraft mods, resource packs, and shaders is thr
 - Import the `.mrpack` file into your launcher
 - Launch and play!
 
-> **✨ Why Modrinth?** Automatic updates, all mods & resource packs pre-configured, shader packs included, and one-click installation!
+> **✨ Why Modrinth?** Automatic updates, all mods and resource packs pre-configured, plus one-click installation.
 
 ## ⚙️ **Graphics Settings & Optimization**
 
-The modpack comes with **VERY optimized default settings** that prioritize performance on weaker systems like a MacBook Air. Many, if not most, users with gaming PCs will want to increase the graphics settings. You can adjust these based on your needs:
+FugCraft now prioritizes **performance + render distance** first, with shaders as optional experimentation.
+
+Current baseline defaults:
+- **Distant Horizons render distance:** `256`
+- **Normal render distance:** `16`
+- **Simulation distance:** tuned for stability first (raise only on stronger systems)
+
+You can adjust these based on your system:
 
 - **macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
   - MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
   - Download from: [MetalRender on Modrinth](https://modrinth.com/mod/metalrender)
 
-### 🎨 **For Better Visuals (most people on gaming PCs should do this):**
-- **Increase shader quality preset** (default is "Potato")
-  - Options → Video Settings → **Shader Packs** button (top right of screen)
-  - Select your shader → Shader Pack Settings → Choose a higher quality preset (Medium → High → Ultra)
-- **Increase Distant Horizons render distance** (default is 64 chunks)
+### 🎨 **For Better Visuals**
+- **Increase Distant Horizons render distance** (default is 256)
   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-  - Increase LOD Render Distance to **128 chunks** for great results, or **512+ chunks** if your system can handle it
-- **Increase normal Minecraft render distance and simulation distance** (default is 6 render, 5 simulation)
-  - Options → Video Settings → **Render Distance**: Increase to **8-24 chunks** 
-  - Options → Video Settings → **Simulation Distance**: Increase to **6-10 chunks**
-  - Don't make your normal render distance crazy high; Distant Horizons works best with smaller render distances on most PCs
+  - Go higher if your system can handle it
+- **Increase Distant Horizons quality preset**
+  - In DH settings, raise quality for cleaner distant terrain
+- **Try Beryl shaders (experimental)**
+  - Enable Beryl from Video Settings and tune it to preference
+- **If you have a beast PC, increase simulation distance**
+  - Raise gradually and test FPS + server tick impact
 
 ### ⚡ **For Better Performance:**
-- **Disable shaders entirely** if you need more FPS
-  - Options → Video Settings → **Shader Packs** button (top right) → Select "OFF"
-  - The modpack is still beautiful without shaders thanks to the included resource packs!
-- **Decrease Distant Horizons render distance** (default is 64 chunks)
+- **Turn down Distant Horizons quality preset**
+  - This is often the fastest way to recover FPS
+- **Decrease Distant Horizons render distance** (default is 256)
   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-  - Try decreasing LOD Render Distance to **32 chunks** for better performance
-- **Optimize Particle Rain mod** if experiencing poor performance during rainstorms
-  - **Option 1:** Go to **Mod Menu** → **Particle Rain** → Turn down the **particle limit** for better performance
-  - **Option 2:** If you need even more performance, disable the mod entirely:
-    - In your launcher, disable the Particle Rain mod before launching, OR
-    - Navigate to your `.minecraft/mods` folder and rename `particle-rain-*.jar` to `particle-rain-*.jar.disabled`
-  - This mod can be quite demanding during heavy rain, especially on weaker systems
+  - Lower this before touching lots of other settings
+- **Turn Distant Horizons off entirely** if needed
+- **Lower normal render distance** in Video Settings
+- **Lower simulation distance** in Video Settings
+- **Disable Beryl shaders** when chasing max framerate/frame-time stability
 
 > **💡 Tip:** Experiment with these settings to find your perfect balance between visuals and performance!
 
@@ -110,90 +113,17 @@ Here are the essential commands you'll use most often:
 <details>
 <summary><strong>Click to expand complete mod list</strong></summary>
 
-The FugCraft modpack includes these mods (Fabric 1.21.8):
+The canonical client mod list is maintained in:
 
-### 🔧 **Core & Performance**
-- **Fabric API** - Core Fabric functionality
-- **Sodium** - Client-side rendering optimizations
-- **Sodium Extra** - Additional Sodium features
-- **EntityCulling** - Optimizes entity rendering
-- **Lithium** - Server-side optimization ported to client
-- **Noisium** - Chunk generation performance improvements
-- **Reese's Sodium Options** - Sodium configuration
-- **ScalableLux** - Lighting optimization
-- **Alternate Current** - Redstone optimization
-- **Lithostitched** - Performance improvements
+- **`client-resources/FugCraft-mod-list.json`**
 
-### 🎨 **Visual Enhancements**
-- **Distant Horizons** - Extended render distance
-- **Iris** - Shader support
-- **NotEnoughAnimations** - Better player animations
-- **Player Animator** - Advanced animation system
-- **Entity Model Features** - Required for upgraded animations in resource packs
-- **Entity Texture Features** - Required for upgraded animations in resource packs
-- **Particle Rain** - Weather particle effects
-- **Visuality** - Visual improvements
-- **Perception** - More enhanced visual effects
-- **Wakes** - Water wake effects
-- **Subtle Effects** - Subtle visual enhancements
-- **Explosive Enhancement** - Enhanced explosion visuals
-- **Model Gap Fix** - Fixes visual glitches on some models
+That JSON file is the source of truth for Modrinth/client packaging and is updated before markdown docs when the pack changes.
 
-### 🔊 **Audio Enhancements**
-- **Atmosfera** - Adds dynamic ambient sounds to enhance atmosphere
-- **Presence Footsteps** - More immersive and realistic footstep sounds for all blocks
-- **Sound Physics Remastered** - Realistic sound propagation and reverb
-
-### 🗺️ **Navigation & Information**
-- **Xaero's Minimap** - Enhanced minimap
-- **Xaero's World Map** - Full world map
-- **Jade** - Block/entity information display
-- **Roughly Enough Items** - In-game recipe and item lookup browser
-- **Zoomify** - Smooth adjustable zoom for scouting builds and terrain
-
-### 🎮 **Gameplay Features**
-- **Inventory Sorter** - Automatic inventory sorting
-- **Traveler's Backpack** - Portable storage solution with customizable backpacks ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
-- **Universal Shops** - Player-to-player shop system ([Wiki](https://github.com/Patbox/UniversalShops/blob/main/README.md))
-- **LambDynamicLights** - Dynamic lighting
-- **Controlify** - Enhanced controller support for Java Minecraft
-- **ReMorphed** - Transform into mobs/players after killing them
-- **Open Parties and Claims** - Land claiming and party system
-- **Universal Graves** - Graves system to protect items on death
-- **Anvil Restoration** - Restore/repair anvils with iron ingots
-- **Pet Protect** - Protect your pets from damage
-- **Essential Commands** - Core server commands for teleportation and utilities (if you run singleplayer or LAN)
-- **ChoiceTheorem's Overhauled Village** - Enhanced village generation and structures
-- **Explorify** - Adds new vanilla-friendly structures to world generation
-- **BetterDays** - Customize day/night cycle length with Serene Seasons support
-- **Serene Seasons** - Brings Spring, Summer, Autumn, and Winter to the overworld
-- **Serene Seasons Plus** - Enhances and optimizes the Serene Seasons experience
-- **Real Serene Seasons** - Syncs Serene Seasons with real-world time based on your timezone
-- **HTM (Hey That's Mine!)** - Protect your chests with per-player access controls
-- **Mine Spawners** - Pick up and relocate mob spawners with silk touch
-
-### 🎤 **Voice Chat**
-- **Simple Voice Chat** - Proximity-based voice chat system
-- **Voice Chat Interaction** - Voice chat interaction features
-
-### 🛠️ **Utilities & Configuration**
-- **Mod Menu** - In-game mod configuration
-- **Cloth Config v19** - Configuration framework
-- **Collective** - Shared library for multiple mods
-- **Fzzy Config** - Configuration system
-- **YetAnotherConfigLib** - Configuration library
-- **Forge Config API Port** - Configuration compatibility
-- **Placeholder API** - Plugin placeholder support
-- **Polymer** - Server-side content framework for custom items and entities
-- **CraftedCore** - Core functionality
-- **Architectury** - Cross-platform compatibility
-- **Walkers** - Dep for ReMorphed
-- **SkinShifter** - Another dep for ReMorphed
-- **Fabric Language Kotlin** - Kotlin support
-- **OctoLib** - Library mod
-- **SmoothGui** - Improved GUI
-- **ChatAnimation** - Animated chat
-- **GlitchCore** - Library required for the Serene Seasons suite
-- **No Chat Reports** - Disables Microsoft chat report enforcement on the client
+### Highlights of the current direction
+- **Performance-first rendering stack:** VulkanMod + Distant Horizons
+- **Shader support:** Beryl is included as an **experimental** option, not the default experience
+- **Gameplay baseline:** Open Parties and Claims, ReMorphed, Traveler's Backpack, Universal Shops, Universal Graves
+- **Immersion:** Sound Physics, Presence Footsteps, Atmosfera, plus visual polish mods
+- **Utility/QoL:** REI, Jade, JourneyMap, Inventory Sorter, Essential Commands, Voice Chat
 
 </details>
