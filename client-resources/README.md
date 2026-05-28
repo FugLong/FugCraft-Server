@@ -122,6 +122,7 @@ That JSON file is the source of truth for Modrinth/client packaging and is updat
 ### Highlights of the current direction
 - **Performance-first rendering stack:** VulkanMod + Distant Horizons
 - **Shader support:** Beryl is included as an **experimental** option, not the default experience
+- **Beryl + Distant Horizons:** Not compatible today (LODs disappear when shaders are on). See **[BERYL_DH_VULKAN_COMPAT.md](BERYL_DH_VULKAN_COMPAT.md)** for technical details and upstream status.
 - **Gameplay baseline:** Open Parties and Claims, ReMorphed, Traveler's Backpack, Universal Shops, Universal Graves
 - **Immersion:** Sound Physics, Presence Footsteps, Atmosfera, plus visual polish mods
 - **Utility/QoL:** REI, Jade, JourneyMap, Inventory Sorter, Essential Commands, Voice Chat
