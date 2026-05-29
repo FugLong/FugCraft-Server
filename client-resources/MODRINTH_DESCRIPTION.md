@@ -138,7 +138,7 @@ The modpack now uses **performance-first defaults** tuned around VulkanMod + Dis
 
 > **Note:** All keybinds can be rebound in settings
 
-- **`J`** - Open JourneyMap full-screen map
+- **`J`** - Open full map
 - **`M`** - Toggle JourneyMap minimap (Fabric default)
 - **`=`** / **`-`** - Zoom JourneyMap minimap in/out
 - **`[`** - Cycle JourneyMap minimap map type

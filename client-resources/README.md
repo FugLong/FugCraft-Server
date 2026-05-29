@@ -72,7 +72,7 @@ You can adjust these based on your system:
 
 These keybinds are essential for getting the most out of your FugCraft experience:
 
-- **`J`** - Open JourneyMap full-screen map
+- **`J`** - Open full map
 - **`M`** - Toggle JourneyMap minimap (Fabric default)
 - **`=`** / **`-`** - Zoom JourneyMap minimap in/out
 - **`[`** - Cycle JourneyMap minimap map type
