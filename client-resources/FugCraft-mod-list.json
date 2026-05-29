@@ -1,5 +1,8 @@
 [
     {
+        "name": "3d-Skin-Layers"
+    },
+    {
         "name": "Alternate Current"
     },
     {
@@ -18,22 +21,34 @@
         "name": "BadOptimizations"
     },
     {
+        "name": "BaguetteLib"
+    },
+    {
         "name": "Balm"
     },
     {
         "name": "Beryl"
     },
     {
+        "name": "Better Climbing"
+    },
+    {
         "name": "BetterDays"
+    },
+    {
+        "name": "BiomesOPlenty"
     },
     {
         "name": "Bubble Column Tweaks"
     },
     {
-        "name": "ChatAnimation"
+        "name": "Camerapture"
     },
     {
-        "name": "ChoiceTheorem's Overhauled Village"
+        "name": "Chat Heads"
+    },
+    {
+        "name": "ChatAnimation"
     },
     {
         "name": "Cloth Config v26.1"
@@ -54,16 +69,79 @@
         "name": "Controlify"
     },
     {
+        "name": "CopperGratesBubbleThru"
+    },
+    {
         "name": "CraftedCore"
     },
     {
+        "name": "Crate Delight"
+    },
+    {
+        "name": "Cristel Lib"
+    },
+    {
         "name": "Cull Leaves"
+    },
+    {
+        "name": "Cut Through"
+    },
+    {
+        "name": "Delight Lib"
+    },
+    {
+        "name": "Diagonal Fences"
+    },
+    {
+        "name": "Diagonal Walls"
+    },
+    {
+        "name": "Diagonal Windows"
+    },
+    {
+        "name": "Display Delight [Fabric]"
     },
     {
         "name": "Distant Horizons"
     },
     {
         "name": "Distant Horizons — VulkanMod Extension"
+    },
+    {
+        "name": "Dungeons and Taverns"
+    },
+    {
+        "name": "Dungeons and Taverns Ancient City Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Desert Temple Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Jungle Temple Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Nether Fortress Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Ocean Monument Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Pillager Outpost Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Stronghold Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Swamp Hut Overhaul"
+    },
+    {
+        "name": "Dungeons and Taverns Woodland Mansion Overhaul"
+    },
+    {
+        "name": "Easy Magic"
+    },
+    {
+        "name": "Effortless Building"
     },
     {
         "name": "Entity Model Features"
@@ -93,6 +171,9 @@
         "name": "FallingTree"
     },
     {
+        "name": "Farmer's Delight"
+    },
+    {
         "name": "Fast Item Frames"
     },
     {
@@ -102,6 +183,12 @@
         "name": "Forge Config API Port"
     },
     {
+        "name": "Friends&Foes"
+    },
+    {
+        "name": "Full Brightness Toggle"
+    },
+    {
         "name": "Fzzy Config"
     },
     {
@@ -109,6 +196,9 @@
     },
     {
         "name": "Hey That's Mine"
+    },
+    {
+        "name": "Hopper Gadgetry"
     },
     {
         "name": "Immersive Optimization"
@@ -147,10 +237,19 @@
         "name": "Lithostitched"
     },
     {
+        "name": "M.R.U"
+    },
+    {
+        "name": "Macaw's Paths and Pavings"
+    },
+    {
         "name": "Mod Menu"
     },
     {
         "name": "More Culling"
+    },
+    {
+        "name": "More Delight"
     },
     {
         "name": "No Chat Reports"
@@ -174,6 +273,9 @@
         "name": "Particle Core"
     },
     {
+        "name": "Particular Reforged"
+    },
+    {
         "name": "PetProtect"
     },
     {
@@ -192,16 +294,22 @@
         "name": "Puzzles Lib"
     },
     {
-        "name": "ReMorphed"
+        "name": "Real Serene Seasons"
     },
     {
-        "name": "Real Serene Seasons"
+        "name": "Resourceful Lib"
     },
     {
         "name": "Roughly Enough Items"
     },
     {
+        "name": "Rustic Delight"
+    },
+    {
         "name": "ScalableLux"
+    },
+    {
+        "name": "Season Cache"
     },
     {
         "name": "Serene Seasons X Distant Horizons"
@@ -219,25 +327,43 @@
         "name": "Sit!"
     },
     {
-        "name": "SkinShifter"
-    },
-    {
         "name": "Skyboxify"
     },
     {
         "name": "SmoothGui"
     },
     {
+        "name": "Snow Under Trees"
+    },
+    {
         "name": "Sound Physics Remastered"
+    },
+    {
+        "name": "Storage Delight"
     },
     {
         "name": "Subtle Effects"
     },
     {
+        "name": "Tax Free Levels"
+    },
+    {
+        "name": "TerraBlender"
+    },
+    {
         "name": "Too Many Entities"
     },
     {
+        "name": "Towns and Towers"
+    },
+    {
         "name": "Traveler's Backpack"
+    },
+    {
+        "name": "Underground Worlds"
+    },
+    {
+        "name": "Universal Bone Meal"
     },
     {
         "name": "Universal Graves"
@@ -255,6 +381,12 @@
         "name": "Villager Converting"
     },
     {
+        "name": "Villager Names"
+    },
+    {
+        "name": "Visual Workbench"
+    },
+    {
         "name": "Visuality"
     },
     {
@@ -264,7 +396,7 @@
         "name": "VulkanMod"
     },
     {
-        "name": "Walkers"
+        "name": "WaveyCapes"
     },
     {
         "name": "YetAnotherConfigLib"

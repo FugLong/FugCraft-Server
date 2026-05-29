@@ -97,35 +97,61 @@ The startup scripts use these default values:
 
 The server currently targets **Minecraft 26.1.2 (Fabric)**.
 
-The list below is an exact snapshot of the top-level `mods` jars in this repo (including disabled jars):
+The list below is an exact snapshot of enabled top-level `mods` jars in this repo (`.jar.disabled` / `.jar.DISABLED` files are omitted):
 
-- `[fabric]ctov-26.1-3.6.4.jar`
+- `alternate-current-mc26.1-1.9.0.jar`
 - `antixray-fabric-1.4.16+26.1.jar`
 - `anvilrestoration-26.1.2-2.5.jar`
 - `architectury-19.0.1-fabric.jar`
+- `baguettelib-26.1.2-Fabric-2.0.4.jar`
 - `balm-fabric-26.1.2-26.1.2.6.jar`
 - `betterdays-26.1.2-fabric-4.1.1.6-FABRIC.jar`
+- `BiomesOPlenty-fabric-26.1.2-26.1.2.0.11.jar`
 - `bubblecolumntweaks-1.1.0.jar`
 - `c2me-fabric-mc26.1.2-0.3.7+alpha.0.69.jar`
+- `camerapture-1.10.14+mc26.1.2.jar`
 - `cloth-config-26.1.154.jar`
 - `collective-26.1.2-8.22.jar`
 - `commandaliases-1.0.4+mc26.1.2-unknown.jar`
 - `controlify-3.0.1+26.1-fabric.jar`
-- `CopperGratesBubbleThru-2.1+26.1.jar`
+- `CopperGratesBubbleThru-2.1+26.1.2.jar`
 - `craftedcore-fabric-8.0.jar`
 - `crashexploitfixer-fabric-2.0.0+26.1.2.jar`
+- `cratedelight-26.03.26+26.1-fabric.jar`
+- `cristellib-fabric-26.1.2-3.1.4.jar`
+- `delightlib-26.05.18-26.1-fabric.jar`
+- `DiagonalFences-v26.1.0-mc26.1.x-Fabric.jar`
+- `DiagonalWalls-v26.1.0-mc26.1.x-Fabric.jar`
+- `DiagonalWindows-v26.1.0-mc26.1.x-Fabric.jar`
+- `display-delight-1.8.1-mc26.1.2.jar`
 - `DistantHorizons-3.0.3-b-26.1.2-fabric-neoforge.jar`
+- `DistantHorizons-VulkanMod-fabric-2.4.0-3.0.0+vm.2-mc26.1.2.jar`
+- `dungeons-and-taverns-5.2.0.jar`
+- `dungeons-and-taverns-ancient-city-overhaul-3.3.jar`
+- `dungeons-and-taverns-desert-temple-overhaul-v2.1.jar`
+- `dungeons-and-taverns-jungle-temple-overhaul-v2.1.jar`
+- `dungeons-and-taverns-nether-fortress-overhaul-v3.1.jar`
+- `dungeons-and-taverns-ocean-monument-overhaul-v2.2.jar`
+- `dungeons-and-taverns-pillager-outpost-overhaul-v3.3.jar`
+- `dungeons-and-taverns-stronghold-overhaul-v2.4.0.jar`
+- `dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar`
+- `dungeons-and-taverns-woodland-mansion-overhaul-2.1.jar`
+- `EasyMagic-v26.1.0-mc26.1.x-Fabric.jar`
+- `effortlessbuilding-fabric-26.1.2-4.1.jar`
 - `essential_commands-0.39.0-mc26.1.1.jar`
 - `Explorify v1.6.5.mod.jar`
 - `fabric-api-0.149.1+26.1.2.jar`
 - `fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar`
 - `FallingTree-26.1.2-25.jar`
+- `FarmersDelight-26.1-3.6.5+refabricated.jar`
 - `FastItemFrames-v26.1.0-mc26.1.x-Fabric.jar`
 - `ferritecore-9.0.0-fabric.jar`
 - `ForgeConfigAPIPort-v26.1.4-mc26.1.x-Fabric.jar`
+- `friendsandfoes-fabric-4.0.26+mc26.1.2.jar`
 - `GlitchCore-fabric-26.1.2-26.1.2.0.2.jar`
 - `graves-3.11.1+26.1.2.jar`
 - `holodisplays-0.5.0+26.1-26.1.2.jar`
+- `HopperGadgetry-v26.1.0-mc26.1.x-Fabric.jar`
 - `htm-1.2.3.jar`
 - `immersive_optimization-fabric-26.1.2-0.1.5.jar`
 - `inventorysorter-fabric-3.0.0-beta.4+mc26.1.2.jar`
@@ -140,7 +166,10 @@ The list below is an exact snapshot of the top-level `mods` jars in this repo (i
 - `lithostitched-1.7.7-fabric-26.1.jar`
 - `LuckPerms-Fabric-5.5.52.jar`
 - `ly-combat-log-v1.0.3.jar`
+- `mcw-paths-1.1.1-mc26.1fabric.jar`
 - `modmenu-18.0.0-beta.1.jar`
+- `moredelight-26.05.26-26.1-fabric.jar`
+- `mru-1.0.28+lts+26.1-fabric.jar`
 - `NoChatReports-FABRIC-26.1-v2.19.0.jar`
 - `oldschooljail-1.1.0.jar`
 - `open-parties-and-claims-fabric-26.1.2-0.26.3.jar`
@@ -153,35 +182,44 @@ The list below is an exact snapshot of the top-level `mods` jars in this repo (i
 - `PuppetPlayers-1.6.1+26.1.2.jar`
 - `PuzzlesLib-v26.1.8-mc26.1.x-Fabric.jar`
 - `real-serene-seasons-1.0.4.jar`
-- `remorphed-fabric-8.0.jar`
+- `ResourcefulLib-4.0.1.jar`
 - `RoughlyEnoughItems-fabric-26.1.9999.jar`
+- `rusticdelight-fabric-26.1-1.6.0.jar`
 - `ScalableLux-0.2.0+fabric.2b63825-all.jar`
+- `seasoncache-1.4.0.jar`
 - `SereneSeasons-fabric-26.1.2-26.1.2.0.2.jar`
-- `ServerLinksSender-1.0.1.jar.DISABLED`
+- `ServerLinksSender-1.1.0.jar`
 - `silkiertouch-26.1.2-1.2.jar`
 - `sit!-1.2.6.2+26.1.jar`
-- `skinshifter-fabric-3.1.0.jar`
+- `SnowUnderTrees-2.7.6+26.1.jar`
 - `sound-physics-remastered-fabric-1.5.1+26.1.2.jar`
 - `spark-1.10.172-fabric.jar`
 - `ssdh-1.1.0.jar`
 - `starterkit-26.1.2-8.0.jar`
+- `storagedelight-26.03.25+26.1-fabric.jar`
 - `styled-chat-2.12.0+26.1.2.jar`
 - `styledplayerlist-3.11.1+26.1.jar`
+- `t_and_t-fabric-neoforge-1.13.11.jar`
+- `TaxFreeLevels-1.5.2-fabric-26.1.jar`
+- `TerraBlender-fabric-26.1.2-26.1.2.0.2.jar`
 - `travelersbackpack-fabric-26.1.2-11.2.6.jar`
+- `undergroundworlds-fabric-3.1.1-26.1.jar`
 - `universal_shops-1.14.0+26.1.jar`
+- `UniversalBoneMeal-v26.1.0-mc26.1.x-Fabric.jar`
 - `vanilla-permissions-0.3.6+26.1.2.jar`
 - `vanish-1.6.8+26.1.jar`
 - `vcinteraction-fabric-1.0.8+26.1.2.jar`
-- `veinminer-enchant-2.9.0.jar`
-- `veinminer-fabric-2.10.0.jar`
+- `veinminer-enchant-2.10.1.jar`
+- `veinminer-fabric-2.10.1.jar`
 - `villagerconverting-1.5.2+26.1.jar`
+- `villagernames-26.1.2-8.4.jar`
+- `VisualWorkbench-v26.1.0-mc26.1.x-Fabric.jar`
 - `vmp-fabric-mc26.1.2-0.2.0+beta.7.234-all.jar`
 - `voicechat-fabric-2.6.17+26.1.2.jar`
-- `walkers-fabric-8.2.jar`
 - `worldedit-mod-7.4.3.jar`
 - `yet_another_config_lib_v3-3.9.3+26.1-fabric.jar`
 
-> Current total: **81 jars** (`80` enabled + `1` disabled).
+> Current total: **119 jars** (enabled only).
 
 ### 👥 **LuckPerms Permission Setup**
 
@@ -209,13 +247,13 @@ These groups build on one another - each level includes all permissions from low
   - Can set 1 home, basic commands only, claim 32 chunks max
 
 - **`member`** - Regular players  
-  - Can set 3 homes, access to warps + more commands, can use ReMorphed mod (no flying mobs), claim 64 chunks max
+  - Can set 3 homes, access to warps + more commands, claim 64 chunks max
 
 - **`citizen`** - Trusted players
-  - Can set 5 homes, can nickname themselves, basic flying and lava walking mobs in ReMorphed, claim 128 chunks max
+  - Can set 5 homes, can nickname themselves, claim 128 chunks max
 
 - **`moderator`** - Staff members
-  - Can set 10 homes, can kick players, can TP without requesting, more mod commands, special ReMorphed forms like ender dragon, claim 256 chunks max
+  - Can set 10 homes, can kick players, can TP without requesting, more mod commands, claim 256 chunks max
 
 - **`veteran`** - Long-time players
   - Like moderators but can set 20 homes, access to cheaty commands like `/anvil`, `/enderchest`, `/feed`

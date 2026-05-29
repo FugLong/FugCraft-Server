@@ -10,7 +10,7 @@
 
 **FugCraft** is a carefully curated **Vanilla+** modpack designed for multiplayer. This modpack enhances your Minecraft experience with performance optimizations, visual improvements, quality-of-life features, and unique gameplay mechanics — all while staying true to the vanilla feel.
 
-Whether you're building massive structures with **Distant Horizons**, chatting with friends via **proximity voice chat**, or transforming into mobs you've unlocked with **ReMorphed**, FugCraft offers an enhanced Minecraft experience without straying too far from vanilla gameplay.
+Whether you're building massive structures with **Distant Horizons**, chatting with friends via **proximity voice chat**, or exploring with **JourneyMap**, FugCraft offers an enhanced Minecraft experience without straying too far from vanilla gameplay.
 
 > **🖥️ Want to host your own server?** The complete open-source server setup is available on [GitHub](https://github.com/FugLong/FugCraft-Server) - pre-configured and ready to deploy locally or remotely!
 
@@ -38,20 +38,22 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **Sound Physics Remastered** - Realistic sound propagation and reverb
 
 ### 🗺️ **Navigation & Information**
-- **Xaero's Minimap & World Map** for easy navigation
+- **JourneyMap** - Full-screen map, minimap, and waypoints
 - **Jade** for detailed block and entity information
 - **Roughly Enough Items** for quick recipe and item lookups
 - **Zoomify** for smooth zooming when planning megabuilds
 - Integrated waypoint system
 
 ### 🎮 **Gameplay Enhancements**
-- **Enhanced World Generation** - Overhauled villages and new vanilla-friendly structures throughout the world
+- **Expanded World Generation** - Biomes O' Plenty biomes plus Dungeons and Taverns structure overhauls, Towns and Towers, Underground Worlds, and Explorify
 - **Real-World Synced Seasons** - Experience dynamic seasons powered by Serene Seasons, BetterDays, and Real Serene Seasons
-- **ReMorphed** - Transform into mobs after killing them!
+- **Farmer's Delight** - Expanded cooking, farming, and food storage with addon content
+- **Friends&Foes** - More vanilla-friendly mobs and structure variety
 - **Open Parties and Claims** - Protect your builds and team up
 - **Universal Shops** - Create and run player-to-player shops ([Wiki](https://github.com/Patbox/UniversalShops/blob/main/README.md))
 - **Universal Graves** - Never lose your items on death
 - **Traveler's Backpack** - Portable storage solution with customizable backpacks for extended adventures ([Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki))
+- **Veinminer** - Mine connected ores quickly (with enchantment support)
 - **Anvil Restoration** - Repair anvils with iron ingots
 - **Inventory Sorter** - Keep your chests organized
 - **Pet Protection** - Your pets are safe from harm
@@ -79,8 +81,10 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - Core performance mods centered around VulkanMod + Distant Horizons
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
 - Audio improvements (Ambient sounds, realistic footsteps, sound physics)
-- Gameplay features (ReMorphed, Claims, Shops, Voice Chat)
-- Quality of life improvements (Inventory Sorter, Backpacks, Dynamic Lights)
+- Expanded world gen (Biomes O' Plenty, Dungeons and Taverns, Towns and Towers, Underground Worlds)
+- Food and farming (Farmer's Delight and addons)
+- Gameplay features (Claims, Shops, Voice Chat, Friends&Foes, Veinminer)
+- Quality of life improvements (Inventory Sorter, Backpacks, Dynamic Lights, JourneyMap)
 - Full mod list available in the [client resources README](https://github.com/FugLong/FugCraft-Server/blob/main/client-resources/README.md)
 
 > **💡 Customization Tip:** You can disable any mod you don't want by removing it from your mods folder or renaming it with a `.disabled` extension!
@@ -128,19 +132,18 @@ The modpack now uses **performance-first defaults** tuned around VulkanMod + Dis
 5. **Lower simulation distance**
 6. **Disable Beryl shaders** when chasing max FPS
 
-**macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
-- MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
-- Download from: [MetalRender on Modrinth](https://modrinth.com/mod/metalrender)
-
 ---
 
 ## ⌨️ Essential Keybinds
 
 > **Note:** All keybinds can be rebound in settings
 
-- **`B`** - Open ReMorphed menu (transform into mobs)
-- **`X`** - Use ReMorphed mob ability
-- **`M`** - Open minimap/world map
+- **`J`** - Open JourneyMap full-screen map
+- **`M`** - Toggle JourneyMap minimap (Fabric default)
+- **`=`** / **`-`** - Zoom JourneyMap minimap in/out
+- **`[`** - Cycle JourneyMap minimap map type
+- **`B`** - Create a JourneyMap waypoint
+- **`G`** - Toggle fullbright
 - **`'`** (apostrophe) - Open claims settings
 - **`V`** - Voice chat settings
 - **`R`** - Push to talk (voice chat)
@@ -153,6 +156,7 @@ Essential commands for the FugCraft server:
 
 | Command | Description |
 |---------|-------------|
+| `/book` | Get the in-game FugCraft guide book |
 | `/home set <name>` | Set a personal home location |
 | `/home tp <name>` | Teleport to your home |
 | `/tpa <player>` | Request to teleport to a player |
@@ -180,6 +184,7 @@ Essential commands for the FugCraft server:
 ## 💡 Pro Tips
 
 - Right-click an anvil while holding iron ingots to repair it automatically
+- Open the pause menu **Server Links...** button for the repo, client guide, modpack, and wiki links
 - Voice chat has proximity - walk closer to hear players better
 - Use the claims system to protect your builds from griefing
 - Notice the enhanced particles and ambience - look for improved rain, fire, and environmental effects!

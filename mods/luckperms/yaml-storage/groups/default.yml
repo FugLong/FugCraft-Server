@@ -5,6 +5,7 @@ permissions:
     value: false
 - '*':
     value: false
+- commandaliases.book
 - commandaliases.delhome
 - commandaliases.listhomes
 - commandaliases.sethome

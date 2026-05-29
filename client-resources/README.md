@@ -42,10 +42,6 @@ Current baseline defaults:
 
 You can adjust these based on your system:
 
-- **macOS Users:** It is **highly recommended** to install **MetalRender** mod for better performance
-  - MetalRender provides significant performance improvements on macOS systems with Apple Silicon chips (M1, M2, M3, M4)
-  - Download from: [MetalRender on Modrinth](https://modrinth.com/mod/metalrender)
-
 ### 🎨 **For Better Visuals**
 - **Increase Distant Horizons render distance** (default is 256)
   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
@@ -76,14 +72,19 @@ You can adjust these based on your system:
 
 These keybinds are essential for getting the most out of your FugCraft experience:
 
-- **`B`** - Open ReMorphed menu (transform into mobs)
-- **`X`** - Use ReMorphed mob ability
-- **`M`** - Open minimap/world map
+- **`J`** - Open JourneyMap full-screen map
+- **`M`** - Toggle JourneyMap minimap (Fabric default)
+- **`=`** / **`-`** - Zoom JourneyMap minimap in/out
+- **`[`** - Cycle JourneyMap minimap map type
+- **`B`** - Create a JourneyMap waypoint
+- **`G`** - Toggle fullbright
 - **`'`** (apostrophe) - Open claims settings (land claiming)
 - **`V`** - Voice chat settings
 - **`R`** - Push to talk (voice chat)
 
 > **💡 Pro Tip:** Right-click an anvil while holding iron ingots to repair it automatically!
+
+> **🔗 Server Links:** Open the pause menu and click **Server Links...** for quick access to the repo, client guide, modpack, and wiki.
 
 ## 🎮 Basic Commands
 
@@ -91,6 +92,7 @@ Here are the essential commands you'll use most often:
 
 | Command | Description |
 |---------|-------------|
+| `/book` | Get the in-game FugCraft guide book |
 | `/home set <name>` | Set a personal home location |
 | `/home tp <name>` | Teleport to your home |
 | `/tpa <player>` | Request to teleport to a player |
@@ -122,9 +124,12 @@ That JSON file is the source of truth for Modrinth/client packaging and is updat
 ### Highlights of the current direction
 - **Performance-first rendering stack:** VulkanMod + Distant Horizons
 - **Shader support:** Beryl is included as an **experimental** option, not the default experience
-- **Beryl + Distant Horizons:** Not compatible today (LODs disappear when shaders are on). See **[BERYL_DH_VULKAN_COMPAT.md](BERYL_DH_VULKAN_COMPAT.md)** for technical details and upstream status.
-- **Gameplay baseline:** Open Parties and Claims, ReMorphed, Traveler's Backpack, Universal Shops, Universal Graves
+- **Beryl + Distant Horizons:** Not compatible today (LODs disappear when shaders are on)
+- **World generation:** Biomes O' Plenty, Dungeons and Taverns (+ structure overhauls), Towns and Towers, Underground Worlds, Explorify
+- **Food & farming:** Farmer's Delight with addon content (More Delight, Rustic Delight, Storage Delight, and more)
+- **Gameplay baseline:** Open Parties and Claims, Traveler's Backpack, Universal Shops, Universal Graves, Friends&Foes, Veinminer
 - **Immersion:** Sound Physics, Presence Footsteps, Atmosfera, plus visual polish mods
 - **Utility/QoL:** REI, Jade, JourneyMap, Inventory Sorter, Essential Commands, Voice Chat
+- **Server links:** Check the pause menu **Server Links...** button for repo, modpack, and wiki links
 
 </details>
