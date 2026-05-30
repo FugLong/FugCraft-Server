@@ -76,7 +76,9 @@ These keybinds are essential for getting the most out of your FugCraft experienc
 - **`B`** - Add waypoint
 - **`N`** - Manage waypoints
 - **`G`** - Toggle fullbright
-- **`'`** (apostrophe) - Open claims settings (land claiming)
+- **`'`** (apostrophe) - Open claims settings
+- **On full map (`J`): hold `U` + drag** - Claim an area
+- **On full map (`J`): hold `I` + drag** - Unclaim an area
 - **`V`** - Voice chat settings
 - **`R`** - Push to talk (voice chat)
 

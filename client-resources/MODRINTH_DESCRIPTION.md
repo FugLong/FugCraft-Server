@@ -137,6 +137,8 @@ The modpack uses **performance-first defaults** tuned around VulkanMod + Distant
 - **`N`** - Manage waypoints
 - **`G`** - Toggle fullbright
 - **`'`** (apostrophe) - Open claims settings
+- **On full map (`J`): hold `U` + drag** - Claim an area
+- **On full map (`J`): hold `I` + drag** - Unclaim an area
 - **`V`** - Voice chat settings
 - **`R`** - Push to talk (voice chat)
 
