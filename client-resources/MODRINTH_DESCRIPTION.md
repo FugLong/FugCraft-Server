@@ -150,7 +150,6 @@ Essential commands for the FugCraft server:
 
 | Command | Description |
 |---------|-------------|
-| `/book` | Get the in-game FugCraft guide book |
 | `/home set <name>` | Set a personal home location |
 | `/home tp <name>` | Teleport to your home |
 | `/tpa <player>` | Request to teleport to a player |
