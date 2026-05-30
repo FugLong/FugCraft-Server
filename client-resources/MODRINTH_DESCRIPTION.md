@@ -8,7 +8,7 @@
 
 ## 🎮 Welcome to FugCraft!
 
-**FugCraft** is a carefully curated **Vanilla+** modpack designed for multiplayer. This modpack enhances your Minecraft experience with performance optimizations, visual improvements, quality-of-life features, and unique gameplay mechanics — all while staying true to the vanilla feel.
+**FugCraft** is a carefully curated **Vanilla+** modpack designed for multiplayer and powered by Vulkan. This modpack enhances your Minecraft experience with performance optimizations, visual improvements, quality-of-life features, and unique gameplay mechanics — all while staying true to the vanilla feel.
 
 Whether you're building massive structures with **Distant Horizons**, chatting with friends via **proximity voice chat**, or exploring with **JourneyMap**, FugCraft offers an enhanced Minecraft experience without straying too far from vanilla gameplay.
 
@@ -27,8 +27,8 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 
 ### 🎨 **Beautiful Visuals**
 - **Distant Horizons** - Render way beyond normal distances (thousands of chunks on beefy systems!)
-- **Beryl shader support** included as an experimental option
 - **Ashen 16x** resource pack for clean, vanilla+ textures
+- **Hyper Realistic Sky** resource pack for improved clouds, sun, moon, and atmosphere
 - Enhanced particles, weather effects, and atmospheric ambience from additional mods and resource packs
 - Dynamic lighting, visual effects, and immersive improvements
 
@@ -66,7 +66,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 
 ### 🎯 **Quality of Life**
 - **Essential Commands** - Teleportation, homes, warps, and essential server utilities
-- **LambDynamicLights** - Hold torches to light your way, even without shaders enabled!
+- **LambDynamicLights** - Hold torches to light your way
 - **Controller Support** via Controlify
 - **Mod Menu** for easy configuration
 - **HTM Chest Protection** - Lock down chests with Hey That's Mine! commands
@@ -96,20 +96,14 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - **Atmospheric ambience** - Immersive environmental sounds and audio enhancements
 - All pre-configured and optimized for performance
 
-### Shader Support (Experimental)
-- **Beryl** is included for optional shader experimentation
-- Shaders are **not** the default intended experience
-- FugCraft is tuned first for high render distance + high FPS without shaders
-- You can enable/disable shaders based on your hardware and preferences
-
 ---
 
 ## ⚙️ Optimization Guide
 
 ### Default Settings
-The modpack now uses **performance-first defaults** tuned around VulkanMod + Distant Horizons:
+The modpack uses **performance-first defaults** tuned around VulkanMod + Distant Horizons:
 - **Distant Horizons render distance:** `256`
-- **Normal render distance:** `16`
+- **Normal render distance:** `12`
 - **Simulation distance:** conservative by default for stability
 
 ### 🎨 Want Better Visuals?
@@ -118,10 +112,10 @@ The modpack now uses **performance-first defaults** tuned around VulkanMod + Dis
    - Increase further if your system can handle it
 2. **Increase Distant Horizons quality preset**
    - Higher quality gives cleaner distant terrain (with higher GPU cost)
-3. **Try Beryl shaders (experimental)**
-   - Enable in video settings and tune to preference
-4. **If you have a beast PC, increase simulation distance**
+3. **If you have a beast PC, increase simulation distance**
    - Raise in steps and test for stability
+
+> **On shaders:** FugCraft does not include shader mods. We think shaders are often overrated — they can hurt FPS and fight with Distant Horizons. Beauty here comes from render distance, resource packs, and polish mods. A Vulkan-based shader option *might* be worth revisiting in the future, but it's not part of the plan today.
 
 ### ⚡ Need Better Performance?
 1. **Turn down Distant Horizons quality preset first**
@@ -130,7 +124,6 @@ The modpack now uses **performance-first defaults** tuned around VulkanMod + Dis
 3. **Turn Distant Horizons off entirely** if needed
 4. **Lower normal render distance**
 5. **Lower simulation distance**
-6. **Disable Beryl shaders** when chasing max FPS
 
 ---
 
@@ -139,10 +132,9 @@ The modpack now uses **performance-first defaults** tuned around VulkanMod + Dis
 > **Note:** All keybinds can be rebound in settings
 
 - **`J`** - Open full map
-- **`M`** - Toggle JourneyMap minimap (Fabric default)
-- **`=`** / **`-`** - Zoom JourneyMap minimap in/out
-- **`[`** - Cycle JourneyMap minimap map type
-- **`B`** - Create a JourneyMap waypoint
+- **`M`** - Toggle minimap
+- **`B`** - Add waypoint
+- **`N`** - Manage waypoints
 - **`G`** - Toggle fullbright
 - **`'`** (apostrophe) - Open claims settings
 - **`V`** - Voice chat settings
@@ -188,7 +180,6 @@ Essential commands for the FugCraft server:
 - Voice chat has proximity - walk closer to hear players better
 - Use the claims system to protect your builds from griefing
 - Notice the enhanced particles and ambience - look for improved rain, fire, and environmental effects!
-- Beryl shaders are optional and experimental
 - Distant Horizons generates LOD chunks gradually - be patient for best results!
 - Check out the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki) to learn how to use all the backpack features!
 

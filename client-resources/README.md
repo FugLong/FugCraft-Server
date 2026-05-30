@@ -33,11 +33,11 @@ The **easiest way** to get all FugCraft mods and resource packs is through the o
 
 ## ⚙️ **Graphics Settings & Optimization**
 
-FugCraft now prioritizes **performance + render distance** first, with shaders as optional experimentation.
+FugCraft is built around **performance and render distance** — making Minecraft as fast and beautiful as possible without leaning on shader packs.
 
 Current baseline defaults:
 - **Distant Horizons render distance:** `256`
-- **Normal render distance:** `16`
+- **Normal render distance:** `12`
 - **Simulation distance:** tuned for stability first (raise only on stronger systems)
 
 You can adjust these based on your system:
@@ -48,10 +48,10 @@ You can adjust these based on your system:
   - Go higher if your system can handle it
 - **Increase Distant Horizons quality preset**
   - In DH settings, raise quality for cleaner distant terrain
-- **Try Beryl shaders (experimental)**
-  - Enable Beryl from Video Settings and tune it to preference
 - **If you have a beast PC, increase simulation distance**
   - Raise gradually and test FPS + server tick impact
+
+> **On shaders:** This pack does not include or recommend shader mods. We think shaders are often overrated — they can tank FPS and clash with Distant Horizons. Our goal is great visuals through render distance, resource packs, and polish mods instead. A Vulkan-compatible shader option *might* be worth revisiting someday, but it's not a requirement for a beautiful game.
 
 ### ⚡ **For Better Performance:**
 - **Turn down Distant Horizons quality preset**
@@ -62,7 +62,6 @@ You can adjust these based on your system:
 - **Turn Distant Horizons off entirely** if needed
 - **Lower normal render distance** in Video Settings
 - **Lower simulation distance** in Video Settings
-- **Disable Beryl shaders** when chasing max framerate/frame-time stability
 
 > **💡 Tip:** Experiment with these settings to find your perfect balance between visuals and performance!
 
@@ -73,10 +72,9 @@ You can adjust these based on your system:
 These keybinds are essential for getting the most out of your FugCraft experience:
 
 - **`J`** - Open full map
-- **`M`** - Toggle JourneyMap minimap (Fabric default)
-- **`=`** / **`-`** - Zoom JourneyMap minimap in/out
-- **`[`** - Cycle JourneyMap minimap map type
-- **`B`** - Create a JourneyMap waypoint
+- **`M`** - Toggle minimap
+- **`B`** - Add waypoint
+- **`N`** - Manage waypoints
 - **`G`** - Toggle fullbright
 - **`'`** (apostrophe) - Open claims settings (land claiming)
 - **`V`** - Voice chat settings
@@ -123,8 +121,6 @@ That JSON file is the source of truth for Modrinth/client packaging and is updat
 
 ### Highlights of the current direction
 - **Performance-first rendering stack:** VulkanMod + Distant Horizons
-- **Shader support:** Beryl is included as an **experimental** option, not the default experience
-- **Beryl + Distant Horizons:** Not compatible today (LODs disappear when shaders are on)
 - **World generation:** Biomes O' Plenty, Dungeons and Taverns (+ structure overhauls), Towns and Towers, Underground Worlds, Explorify
 - **Food & farming:** Farmer's Delight with addon content (More Delight, Rustic Delight, Storage Delight, and more)
 - **Gameplay baseline:** Open Parties and Claims, Traveler's Backpack, Universal Shops, Universal Graves, Friends&Foes, Veinminer
