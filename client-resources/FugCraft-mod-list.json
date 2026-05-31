@@ -153,9 +153,6 @@
         "name": "Essential Commands"
     },
     {
-        "name": "Explorify"
-    },
-    {
         "name": "Explosive Enhancement"
     },
     {
@@ -241,6 +238,27 @@
     },
     {
         "name": "Mod Menu"
+    },
+    {
+        "name": "Moog's Glow Up"
+    },
+    {
+        "name": "Moog's Structure Lib"
+    },
+    {
+        "name": "MoogsBountifulStructures"
+    },
+    {
+        "name": "MoogsEndStructures"
+    },
+    {
+        "name": "MoogsNetherStructures"
+    },
+    {
+        "name": "MoogsSoaringStructures"
+    },
+    {
+        "name": "MoogsVoyagerStructures"
     },
     {
         "name": "More Culling"
@@ -337,9 +355,6 @@
     },
     {
         "name": "Sound Physics Remastered"
-    },
-    {
-        "name": "Storage Delight"
     },
     {
         "name": "Subtle Effects"

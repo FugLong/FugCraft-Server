@@ -1,4 +1,4 @@
-# FugCraft - Vanilla+ Multiplayer Experience
+# FugCraft - Vanilla++ Multiplayer
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/FugLong/FugCraft-Server/main/demo_Images/MakeUpUltraFastShaders_NightMansion.png" alt="FugCraft Night Mansion" width="600">
@@ -6,13 +6,19 @@
 
 ---
 
-## 🎮 Welcome to FugCraft!
+## What is FugCraft?
 
-**FugCraft** is a carefully curated **Vanilla+** modpack designed for multiplayer and powered by Vulkan. This modpack enhances your Minecraft experience with performance optimizations, visual improvements, quality-of-life features, and unique gameplay mechanics — all while staying true to the vanilla feel.
+FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft at heart, just faster, farther, and richer.
 
-Whether you're building massive structures with **Distant Horizons**, chatting with friends via **proximity voice chat**, or exploring with **JourneyMap**, FugCraft offers an enhanced Minecraft experience without straying too far from vanilla gameplay.
+| | |
+|---|---|
+| 🌍 **See forever** | **VulkanMod + Distant Horizons** — render way beyond normal distances while staying performant |
+| 🗺️ **Explore more** | **Biomes O' Plenty**, overhauled vanilla structures, **Moogs structure packs**, **Towns and Towers**, **Underground Worlds**, and **real-world synced seasons** |
+| 🤝 **Play together** | Proximity **voice chat**, **parties**, **map-based land claims**, **player shops**, and **death graves** |
+| 🍳 **Live off the land** | **Farmer's Delight** cooking and farming with addon content |
+| ✨ **Feel the world** | Sound physics, footsteps, dynamic lighting, and bundled resource packs (**Ashen 16x**, **Hyper Realistic Sky**) |
 
-> **🖥️ Want to host your own server?** The complete open-source server setup is available on [GitHub](https://github.com/FugLong/FugCraft-Server) - pre-configured and ready to deploy locally or remotely!
+> **🖥️ Want to host your own server?** The complete open-source server setup is on [GitHub](https://github.com/FugLong/FugCraft-Server) — pre-configured and ready to deploy!
 
 ---
 
@@ -45,8 +51,8 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - Integrated waypoint system
 
 ### 🎮 **Gameplay Enhancements**
-- **Expanded World Generation** - Biomes O' Plenty biomes plus Dungeons and Taverns structure overhauls, Towns and Towers, Underground Worlds, and Explorify
-- **Real-World Synced Seasons** - Experience dynamic seasons powered by Serene Seasons, BetterDays, and Real Serene Seasons
+- **Expanded World Generation** - Biomes O' Plenty, Dungeons and Taverns structure overhauls, Moogs structure packs, Towns and Towers, and Underground Worlds
+- **Real-World Synced Seasons** - Dynamic seasons powered by Serene Seasons, BetterDays, and Real Serene Seasons
 - **Farmer's Delight** - Expanded cooking, farming, and food storage with addon content
 - **Friends&Foes** - More vanilla-friendly mobs and structure variety
 - **Open Parties and Claims** - Protect your builds and team up
@@ -81,7 +87,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 - Core performance mods centered around VulkanMod + Distant Horizons
 - Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
 - Audio improvements (Ambient sounds, realistic footsteps, sound physics)
-- Expanded world gen (Biomes O' Plenty, Dungeons and Taverns, Towns and Towers, Underground Worlds)
+- Expanded world gen (Biomes O' Plenty, Dungeons and Taverns, Moogs structure packs, Towns and Towers, Underground Worlds, synced seasons)
 - Food and farming (Farmer's Delight and addons)
 - Gameplay features (Claims, Shops, Voice Chat, Friends&Foes, Veinminer)
 - Quality of life improvements (Inventory Sorter, Backpacks, Dynamic Lights, JourneyMap)
@@ -91,6 +97,7 @@ Whether you're building massive structures with **Distant Horizons**, chatting w
 
 ### Resource Packs (Pre-configured!)
 - **Ashen 16x** - Clean, vanilla+ texture pack that enhances the look while maintaining the original feel
+- **Hyper Realistic Sky** - Improved clouds, sun, moon, and atmosphere
 - **Enhanced animations** - Smoother mob and player movements from additional resource packs
 - **Improved particles** - Custom weather effects, better fire/smoke, splash particles from particle packs
 - **Atmospheric ambience** - Immersive environmental sounds and audio enhancements
@@ -179,7 +186,7 @@ Essential commands for the FugCraft server:
 - Right-click an anvil while holding iron ingots to repair it automatically
 - Open the pause menu **Server Links...** button for the repo, client guide, modpack, and wiki links
 - Voice chat has proximity - walk closer to hear players better
-- Use the claims system to protect your builds from griefing
+- Use the claims system to protect your builds — open the map (`J`), hold **`U`** + drag to claim, **`I`** + drag to unclaim
 - Notice the enhanced particles and ambience - look for improved rain, fire, and environmental effects!
 - Distant Horizons generates LOD chunks gradually - be patient for best results!
 - Check out the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki) to learn how to use all the backpack features!
