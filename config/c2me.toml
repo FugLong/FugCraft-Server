@@ -45,7 +45,7 @@ globalExecutorParallelism = "default"
 	enforceSafeWorldRandomAccess = "default"
 
 [noTickViewDistance]
-	# (Default: 18) No-tick view distance max concurrent chunk loads 
+	# (Default: 27) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
@@ -108,6 +108,11 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	optimizeStructureWeightSampler = "default"
+	# (Default: true) Enables the built-in integrations with other worldgen mods in density function compiler.
+	# 
+	# Depends on vanillaWorldGenOptimizations.useDensityFunctionCompiler
+	# 
+	enableBuiltinDFCIntegrations = "default"
 
 	[vanillaWorldGenOptimizations.nativeAcceleration]
 		# (Default: false) Enable the use of AVX512 for native acceleration

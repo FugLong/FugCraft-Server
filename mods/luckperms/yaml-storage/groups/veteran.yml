@@ -12,5 +12,6 @@ permissions:
 - weight.400
 parents:
 - moderator
-- '§7[§dVeteran§7]§f':
+prefixes:
+- §7[§dVeteran§7]§f:
     priority: 1
