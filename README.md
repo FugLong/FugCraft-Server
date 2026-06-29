@@ -3,7 +3,7 @@
 <div align="center">
   <img src="FugCraft_Build.png" alt="FugCraft Server Screenshot" style="width: 80%; max-width: 600px;">
 
-  <h3>🎮 Plug and Play Minecraft Server (Vanilla+)</h3>
+  <h3>🎮 Plug and Play Minecraft Server (Vanilla++)</h3>
 
   [![Client Resources](https://img.shields.io/badge/📥%20Client%20Resources-Get%20Started-blue?style=for-the-badge)](client-resources/README.md)
 </div>
@@ -14,10 +14,13 @@
 
 **Joining the server?** Check out the **[Client Resources](client-resources/README.md)** for everything you need to get started!
 
-- 📦 **Custom modpack**
-- 🎨 **Curated resource packs**
-- 🚀 **Performance-first client direction** (VulkanMod + Distant Horizons)
-- ⚙️ **Easy setup guide**
+FugCraft is **Vanilla++ multiplayer** — still Minecraft at heart, just faster, farther, and richer:
+
+- 🌍 **See forever** — VulkanMod + Distant Horizons leads to perfect performance and insane render distance 
+- 🗺️ **Explore more** — Biomes O' Plenty, overhauled structures, Moogs structure packs, synced seasons
+- 🤝 **Built for friends** — voice chat, parties, claims, shops, and graves
+- 🍳 **Cook & farm** — Farmer's Delight with addon content
+- 📦 **One-click modpack** on Modrinth with curated resource packs pre-configured
 
 ---
 
@@ -139,7 +142,6 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `EasyMagic-v26.1.0-mc26.1.x-Fabric.jar`
 - `effortlessbuilding-fabric-26.1.2-4.1.jar`
 - `essential_commands-0.39.0-mc26.1.1.jar`
-- `Explorify v1.6.5.mod.jar`
 - `fabric-api-0.149.1+26.1.2.jar`
 - `fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar`
 - `FallingTree-26.1.2-25.jar`
@@ -149,6 +151,7 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `ForgeConfigAPIPort-v26.1.4-mc26.1.x-Fabric.jar`
 - `friendsandfoes-fabric-4.0.26+mc26.1.2.jar`
 - `GlitchCore-fabric-26.1.2-26.1.2.0.2.jar`
+- `glow_up-fabric-26.1.2-2.1.0-26.1-26.1.2.jar`
 - `graves-3.11.1+26.1.2.jar`
 - `holodisplays-0.5.0+26.1-26.1.2.jar`
 - `HopperGadgetry-v26.1.0-mc26.1.x-Fabric.jar`
@@ -168,6 +171,12 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `ly-combat-log-v1.0.3.jar`
 - `mcw-paths-1.1.1-mc26.1fabric.jar`
 - `modmenu-18.0.0-beta.1.jar`
+- `moogs_structure_lib-2.0.1-26.1.0-26.1.2.jar`
+- `MoogsBountifulStructures-1.21-1.0.6.jar`
+- `MoogsEndStructures-1.21-2.0.3.jar`
+- `MoogsNetherStructures-1.21-2.1.0.jar`
+- `MoogsSoaringStructures-1.21-2.1.2.jar`
+- `MoogsVoyagerStructures-1.21-5.0.11.jar`
 - `moredelight-26.05.26-26.1-fabric.jar`
 - `mru-1.0.28+lts+26.1-fabric.jar`
 - `NoChatReports-FABRIC-26.1-v2.19.0.jar`
@@ -196,7 +205,6 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `spark-1.10.172-fabric.jar`
 - `ssdh-1.1.0.jar`
 - `starterkit-26.1.2-8.0.jar`
-- `storagedelight-26.03.25+26.1-fabric.jar`
 - `styled-chat-2.12.0+26.1.2.jar`
 - `styledplayerlist-3.11.1+26.1.jar`
 - `t_and_t-fabric-neoforge-1.13.11.jar`
@@ -219,7 +227,7 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `worldedit-mod-7.4.3.jar`
 - `yet_another_config_lib_v3-3.9.3+26.1-fabric.jar`
 
-> Current total: **119 jars** (enabled only).
+> Current total: **124 jars** (enabled only).
 
 ### 👥 **LuckPerms Permission Setup**
 

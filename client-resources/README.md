@@ -2,6 +2,22 @@
 
 **Target Client Version:** Fabric 26.1.2
 
+## What is FugCraft?
+
+**Vanilla++ multiplayer** — giga vanilla, not a kitchen-sink modpack. FugCraft keeps the Minecraft you know and layers on performance, distance, exploration, and multiplayer essentials.
+
+**What to expect:**
+
+| | |
+|---|---|
+| 🌍 **See forever** | VulkanMod + Distant Horizons — massive render distance without shader packs |
+| 🗺️ **Explore more** | Biomes O' Plenty, Dungeons and Taverns overhauls, Moogs structure packs, Towns and Towers, Underground Worlds, real-world synced seasons |
+| 🤝 **Play together** | Proximity voice chat, map-based land claims, player shops, death graves, parties |
+| 🍳 **Live off the land** | Farmer's Delight cooking and farming with addon content |
+| ✨ **Feel the world** | Sound physics, footsteps, dynamic lighting, Ashen 16x + Hyper Realistic Sky resource packs |
+
+Still vanilla at heart — just faster, farther, and richer.
+
 ## 🔗 Quick Links
 
 <div align="center">
@@ -123,10 +139,11 @@ That JSON file is the source of truth for Modrinth/client packaging and is updat
 
 ### Highlights of the current direction
 - **Performance-first rendering stack:** VulkanMod + Distant Horizons
-- **World generation:** Biomes O' Plenty, Dungeons and Taverns (+ structure overhauls), Towns and Towers, Underground Worlds, Explorify
-- **Food & farming:** Farmer's Delight with addon content (More Delight, Rustic Delight, Storage Delight, and more)
+- **World generation:** Biomes O' Plenty, Dungeons and Taverns (+ structure overhauls), Moogs structure packs, Towns and Towers, Underground Worlds
+- **Seasons:** Serene Seasons synced to real-world calendar (BetterDays, Real Serene Seasons)
+- **Food & farming:** Farmer's Delight with addon content (More Delight, Rustic Delight, Crate Delight, Display Delight)
 - **Gameplay baseline:** Open Parties and Claims, Traveler's Backpack, Universal Shops, Universal Graves, Friends&Foes, Veinminer
-- **Immersion:** Sound Physics, Presence Footsteps, Atmosfera, plus visual polish mods
+- **Immersion:** Sound Physics, Presence Footsteps, Atmosfera, plus visual polish mods and bundled resource packs
 - **Utility/QoL:** REI, Jade, JourneyMap, Inventory Sorter, Essential Commands, Voice Chat
 - **Server links:** Check the pause menu **Server Links...** button for repo, modpack, and wiki links
 
