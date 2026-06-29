@@ -12,7 +12,7 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 
 | | |
 |---|---|
-| 🌍 **See forever** | **VulkanMod + Distant Horizons** — render way beyond normal distances while staying performant |
+| 🌍 **See forever** | **Sodium** + **Voxy** — smooth rendering and massive LOD render distance (512 chunks by default) |
 | 🗺️ **Explore more** | **Biomes O' Plenty**, overhauled vanilla structures, **Moogs structure packs**, **Towns and Towers**, **Underground Worlds**, and **real-world synced seasons** |
 | 🤝 **Play together** | Proximity **voice chat**, **parties**, **map-based land claims**, **player shops**, and **death graves** |
 | 🍳 **Live off the land** | **Farmer's Delight** cooking and farming with addon content |
@@ -25,14 +25,14 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 ## ✨ Key Features
 
 ### 🚀 **Performance Optimized**
-- **VulkanMod** + **Distant Horizons** as the core rendering direction
+- **Sodium** + **Sodium Extra** for fast, modern rendering
+- **Voxy** for distant LOD terrain
 - Additional client and server-side optimization mods for smooth gameplay
 - Optimized default settings for most systems
 - Compatible with low-end to high-end hardware
-- **+ More!** Additional performance tweaks and optimizations
 
 ### 🎨 **Beautiful Visuals**
-- **Distant Horizons** - Render way beyond normal distances (thousands of chunks on beefy systems!)
+- **Voxy** - Render way beyond normal distances with LOD terrain
 - **Ashen 16x** resource pack for clean, vanilla+ textures
 - **Hyper Realistic Sky** resource pack for improved clouds, sun, moon, and atmosphere
 - Enhanced particles, weather effects, and atmospheric ambience from additional mods and resource packs
@@ -84,8 +84,8 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 
 ### Mods
 **A carefully selected mod stack** including:
-- Core performance mods centered around VulkanMod + Distant Horizons
-- Visual enhancements (Distant Horizons, dynamic lighting, particle effects)
+- Core performance mods centered around Sodium + Voxy
+- Visual enhancements (Voxy LOD terrain, dynamic lighting, particle effects)
 - Audio improvements (Ambient sounds, realistic footsteps, sound physics)
 - Expanded world gen (Biomes O' Plenty, Dungeons and Taverns, Moogs structure packs, Towns and Towers, Underground Worlds, synced seasons)
 - Food and farming (Farmer's Delight and addons)
@@ -108,29 +108,27 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 ## ⚙️ Optimization Guide
 
 ### Default Settings
-The modpack uses **performance-first defaults** tuned around VulkanMod + Distant Horizons:
-- **Distant Horizons render distance:** `256`
+The modpack uses **performance-first defaults** tuned around Sodium + Voxy:
+- **Voxy LOD stream radius:** `512`
 - **Normal render distance:** `12`
 - **Simulation distance:** conservative by default for stability
 
 ### 🎨 Want Better Visuals?
-1. **Increase Distant Horizons render distance** (default is 256)
-   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-   - Increase further if your system can handle it
-2. **Increase Distant Horizons quality preset**
-   - Higher quality gives cleaner distant terrain (with higher GPU cost)
+1. **Increase Voxy LOD distance / quality** in Voxy settings
+   - Raise gradually if your system can handle it
+2. **Increase normal render distance** in Video Settings for sharper nearby terrain
 3. **If you have a beast PC, increase simulation distance**
    - Raise in steps and test for stability
+4. **Optional:** add **Iris** and a shader pack you like — nothing in FugCraft stops you, and it can look great
 
-> **On shaders:** FugCraft does not include shader mods. We think shaders are often overrated — they can hurt FPS and fight with Distant Horizons. Beauty here comes from render distance, resource packs, and polish mods. A Vulkan-based shader option *might* be worth revisiting in the future, but it's not part of the plan today.
+> **On shaders:** We don't ship shader mods — Sodium + Voxy + resource packs are the default look. You're free to install **Iris** and your preferred shader pack on top; just expect a FPS hit and consider lowering Voxy if needed.
 
 ### ⚡ Need Better Performance?
-1. **Turn down Distant Horizons quality preset first**
-2. **Decrease Distant Horizons render distance** (default is 256)
-   - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-3. **Turn Distant Horizons off entirely** if needed
-4. **Lower normal render distance**
-5. **Lower simulation distance**
+1. **Lower Voxy LOD stream radius first** — try `256` or lower if `512` is heavy
+2. **Disable Voxy rendering** temporarily if needed (keep Sodium enabled)
+3. **Lower normal render distance**
+4. **Lower simulation distance**
+5. **Tune Sodium Extra** options for more headroom
 
 ---
 
@@ -157,6 +155,7 @@ Essential commands for the FugCraft server:
 
 | Command | Description |
 |---------|-------------|
+| `/book` | Get the in-game FugCraft guide book |
 | `/home set <name>` | Set a personal home location |
 | `/home tp <name>` | Teleport to your home |
 | `/tpa <player>` | Request to teleport to a player |
@@ -188,7 +187,7 @@ Essential commands for the FugCraft server:
 - Voice chat has proximity - walk closer to hear players better
 - Use the claims system to protect your builds — open the map (`J`), hold **`U`** + drag to claim, **`I`** + drag to unclaim
 - Notice the enhanced particles and ambience - look for improved rain, fire, and environmental effects!
-- Distant Horizons generates LOD chunks gradually - be patient for best results!
+- Voxy generates LOD chunks gradually - be patient for best results on first load!
 - Check out the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki) to learn how to use all the backpack features!
 
 ---
@@ -210,4 +209,3 @@ Created and maintained for the FugCraft community. Special thanks to all the mod
   
   Found a bug? Have suggestions? Visit the [GitHub repository](https://github.com/FugLong/FugCraft-Server)!
 </div>
-

@@ -10,7 +10,7 @@
 
 | | |
 |---|---|
-| 🌍 **See forever** | VulkanMod + Distant Horizons — massive render distance without shader packs |
+| 🌍 **See forever** | **Sodium** + **Voxy** — smooth rendering and massive LOD render distance (512 chunks by default) |
 | 🗺️ **Explore more** | Biomes O' Plenty, Dungeons and Taverns overhauls, Moogs structure packs, Towns and Towers, Underground Worlds, real-world synced seasons |
 | 🤝 **Play together** | Proximity voice chat, map-based land claims, player shops, death graves, parties |
 | 🍳 **Live off the land** | Farmer's Delight cooking and farming with addon content |
@@ -49,37 +49,33 @@ The **easiest way** to get all FugCraft mods and resource packs is through the o
 
 ## ⚙️ **Graphics Settings & Optimization**
 
-FugCraft is built around **performance and render distance** — making Minecraft as fast and beautiful as possible without leaning on shader packs.
+FugCraft is built around **performance and render distance** — **Sodium** for fast rendering and **Voxy** for distant LOD terrain.
 
 Current baseline defaults:
-- **Distant Horizons render distance:** `256`
+- **Voxy LOD stream radius:** `512`
 - **Normal render distance:** `12`
 - **Simulation distance:** tuned for stability first (raise only on stronger systems)
 
 You can adjust these based on your system:
 
 ### 🎨 **For Better Visuals**
-- **Increase Distant Horizons render distance** (default is 256)
-  - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
+- **Increase Voxy LOD distance / quality** in Voxy settings (Video Options or Mod Menu)
   - Go higher if your system can handle it
-- **Increase Distant Horizons quality preset**
-  - In DH settings, raise quality for cleaner distant terrain
+- **Increase normal render distance** in Video Settings for sharper nearby terrain
 - **If you have a beast PC, increase simulation distance**
   - Raise gradually and test FPS + server tick impact
+- **Optional:** add **Iris** and a shader pack you like — nothing in FugCraft stops you, and it can look great
 
-> **On shaders:** This pack does not include or recommend shader mods. We think shaders are often overrated — they can tank FPS and clash with Distant Horizons. Our goal is great visuals through render distance, resource packs, and polish mods instead. A Vulkan-compatible shader option *might* be worth revisiting someday, but it's not a requirement for a beautiful game.
+> **On shaders:** We don't ship shader mods — Sodium + Voxy + resource packs are the default look. You're free to install **Iris** and your preferred shader pack on top; just expect a FPS hit and consider lowering Voxy if needed.
 
 ### ⚡ **For Better Performance:**
-- **Turn down Distant Horizons quality preset**
-  - This is often the fastest way to recover FPS
-- **Decrease Distant Horizons render distance** (default is 256)
-  - Options → Click the **Distant Horizons button** (small button to the left of FOV slider with DH logo)
-  - Lower this before touching lots of other settings
-- **Turn Distant Horizons off entirely** if needed
+- **Lower Voxy LOD stream radius first** — try `256` or lower if `512` is heavy
+- **Disable Voxy rendering** temporarily if needed (keep Sodium enabled)
 - **Lower normal render distance** in Video Settings
 - **Lower simulation distance** in Video Settings
+- **Tune Sodium Extra** options if you need more headroom
 
-> **💡 Tip:** Experiment with these settings to find your perfect balance between visuals and performance!
+> **💡 Tip:** Voxy generates LOD chunks gradually — be patient on first load. Experiment with these settings to find your perfect balance!
 
 ## ⌨️ **Essential Keybinds**
 
@@ -138,7 +134,7 @@ The canonical client mod list is maintained in:
 That JSON file is the source of truth for Modrinth/client packaging and is updated before markdown docs when the pack changes.
 
 ### Highlights of the current direction
-- **Performance-first rendering stack:** VulkanMod + Distant Horizons
+- **Performance-first rendering stack:** Sodium + Sodium Extra + Voxy
 - **World generation:** Biomes O' Plenty, Dungeons and Taverns (+ structure overhauls), Moogs structure packs, Towns and Towers, Underground Worlds
 - **Seasons:** Serene Seasons synced to real-world calendar (BetterDays, Real Serene Seasons)
 - **Food & farming:** Farmer's Delight with addon content (More Delight, Rustic Delight, Crate Delight, Display Delight)
