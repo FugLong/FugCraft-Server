@@ -1,5 +1,5 @@
 {
-  "lodStreamRadius": 256,
+  "lodStreamRadius": 512,
   "maxSectionsPerTickPerPlayer": 100,
   "sectionsPerPacket": 50,
   "generateOnChunkLoad": true,

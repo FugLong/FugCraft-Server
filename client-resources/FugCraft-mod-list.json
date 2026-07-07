@@ -99,12 +99,6 @@
         "name": "Display Delight [Fabric]"
     },
     {
-        "name": "Distant Horizons"
-    },
-    {
-        "name": "Distant Horizons — VulkanMod Extension"
-    },
-    {
         "name": "Dungeons and Taverns"
     },
     {
@@ -270,9 +264,6 @@
         "name": "No Chat Reports"
     },
     {
-        "name": "Not Enough Vulkan"
-    },
-    {
         "name": "NotEnoughAnimations"
     },
     {
@@ -330,9 +321,6 @@
         "name": "Season Cache"
     },
     {
-        "name": "Serene Seasons X Distant Horizons"
-    },
-    {
         "name": "SereneSeasons"
     },
     {
@@ -352,6 +340,12 @@
     },
     {
         "name": "Snow Under Trees"
+    },
+    {
+        "name": "Sodium"
+    },
+    {
+        "name": "Sodium Extra"
     },
     {
         "name": "Sound Physics Remastered"
@@ -408,7 +402,13 @@
         "name": "Voice Chat Interaction"
     },
     {
-        "name": "VulkanMod"
+        "name": "Voxy"
+    },
+    {
+        "name": "Voxy Server Side"
+    },
+    {
+        "name": "Voxy World Gen V2"
     },
     {
         "name": "WaveyCapes"

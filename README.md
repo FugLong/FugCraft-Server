@@ -16,7 +16,7 @@
 
 FugCraft is **Vanilla++ multiplayer** — still Minecraft at heart, just faster, farther, and richer:
 
-- 🌍 **See forever** — VulkanMod + Distant Horizons leads to perfect performance and insane render distance 
+- 🌍 **See forever** — Sodium + Voxy for smooth performance and massive render distance
 - 🗺️ **Explore more** — Biomes O' Plenty, overhauled structures, Moogs structure packs, synced seasons
 - 🤝 **Built for friends** — voice chat, parties, claims, shops, and graves
 - 🍳 **Cook & farm** — Farmer's Delight with addon content
@@ -103,7 +103,6 @@ The server currently targets **Minecraft 26.1.2 (Fabric)**.
 The list below is an exact snapshot of enabled top-level `mods` jars in this repo (`.jar.disabled` / `.jar.DISABLED` files are omitted):
 
 - `alternate-current-mc26.1-1.9.0.jar`
-- `antixray-fabric-1.4.16+26.1.jar`
 - `anvilrestoration-26.1.2-2.5.jar`
 - `architectury-19.0.1-fabric.jar`
 - `baguettelib-26.1.2-Fabric-2.0.4.jar`
@@ -111,7 +110,7 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `betterdays-26.1.2-fabric-4.1.1.6-FABRIC.jar`
 - `BiomesOPlenty-fabric-26.1.2-26.1.2.0.11.jar`
 - `bubblecolumntweaks-1.1.0.jar`
-- `c2me-fabric-mc26.1.2-0.3.7+alpha.0.69.jar`
+- `c2me-fabric-mc26.1.2-0.4.0-alpha.0.28.jar`
 - `camerapture-1.10.14+mc26.1.2.jar`
 - `cloth-config-26.1.154.jar`
 - `collective-26.1.2-8.22.jar`
@@ -127,8 +126,6 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `DiagonalWalls-v26.1.0-mc26.1.x-Fabric.jar`
 - `DiagonalWindows-v26.1.0-mc26.1.x-Fabric.jar`
 - `display-delight-1.8.1-mc26.1.2.jar`
-- `DistantHorizons-3.0.3-b-26.1.2-fabric-neoforge.jar`
-- `DistantHorizons-VulkanMod-fabric-2.4.0-3.0.0+vm.2-mc26.1.2.jar`
 - `dungeons-and-taverns-5.2.0.jar`
 - `dungeons-and-taverns-ancient-city-overhaul-3.3.jar`
 - `dungeons-and-taverns-desert-temple-overhaul-v2.1.jar`
@@ -201,9 +198,9 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `silkiertouch-26.1.2-1.2.jar`
 - `sit!-1.2.6.2+26.1.jar`
 - `SnowUnderTrees-2.7.6+26.1.jar`
+- `sodium-fabric-0.8.12+mc26.1.2.jar`
 - `sound-physics-remastered-fabric-1.5.1+26.1.2.jar`
 - `spark-1.10.172-fabric.jar`
-- `ssdh-1.1.0.jar`
 - `starterkit-26.1.2-8.0.jar`
 - `styled-chat-2.12.0+26.1.2.jar`
 - `styledplayerlist-3.11.1+26.1.jar`
@@ -224,6 +221,9 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `VisualWorkbench-v26.1.0-mc26.1.x-Fabric.jar`
 - `vmp-fabric-mc26.1.2-0.2.0+beta.7.234-all.jar`
 - `voicechat-fabric-2.6.17+26.1.2.jar`
+- `Voxy World Gen V2-26.1.2-2.2.4.jar`
+- `voxy-0.2.16-beta.jar`
+- `voxy-server-side-fabric.jar`
 - `worldedit-mod-7.4.3.jar`
 - `yet_another_config_lib_v3-3.9.3+26.1-fabric.jar`
 
