@@ -1,7 +1,7 @@
 # FugCraft - Vanilla++ Multiplayer
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/FugLong/FugCraft-Server/main/demo_Images/ComplementaryShaders_VillageSunset.png" alt="FugCraft Village Sunset with Complementary Unbound" width="600">
+  <img src="https://raw.githubusercontent.com/FugLong/FugCraft-Server/main/demo_Images/MakeUpUltraFastShaders_NightMansion.png" alt="FugCraft Night Mansion" width="600">
 </div>
 
 ---
