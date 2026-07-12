@@ -17,10 +17,11 @@
 FugCraft is **Vanilla++ multiplayer** — still Minecraft at heart, just faster, farther, and richer:
 
 - 🌍 **See forever** — Sodium + Voxy for smooth performance and massive render distance
+- ✨ **Look sharp** — Iris + Complementary Unbound shaders by default (tunable quality presets)
 - 🗺️ **Explore more** — Biomes O' Plenty, overhauled structures, Moogs structure packs, synced seasons
 - 🤝 **Built for friends** — voice chat, parties, claims, shops, and graves
 - 🍳 **Cook & farm** — Farmer's Delight with addon content
-- 📦 **One-click modpack** on Modrinth with curated resource packs pre-configured
+- 📦 **One-click modpack** on Modrinth with shaders and resource packs pre-configured
 
 ---
 
@@ -104,14 +105,15 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 
 - `alternate-current-mc26.1-1.9.0.jar`
 - `anvilrestoration-26.1.2-2.5.jar`
-- `architectury-19.0.1-fabric.jar`
+- `architectury-fabric-20.0.7.jar`
 - `baguettelib-26.1.2-Fabric-2.0.4.jar`
-- `balm-fabric-26.1.2-26.1.2.6.jar`
-- `betterdays-26.1.2-fabric-4.1.1.6-FABRIC.jar`
-- `BiomesOPlenty-fabric-26.1.2-26.1.2.0.11.jar`
+- `balm-fabric-26.1.2-26.1.2.7.jar`
+- `betterdays-26.1.2-fabric-4.1.1.7-FABRIC.jar`
+- `BiomesOPlenty-fabric-26.1.2-26.1.2.0.22.jar`
 - `bubblecolumntweaks-1.1.0.jar`
 - `c2me-fabric-mc26.1.2-0.4.0-alpha.0.28.jar`
 - `camerapture-1.10.14+mc26.1.2.jar`
+- `cc-tweaked-26.1.2-fabric-1.120.0.jar`
 - `cloth-config-26.1.154.jar`
 - `collective-26.1.2-8.22.jar`
 - `commandaliases-1.0.4+mc26.1.2-unknown.jar`
@@ -120,7 +122,7 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `craftedcore-fabric-8.0.jar`
 - `crashexploitfixer-fabric-2.0.0+26.1.2.jar`
 - `cratedelight-26.03.26+26.1-fabric.jar`
-- `cristellib-fabric-26.1.2-3.1.4.jar`
+- `cristellib-fabric-26.1.2-3.1.8.jar`
 - `delightlib-26.05.18-26.1-fabric.jar`
 - `DiagonalFences-v26.1.0-mc26.1.x-Fabric.jar`
 - `DiagonalWalls-v26.1.0-mc26.1.x-Fabric.jar`
@@ -152,19 +154,18 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `graves-3.11.1+26.1.2.jar`
 - `holodisplays-0.5.0+26.1-26.1.2.jar`
 - `HopperGadgetry-v26.1.0-mc26.1.x-Fabric.jar`
-- `htm-1.2.3.jar`
 - `immersive_optimization-fabric-26.1.2-0.1.5.jar`
 - `inventorysorter-fabric-3.0.0-beta.4+mc26.1.2.jar`
 - `InvView-1.4.20-26.1+.jar`
-- `Jade-mc26.1-Fabric-26.1.0.jar`
-- `journeymap-fabric-26.1.2-6.0.0-beta.81.jar`
+- `Jade-mc26.1-Fabric-26.1.8.jar`
+- `journeymap-fabric-26.1.2-6.0.0.jar`
 - `JourneyPAC-fabric-26.1.2-1.1.10.jar`
 - `kleeslabs-fabric-26.1-26.1.0.1.jar`
 - `krypton-0.3.0.jar`
 - `leash-villager-1.0.0+mc26.1.jar`
-- `lithium-fabric-0.24.2+mc26.1.2.jar`
+- `lithium-fabric-0.24.6+mc26.1.2.jar`
 - `lithostitched-1.7.7-fabric-26.1.jar`
-- `LuckPerms-Fabric-5.5.52.jar`
+- `LuckPerms-Fabric-5.5.57.jar`
 - `ly-combat-log-v1.0.3.jar`
 - `mcw-paths-1.1.1-mc26.1fabric.jar`
 - `modmenu-18.0.0-beta.1.jar`
@@ -178,25 +179,27 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `mru-1.0.28+lts+26.1-fabric.jar`
 - `NoChatReports-FABRIC-26.1-v2.19.0.jar`
 - `oldschooljail-1.1.0.jar`
-- `open-parties-and-claims-fabric-26.1.2-0.26.3.jar`
+- `open-parties-and-claims-fabric-26.1.2-0.27.6.jar`
 - `otterlib-0.3.0.1+26.1-fabric.jar`
 - `packetfixer-fabric-3.3.5-26.1.2.jar`
+- `panda-anti-exploit-2.1.3+26.1.1.jar`
+- `panda-anti-lag-2.2.0_26.1.1.jar`
+- `panda-anti-spam-1.0.2+26.1.1.jar`
 - `pet-teleport-fix-1.4-HOTFIX.jar`
 - `petprotect-1.1.4.jar`
 - `placeholder-api-3.0.0+26.1.jar`
 - `polymer-bundled-0.16.5+26.1.2.jar`
 - `PuppetPlayers-1.6.1+26.1.2.jar`
-- `PuzzlesLib-v26.1.8-mc26.1.x-Fabric.jar`
+- `PuzzlesLib-v26.1.11-mc26.1.x-Fabric.jar`
 - `real-serene-seasons-1.0.4.jar`
 - `ResourcefulLib-4.0.1.jar`
-- `RoughlyEnoughItems-fabric-26.1.9999.jar`
 - `rusticdelight-fabric-26.1-1.6.0.jar`
 - `ScalableLux-0.2.0+fabric.2b63825-all.jar`
 - `seasoncache-1.4.0.jar`
-- `SereneSeasons-fabric-26.1.2-26.1.2.0.2.jar`
+- `SereneSeasons-fabric-26.1.2-26.1.2.0.3.jar`
 - `ServerLinksSender-1.1.0.jar`
+- `Show My Recipes.jar`
 - `silkiertouch-26.1.2-1.2.jar`
-- `sit!-1.2.6.2+26.1.jar`
 - `SnowUnderTrees-2.7.6+26.1.jar`
 - `sodium-fabric-0.8.12+mc26.1.2.jar`
 - `sound-physics-remastered-fabric-1.5.1+26.1.2.jar`
@@ -207,27 +210,27 @@ The list below is an exact snapshot of enabled top-level `mods` jars in this rep
 - `t_and_t-fabric-neoforge-1.13.11.jar`
 - `TaxFreeLevels-1.5.2-fabric-26.1.jar`
 - `TerraBlender-fabric-26.1.2-26.1.2.0.2.jar`
-- `travelersbackpack-fabric-26.1.2-11.2.6.jar`
+- `travelersbackpack-fabric-26.1.2-11.2.7.jar`
 - `undergroundworlds-fabric-3.1.1-26.1.jar`
 - `universal_shops-1.14.0+26.1.jar`
 - `UniversalBoneMeal-v26.1.0-mc26.1.x-Fabric.jar`
 - `vanilla-permissions-0.3.6+26.1.2.jar`
 - `vanish-1.6.8+26.1.jar`
 - `vcinteraction-fabric-1.0.8+26.1.2.jar`
-- `veinminer-enchant-2.10.1.jar`
-- `veinminer-fabric-2.10.1.jar`
+- `veinminer-enchant-2.10.3.jar`
+- `veinminer-fabric-2.10.3.jar`
 - `villagerconverting-1.5.2+26.1.jar`
 - `villagernames-26.1.2-8.4.jar`
 - `VisualWorkbench-v26.1.0-mc26.1.x-Fabric.jar`
 - `vmp-fabric-mc26.1.2-0.2.0+beta.7.234-all.jar`
-- `voicechat-fabric-2.6.17+26.1.2.jar`
+- `voicechat-fabric-2.6.20+26.1.2.jar`
 - `Voxy World Gen V2-26.1.2-2.2.4.jar`
 - `voxy-0.2.16-beta.jar`
 - `voxy-server-side-fabric.jar`
 - `worldedit-mod-7.4.3.jar`
 - `yet_another_config_lib_v3-3.9.3+26.1-fabric.jar`
 
-> Current total: **124 jars** (enabled only).
+> Current total: **126 jars** (enabled only).
 
 ### 👥 **LuckPerms Permission Setup**
 

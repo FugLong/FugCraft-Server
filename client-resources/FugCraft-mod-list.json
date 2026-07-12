@@ -39,6 +39,9 @@
         "name": "Bubble Column Tweaks"
     },
     {
+        "name": "CC: Tweaked"
+    },
+    {
         "name": "Camerapture"
     },
     {
@@ -82,6 +85,9 @@
     },
     {
         "name": "Cut Through"
+    },
+    {
+        "name": "Default Options"
     },
     {
         "name": "Delight Lib"
@@ -183,16 +189,19 @@
         "name": "GlitchCore"
     },
     {
-        "name": "Hey That's Mine"
+        "name": "Hopper Gadgetry"
     },
     {
-        "name": "Hopper Gadgetry"
+        "name": "ImmediatelyFast"
     },
     {
         "name": "Immersive Optimization"
     },
     {
         "name": "Inventory Sorter"
+    },
+    {
+        "name": "Iris"
     },
     {
         "name": "Jade"
@@ -306,10 +315,10 @@
         "name": "Real Serene Seasons"
     },
     {
-        "name": "Resourceful Lib"
+        "name": "Resource Pack Overrides"
     },
     {
-        "name": "Roughly Enough Items"
+        "name": "Resourceful Lib"
     },
     {
         "name": "Rustic Delight"
@@ -324,13 +333,13 @@
         "name": "SereneSeasons"
     },
     {
+        "name": "Show My Recipes"
+    },
+    {
         "name": "Silkier Touch"
     },
     {
         "name": "Simple Voice Chat"
-    },
-    {
-        "name": "Sit!"
     },
     {
         "name": "Skyboxify"

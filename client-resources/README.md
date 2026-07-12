@@ -14,7 +14,7 @@
 | 🗺️ **Explore more** | Biomes O' Plenty, Dungeons and Taverns overhauls, Moogs structure packs, Towns and Towers, Underground Worlds, real-world synced seasons |
 | 🤝 **Play together** | Proximity voice chat, map-based land claims, player shops, death graves, parties |
 | 🍳 **Live off the land** | Farmer's Delight cooking and farming with addon content |
-| ✨ **Feel the world** | Sound physics, footsteps, dynamic lighting, Ashen 16x + Hyper Realistic Sky resource packs |
+| ✨ **Feel the world** | **Iris** + **Complementary Unbound** shaders by default, sound physics, footsteps, dynamic lighting, and curated resource packs |
 
 Still vanilla at heart — just faster, farther, and richer.
 
@@ -29,7 +29,7 @@ Still vanilla at heart — just faster, farther, and richer.
 
 ## 📥 Get FugCraft Modpack
 
-The **easiest way** to get all FugCraft mods and resource packs is through the official Modrinth modpack:
+The **easiest way** to get all FugCraft mods, shaders, and resource packs is through the official Modrinth modpack:
 
 🔗 **[Download FugCraft Modpack on Modrinth](https://modrinth.com/modpack/fugcraft)**
 
@@ -45,37 +45,40 @@ The **easiest way** to get all FugCraft mods and resource packs is through the o
 - Import the `.mrpack` file into your launcher
 - Launch and play!
 
-> **✨ Why Modrinth?** Automatic updates, all mods and resource packs pre-configured, plus one-click installation.
+> **✨ Why Modrinth?** Automatic updates, shaders and resource packs pre-configured, plus one-click installation.
+>
+> **Default Options** ships sensible first-launch settings for new players without overwriting your options on pack updates. **Resource Pack Overrides** makes resource packs easier to manage and fix if something looks off.
 
 ## ⚙️ **Graphics Settings & Optimization**
 
-FugCraft is built around **performance and render distance** — **Sodium** for fast rendering and **Voxy** for distant LOD terrain.
+FugCraft's default look is **Sodium** + **Voxy** + **Iris** with **Complementary Unbound** shaders enabled. Distant terrain comes from Voxy; lighting, water, and atmosphere come from Complementary.
 
 Current baseline defaults:
 - **Voxy LOD stream radius:** `512`
 - **Normal render distance:** `12`
+- **Shaders:** Complementary Unbound (via Iris)
 - **Simulation distance:** tuned for stability first (raise only on stronger systems)
 
 You can adjust these based on your system:
 
 ### 🎨 **For Better Visuals**
+- **Raise the Complementary quality preset** — Video Settings → Iris → Shader Settings → increase the preset
 - **Increase Voxy LOD distance / quality** in Voxy settings (Video Options or Mod Menu)
   - Go higher if your system can handle it
 - **Increase normal render distance** in Video Settings for sharper nearby terrain
 - **If you have a beast PC, increase simulation distance**
   - Raise gradually and test FPS + server tick impact
-- **Optional:** add **Iris** and a shader pack you like — nothing in FugCraft stops you, and it can look great
 
-> **On shaders:** We don't ship shader mods — Sodium + Voxy + resource packs are the default look. You're free to install **Iris** and your preferred shader pack on top; just expect a FPS hit and consider lowering Voxy if needed.
-
-### ⚡ **For Better Performance:**
-- **Lower Voxy LOD stream radius first** — try `256` or lower if `512` is heavy
-- **Disable Voxy rendering** temporarily if needed (keep Sodium enabled)
+### ⚡ **For Better Performance**
+- **Increase Voxy subdivision size (pixels²)** — coarser LODs, less GPU work
+- **Decrease Voxy render distance / LOD stream radius** — try `256` or lower if `512` is heavy
+- **Lower the Complementary quality preset** — Video Settings → Iris → Shader Settings → pick a lower preset
+- **Turn shaders off entirely** if you still need more FPS (same Iris menu)
 - **Lower normal render distance** in Video Settings
 - **Lower simulation distance** in Video Settings
 - **Tune Sodium Extra** options if you need more headroom
 
-> **💡 Tip:** Voxy generates LOD chunks gradually — be patient on first load. Experiment with these settings to find your perfect balance!
+> **💡 Tip:** Voxy generates LOD chunks gradually — be patient on first load. Subdivision size and shader preset are usually the biggest FPS levers after render distance. Experiment until it feels right!
 
 ## ⌨️ **Essential Keybinds**
 
@@ -134,7 +137,8 @@ The canonical client mod list is maintained in:
 That JSON file is the source of truth for Modrinth/client packaging and is updated before markdown docs when the pack changes.
 
 ### Highlights of the current direction
-- **Performance-first rendering stack:** Sodium + Sodium Extra + Voxy
+- **Rendering stack:** Sodium + Sodium Extra + Voxy + Iris + Complementary Unbound
+- **Client setup QoL:** Default Options (safe first-launch defaults) and Resource Pack Overrides (easier pack management)
 - **World generation:** Biomes O' Plenty, Dungeons and Taverns (+ structure overhauls), Moogs structure packs, Towns and Towers, Underground Worlds
 - **Seasons:** Serene Seasons synced to real-world calendar (BetterDays, Real Serene Seasons)
 - **Food & farming:** Farmer's Delight with addon content (More Delight, Rustic Delight, Crate Delight, Display Delight)
