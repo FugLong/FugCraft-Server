@@ -16,7 +16,7 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 | 🗺️ **Explore more** | **Biomes O' Plenty**, overhauled vanilla structures, **Moogs structure packs**, **Towns and Towers**, **Underground Worlds**, and **real-world synced seasons** |
 | 🤝 **Play together** | Proximity **voice chat**, **parties**, **map-based land claims**, **player shops**, and **death graves** |
 | 🍳 **Live off the land** | **Farmer's Delight** cooking and farming with addon content |
-| ✨ **Feel the world** | Sound physics, footsteps, dynamic lighting, and bundled resource packs (**Ashen 16x**, **Hyper Realistic Sky**) |
+| ✨ **Feel the world** | **Iris** + **Complementary Unbound** shaders by default, sound physics, footsteps, dynamic lighting, and curated resource packs |
 
 > **🖥️ Want to host your own server?** The complete open-source server setup is on [GitHub](https://github.com/FugLong/FugCraft-Server) — pre-configured and ready to deploy!
 
@@ -27,16 +27,17 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 ### 🚀 **Performance Optimized**
 - **Sodium** + **Sodium Extra** for fast, modern rendering
 - **Voxy** for distant LOD terrain
+- **Iris** + **Complementary Unbound** with tunable quality presets
 - Additional client and server-side optimization mods for smooth gameplay
-- Optimized default settings for most systems
+- Safe first-launch defaults via **Default Options** (updates won't overwrite your existing settings)
 - Compatible with low-end to high-end hardware
 
 ### 🎨 **Beautiful Visuals**
-- **Voxy** - Render way beyond normal distances with LOD terrain
-- **Ashen 16x** resource pack for clean, vanilla+ textures
-- **Hyper Realistic Sky** resource pack for improved clouds, sun, moon, and atmosphere
-- Enhanced particles, weather effects, and atmospheric ambience from additional mods and resource packs
-- Dynamic lighting, visual effects, and immersive improvements
+- **Complementary Unbound** shaders shipped by default through Iris
+- **Voxy** — render way beyond normal distances with LOD terrain
+- Enhanced particles, weather effects, and atmospheric ambience from visual polish mods
+- Dynamic lighting and immersive improvements
+- Curated resource packs with **Resource Pack Overrides** for easier management and fixes
 
 ### 🔊 **Immersive Audio**
 - **Atmosfera** - Dynamic ambient sounds that enhance atmosphere
@@ -85,6 +86,8 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 ### Mods
 **A carefully selected mod stack** including:
 - Core performance mods centered around Sodium + Voxy
+- Default look powered by Iris + Complementary Unbound
+- Client setup helpers (Default Options, Resource Pack Overrides)
 - Visual enhancements (Voxy LOD terrain, dynamic lighting, particle effects)
 - Audio improvements (Ambient sounds, realistic footsteps, sound physics)
 - Expanded world gen (Biomes O' Plenty, Dungeons and Taverns, Moogs structure packs, Towns and Towers, Underground Worlds, synced seasons)
@@ -95,40 +98,39 @@ FugCraft is a curated **Vanilla++** modpack for multiplayer — still Minecraft 
 
 > **💡 Customization Tip:** You can disable any mod you don't want by removing it from your mods folder or renaming it with a `.disabled` extension!
 
-### Resource Packs (Pre-configured!)
-- **Ashen 16x** - Clean, vanilla+ texture pack that enhances the look while maintaining the original feel
-- **Hyper Realistic Sky** - Improved clouds, sun, moon, and atmosphere
-- **Enhanced animations** - Smoother mob and player movements from additional resource packs
-- **Improved particles** - Custom weather effects, better fire/smoke, splash particles from particle packs
+### Shaders & Resource Packs (Pre-configured!)
+- **Complementary Unbound** - Default shader pack via Iris (quality presets you can raise or lower)
+- **Curated resource packs** - Pre-configured for FugCraft; **Resource Pack Overrides** helps keep packs working and easier to fix
+- **Enhanced animations & particles** - Smoother motion and richer weather/fire/splash effects from visual polish mods
 - **Atmospheric ambience** - Immersive environmental sounds and audio enhancements
-- All pre-configured and optimized for performance
 
 ---
 
 ## ⚙️ Optimization Guide
 
 ### Default Settings
-The modpack uses **performance-first defaults** tuned around Sodium + Voxy:
+The modpack ships a strong default look tuned around Sodium + Voxy + Complementary Unbound:
 - **Voxy LOD stream radius:** `512`
-- **Normal render distance:** `12`
+- **Normal render distance:** `10`
+- **Shaders:** Complementary Unbound enabled
 - **Simulation distance:** conservative by default for stability
 
 ### 🎨 Want Better Visuals?
-1. **Increase Voxy LOD distance / quality** in Voxy settings
+1. **Raise the Complementary quality preset** — Video Settings → Iris → Shader Settings → increase the preset
+2. **Increase Voxy LOD distance / quality** in Voxy settings
    - Raise gradually if your system can handle it
-2. **Increase normal render distance** in Video Settings for sharper nearby terrain
-3. **If you have a beast PC, increase simulation distance**
+3. **Increase normal render distance** in Video Settings for sharper nearby terrain
+4. **If you have a beast PC, increase simulation distance**
    - Raise in steps and test for stability
-4. **Optional:** add **Iris** and a shader pack you like — nothing in FugCraft stops you, and it can look great
-
-> **On shaders:** We don't ship shader mods — Sodium + Voxy + resource packs are the default look. You're free to install **Iris** and your preferred shader pack on top; just expect a FPS hit and consider lowering Voxy if needed.
 
 ### ⚡ Need Better Performance?
-1. **Lower Voxy LOD stream radius first** — try `256` or lower if `512` is heavy
-2. **Disable Voxy rendering** temporarily if needed (keep Sodium enabled)
-3. **Lower normal render distance**
-4. **Lower simulation distance**
-5. **Tune Sodium Extra** options for more headroom
+1. **Increase Voxy subdivision size (pixels²)** — coarser LODs, less GPU work
+2. **Decrease Voxy render distance / LOD stream radius** — try `256` or lower if `512` is heavy
+3. **Lower the Complementary quality preset** — Video Settings → Iris → Shader Settings
+4. **Turn shaders off entirely** in the same Iris menu if you still need FPS
+5. **Lower normal render distance**
+6. **Lower simulation distance**
+7. **Tune Sodium Extra** options for more headroom
 
 ---
 
@@ -186,7 +188,7 @@ Essential commands for the FugCraft server:
 - Open the pause menu **Server Links...** button for the repo, client guide, modpack, and wiki links
 - Voice chat has proximity - walk closer to hear players better
 - Use the claims system to protect your builds — open the map (`J`), hold **`U`** + drag to claim, **`I`** + drag to unclaim
-- Notice the enhanced particles and ambience - look for improved rain, fire, and environmental effects!
+- Shader preset and Voxy subdivision size are the fastest ways to trade looks for FPS
 - Voxy generates LOD chunks gradually - be patient for best results on first load!
 - Check out the [Traveler's Backpack Wiki](https://github.com/Tiviacz1337/Travelers-Backpack/wiki) to learn how to use all the backpack features!
 
