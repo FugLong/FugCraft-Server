@@ -32,8 +32,9 @@ permissions:
 - weight.500
 parents:
 - citizen
-- '§7[§bMod§7]§f':
-    priority: 1
+prefixes:
+- §7[§bmod§7]§f:
+    priority: 0
 meta:
 - xaero.pac_max_claims:
     value: '256'

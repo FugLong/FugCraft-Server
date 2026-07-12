@@ -1,0 +1,5 @@
+{
+  "cooldownTime": 60000,
+  "messageLimit": 13,
+  "warningMessage": "Messaging too often."
+}
